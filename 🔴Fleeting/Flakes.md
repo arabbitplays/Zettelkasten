@@ -32,7 +32,7 @@ inputs = {
 ```
 - many more types and definitions
 	- https://nixos-and-flakes.thiscute.world/other-usage-of-flakes/inputs
-- By default a `flake.nix` file is searched at the root of the dependency, evaluated and passed to th
+- By default a `flake.nix` file is searched at the root of the dependency, evaluated and passed to the `outputs` function
 
 ## Outputs
 
