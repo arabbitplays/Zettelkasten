@@ -1,4 +1,4 @@
-# Erkenntnisinteresse
+# Knowledge Interest
 
 - What knowledge is science trying to gain and for what purpose
 	- <mark style="background: #FFB86CA6;">Empirical-analytical</mark> science -> technical interest in knowledge for usability

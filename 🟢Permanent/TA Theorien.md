@@ -1,30 +1,37 @@
-# TA Theorien
+# TA Theories
 
-- Die Praxis der TA ist sehr vielfältig, je nach Kontext, Technologie ud Akteur der beraten wird
-	- Braucht dennoch eine theoretische Grundlage und vergleichbar und bewertbar zu sein
 
-- Eigenschaften einer guten TA-Theorie
-	- Einheitlichkeit -> kann die vielen verschiedenen Praxisansätze zusammenführen
-	- Begriffsreflexion -> klare Definition von Begriffen (Technik, Folge, ...)
-	- Systematisierung -> Einordnung von Wissen in einen größeren Rahmen
-	- Fruchtbarkeit -> Ermöglicht Weitereinwicklung von Konzepten und Methoden zur Anpassung an Rahmenbedingungen
-	- Unterstützung der Praxis -> Bewertung von Methoden in bestimmten Kontexten, Wissensvermittlung und systematisches Lernen
+- The practice of TA is very diverse, depending on the context, technology and actor being advised
+	- Still needs a theoretical basis and to be comparable and assessable
 
-- Bestimmung des  [[Erkenntnissinteresse]]
-	- TA als Politikberatung - Folgen von Wissenschaft und Technik für Politische Handlungsfelder
-		- Alternativen prüfen und analysieren, bewerten und vergleichen
-		- Neue Alternativen und mögliche Folgeb heranführen
-		- <mark style="background: #FFB86CA6;">Denken in Alternativen</mark> erhöht das Gefühl für die beste Option und erhöht die <mark style="background: #FFB86CA6;">Refelxivität</mark> der Entscheidungsprozesse 
-	- Partizipative TA  (TA im öffentlichen Dialog) - Betrachtungs- und Bewertungskriterien neuer Technologien partizipativ zu erweitern, 
-		- Interessen von z.B. betroffenen Bürgern und Stakeholdern einbeziehen
-		- Inklusion unterschiedlicher Perspektiven und Betroffenheiten, von Werten, Voreinstellungen, Biografien und Erfahrungen, aber auch von lokalem Wissen erhöht ebenfalls Reflexivität
-	- TA in der Technikgestaltung - Erweitern klassischer Effizienzkriterien im Design durch Umweltverträglichkeit odder Gerechtigkeit
-		- direkte Zusammenarbeit mit Ingenieuren und Designern für bessere exploration technischen Designs
-- <mark style="background: #D2B3FFA6;">Gemeinsames Interesse ist die Erhöhung der Reflexivität in der Gestaltung des wissenschaftlich-technischen Wandels</mark>
-	- Ziel ist der verantwortungsvolle Umgang mit Resultaten und Folgen
+- Characteristics of a good TA theory
+	- Consistency -> can bring together the many different practical approaches
+	- Conceptual reflection -> clear definition of terms (technology, consequence, ...)
+	- Systematization -> classification of knowledge in a larger framework
+	- Fruitfulness -> enables further development of concepts and methods to adapt to framework conditions
+	- Support for practice -> evaluation of methods in specific contexts, knowledge transfer and systematic learning
 
-![[Pasted image 20250120094207.png]]
+- Determination of the [[knowledge interest]]
+	- TA as policy advice - consequences of science and technology for political fields of action
+		- Examine and analyze, evaluate and compare alternatives
+		- Introducing new alternatives and possible consequences
+		- <mark style="background: #FFB86CA6;">Thinking in alternatives</mark> increases the feeling for the best option and increases the <mark style="background: #FFB86CA6;">reflexivity</mark> of decision-making processes 
+	- Participatory TA (TA in public dialog) - expanding the criteria for considering and evaluating new technologies in a participatory manner, 
+		- Include the interests of affected citizens and stakeholders, for example
+		- Inclusion of different perspectives and affected parties, of values, attitudes, biographies and experiences, but also of local knowledge also increases reflexivity
+	- TA in technology design - expanding classic efficiency criteria in design to include environmental compatibility or justice
+		- Direct collaboration with engineers and designers for better exploration of technical design
+- <mark style="background: #D2B3FFA6;">Common interest is to increase reflexivity in the design of scientific and technological change</mark>
+	- The aim is to deal responsibly with results and consequences
 
+## Conceptual dimensions
+
+- <mark style=“background: #FFB86CA6;”>Participation</mark> - Recognizing and evaluating consequences at an early stage
+- <mark style=“background: #FFB86CA6;”>Inclusion</mark> - Include many perspectives on the future
+	- Very different in depth, expert TA also still takes place
+- <mark style=“background: #FFB86CA6;”>Complexity management</mark> - Limiting the scope of anticipation and inclusion
+	- Central concept of relevance -> setting up a system of all relevant actors, influencing factors, values, ...
+	- Determines the course of the project very significantly
 
 ## Konzeptionelle Dimensionen
 
