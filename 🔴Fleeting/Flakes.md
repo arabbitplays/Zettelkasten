@@ -25,8 +25,13 @@ https://nixos-and-flakes.thiscute.world/other-usage-of-flakes/inputs
 - defines all the dependencies of the flake
 
 ```nix
-inputs = { # NixOS official package source, using the nixos-24.11 branch here nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11"; };
+inputs = { 
+	# NixOS official package source, using the nixos-24.11 branch here
+	nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+};
 ```
+
+
 
 ---
 
