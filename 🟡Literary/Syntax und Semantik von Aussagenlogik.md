@@ -34,6 +34,6 @@ $$F\ ist\ allgemeingültig \Leftrightarrow \neg F\ ist\ unerfüllbar$$
 
 Origin: Formale Systeme
 References: 
-Tags: 
+Tags: #🇩🇪 
 Created: 25.10.2024
 

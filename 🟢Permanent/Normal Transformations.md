@@ -8,7 +8,7 @@
 
 ## Transforming Normal Maps
 
-- Normal Maps usually are given in [[Tangentspace]]
+- Normal Maps are given usually in [[Tangentspace]]
 - The z-axis is up
 
 ---

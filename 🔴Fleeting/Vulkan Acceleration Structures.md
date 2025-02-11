@@ -34,6 +34,6 @@ VkPhysicalDeviceAccelerationStructureFeaturesKHR accelerationStructureFeatures{}
 
 Origin: 
 References: [[Vulkan Index]]
-Tags: 
+Tags: #🇩🇪 
 Created: 13.12.2024
 
