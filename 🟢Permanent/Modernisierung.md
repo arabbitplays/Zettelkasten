@@ -1,22 +1,22 @@
 # Modernisierung
 
-- Entstanden aus der industriellen Revolution 1760-1830 und der politischen französischen Revolution 1789-1794
-- Modernisierung ist <mark style="background: #D2B3FFA6;">wertneutral</mark>, also nicht grundlegend gut oder schlecht
-	- auch kein Fortschrittsrezept
-- Indikatoren relativer Modernität eines Landes
-	- Bevölkerungsentwicklung
-	- Lebenserwartung
-	- Mortalität und Morbidität
-	- Urbanisierung
-	- technische Kommunikationsformen und -frequenz
-	- Analphabetismus, Schulpflicht
-	- Durchschnittseinkommen, Wirtschaftswachstum, Marktwettbewerb
-	- Soziale Sicherheit, Politische Beteiligung, demokratische Regierungsform
-	- Vgl. Comparative Welfare States Dataset und Comparative Political Data Set
-- Modernisierung fußt grundlgend auf demokratischen Parteienwettbewerb und wirschaftlichen Konkurenzkampf <mark style="background: #FFB86CA6;">(Konkurrenzdemokratie)</mark>
-	- Erfordert einen funktionierenden Rechtsstaat
-- Erfordert auch eine konflikthafte Öffentlichkeit die friedlichen <mark style="background: #FFB86CA6;">Meinungspluralismus</mark> lebt
-- Viel ist die Wohlstandsgesellschaft und der Wohlfahrtsstaat (sowie maximale Einbindung der Bevölkerung in den Arbeitsmarkt)
+- Emerged from the industrial revolution 1760-1830 and the French political revolution 1789-1794
+- Modernization is <mark style="background: #FFB86CA6;">value-neutral</mark>, i.e. not fundamentally good or bad
+	- also not a recipe for progress
+- Indicators of a country's relative modernity
+	- Population development
+	- Life expectancy
+	- Mortality and morbidity
+	- urbanization
+	- technical forms and frequency of communication
+	- illiteracy, compulsory education
+	- Average income, economic growth, market competition
+	- Social security, political participation, democratic form of government
+	- Cf. Comparative Welfare States Dataset and Comparative Political Data Set
+- Modernization is fundamentally based on democratic party competition and economic competition <mark style="background: #FFB86CA6;">(competitive democracy)</mark>
+	- Requires a functioning constitutional state
+- Also requires a conflictual public sphere that lives peaceful <mark style="background: #FFB86CA6;">pluralism of opinion</mark>
+- Much is the affluent society and the welfare state (as well as maximum integration of the population into the labor market)
 
 ## Modernisierung und Religion
 
@@ -41,13 +41,13 @@
 - Rohstoffreiche Länder haben oft Modernisierungsprobleme da Rohstoffe in den Händen von etablierten Eliten liegen
 	- Diese wollen den Status Quo erhalten und sind von wirtschaftlichen und politischen Reformen bedroht
 - Auch die Grundinstitutionen sind gefährdet da sie oft unangenehme (aber für Modernisierung unverzichtbare) Rollen einnehmen
-- Zu große wahre oder wahrgenommene (Verteilung-) Ungleichheit kann Modernisierung gefärden
+- Zu große wahre oder wahrgenommene (Verteilung-) Ungleichheit kann Modernisierung gefährden
 
 
 ---
 
 Origin: Sozialstrukturanalyse
-References: [[Sozialstrukturanalyse]]
-Tags: 
+References: 
+Tags: #🇩🇪 
 Created: 05.01.2025
 
