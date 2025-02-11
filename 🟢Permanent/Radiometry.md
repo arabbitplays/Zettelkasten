@@ -17,7 +17,8 @@
 - <mark style="background: #FFB86CA6;">Irradiance</mark> is how much flux gets to a surface from any direction
 	- $$E = \frac{d\Phi}{dA}\ [W/m^2]$$
 	- <mark style="background: #FFB86CA6;">Radiant exitance</mark> is an alternate term for the flux leaving a surface
-- <mark style="background: #FFB86CA6;">Radiance</mark> is how much light arrives at a surfsce from a give direction ([[Solid Angle]] $\omega$) 
+	- From this quantity [[Lambert's law]] is derivable
+- <mark style="background: #FFB86CA6;">Radiance</mark> is how much light arrives at a surface from a give direction ([[Solid Angle]] $\omega$) 
 	- $$L = \frac{dE}{d\omega} = \frac{dE}{dA^\Phi d\omega} [W/m^2 sr]$$
 
 	- $A^\Phi$ is the area projected kn the plane perpendicular to $\omega$ ($dA^\Phi = dA\ cos(\Phi)$)

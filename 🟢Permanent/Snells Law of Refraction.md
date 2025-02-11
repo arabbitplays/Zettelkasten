@@ -1,4 +1,4 @@
-# Snellsches Brechungsgesetz
+# Snells Law of Refraction
 
 - describes direction change of a wave at the transition between two mediums with different <mark style="background: #FFB86CA6;">Index of Refractions</mark>
 - Index of refraction is wavelength dependend: $\eta(\lambda)$
