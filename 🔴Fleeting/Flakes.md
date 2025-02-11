@@ -11,7 +11,17 @@
 nix.settings.experimental-features = [ "nix-command" "flakes" ];
 ```
 
+```bash
+# get templates
+nix flake show templates
+nix flake init -t templates#full 
+```
+
+
+## Inputs
+
 - completely replaces `nix-channel` with the `inputs` section in `flake.nix`
+- defines all the dependencies of the flake
 
 ---
 
