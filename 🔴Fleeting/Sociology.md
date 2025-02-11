@@ -3,6 +3,7 @@
 ## Social structure analysis
 
 - [[Role of Social Structure Analysis]]
+- [[Social Features]]
 - [[Modernisierung]]
 
 ## Technology assessment

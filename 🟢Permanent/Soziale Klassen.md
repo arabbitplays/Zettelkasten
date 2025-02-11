@@ -21,7 +21,7 @@
 ---
 
 Origin: Sozialstrukturanalyse
-References: [[Soziale Herkunft]]
+References: [[Social Origin]]
 Tags: 
 Created: 20.11.2024
 
