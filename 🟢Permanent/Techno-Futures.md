@@ -1,4 +1,4 @@
-# Technikzukünfte
+# Techno-Futures
 
 - Sehr Widersprüchliche Wahrnehmung
 	- wohlstandssichernd, komfortsteigernd, beschützend, ...

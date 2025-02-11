@@ -8,7 +8,7 @@
 ## Technology assessment
 
 - Futures
-	- [[Technikzukünfte]]
+	- [[Techno-Futures]]
 	- [[Zukunftssichten]]
 - [[TA Theorien]]
 	- [[Actor Network Theory (ANT)]]

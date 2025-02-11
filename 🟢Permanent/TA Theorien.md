@@ -26,50 +26,41 @@
 
 ## Conceptual dimensions
 
-- <mark style=“background: #FFB86CA6;”>Participation</mark> - Recognizing and evaluating consequences at an early stage
-- <mark style=“background: #FFB86CA6;”>Inclusion</mark> - Include many perspectives on the future
+- <mark style="background: #FFB86CA6;">Participation</mark> - Recognizing and evaluating consequences at an early stage
+- <mark style="background: #FFB86CA6;">Inclusion</mark> - Include many perspectives on the future
 	- Very different in depth, expert TA also still takes place
-- <mark style=“background: #FFB86CA6;”>Complexity management</mark> - Limiting the scope of anticipation and inclusion
+- <mark style="background: #FFB86CA6;">Complexity management </mark>- Limiting the scope of anticipation and inclusion
 	- Central concept of relevance -> setting up a system of all relevant actors, influencing factors, values, ...
 	- Determines the course of the project very significantly
 
-## Konzeptionelle Dimensionen
+## Objects of TA
 
-- <mark style="background: #FFB86CA6;">Antizipation</mark> - Folgen frühzeitig erkennen und ewerten
-- <mark style="background: #FFB86CA6;">Inklusion</mark> - Viele Perspektiven auf die Zukunft mit einbeziehen
-	- Sehr unterschiedlich in der Tiefe, auch Experten-TA findet noch statt
-- <mark style="background: #FFB86CA6;">Komplexitätsmanagement</mark> - Begrenzung des Umfangs von Antizipation und inklusion
-	- Zentraler Begriff der Relevanz -> Aufstellen eines Systems aller relevanten Akteure, Einflussfaktoren, Werte, ...
-	- Bestimmt den Verlauf des Projekts sehr maßgeblich
+- Neither technology nor the consequences of technology are direct objects
+	- They do not yet exist, otherwise TA would not be necessary
+	- Technology is no longer always a direct object (see the Internet, automatic decision making, ...)
+- New technology is an object of TA if it has <mark style="background: #FFB86CA6;">meanings of social significance</mark>
+	- Significance is usually attributed on the basis of assumed technological consequences
 
-## Objekte der TA
+## Knowledge in the TA
 
-- Weder Technik noch Technikfolgen sind direkte Objekte
-	- Sie existieren noch nicht, sonst wäre keine TA nötig
-	- Technik ist nicht mehr direkt immer Objekt (siehe das Internet, automatic decision making, ...)
-- Objekte der TA ist neue Technik wenn sie <mark style="background: #D2B3FFA6;">Bedeutungen von gesellschaftlicher Tragweite</mark> hat
-	- Zuschreibung der Bedeutung erfolg meist durch vermutete Technikfolgen
+- <mark style="background: #FFB86CA6;">System knowledge</mark> - Interrelationships in the system under consideration
+	- Not only purely scientific, social (societal) aspects and e.g. environmental science and economic topics are also relevant
+- <mark style="background: #FFB86CA6;">Orientation knowledge</mark> - Instructions for diagnoses, assessments and objectives
+	- What is the direction of the required changes
+- <mark style="background: #FFB86CA6;">Action knowledge</mark> - knowledge about measures, strategies and instruments
 
-## Wissen in der TA
-
-- <mark style="background: #FFB86CA6;">Systemwissen</mark> - Zusammenhänge im betrachteten System
-	- Nicht nur rein naturwissenschaftlich, auch soziale (gesellschaftliche) Aspekte und zB umweltwissenschaftliche und wirtschaftliche Themen sind relevant
-- <mark style="background: #FFB86CA6;">Orientierungswissen</mark> - Anleitungen für Diagnosen, Bewertungen und Zielsetzungen
-	- Was ist die Richtung der erforderlichen Veränderungen
-- <mark style="background: #FFB86CA6;">Handlungswissen</mark> - Wissen über Maßnahmen, Strategien und Instrumente
-
-- Orientierungswissen kann weiter aufgeteilt werden:
-	- <mark style="background: #FFB86CA6;">Zukunftsswissen</mark> - Antizipation, wie verändert sich das System in Zukunft, was sind die Folgen von möglichen Entscheidungen
-		- Direkt gebunden an gegenwärtige Vorstellungen, Erwartung etc. und kann somit veralten
-		- Wichtigste Größe ist der <mark style="background: #FFB86CA6;">Grad der Erwartbarkeit</mark>  - wie wahrscheinlich triff die Zukunft tatsächlich ein
-		- Im gesellschaftlichen Kontext können Vorhersagen auch den Verlauf beeinflussen
-	- <mark style="background: #FFB86CA6;">Kontextwissen</mark> -  Konstellationen, Akteure und deren Beziehungen, Historie, ...
-	- <mark style="background: #FFB86CA6;">Normative Orientierung</mark> - Ziele, Bewertungskriterien, ethnische Prinzipien
+- Orientation knowledge can be further subdivided:
+	- <mark style="background: #FFB86CA6;">future knowledge</mark> - anticipation, how will the system change in the future, what are the consequences of possible decisions
+		- Directly linked to current ideas, expectations, etc. and can therefore become outdated
+		- The most important variable is the <mark style="background: #FFB86CA6;">degree of expectability</mark> - how likely the future will actually be
+		- In a social context, predictions can also influence the course of events
+	- <mark style="background: #FFB86CA6;">Contextual knowledge</mark> - constellations, actors and their relationships, history, ...
+	- <mark style="background: #FFB86CA6;">Normative orientation</mark> - goals, evaluation criteria, ethnic principles
 
 ---
 
 Origin: Grunwald, A. (2022): Technikfolgenabschätzung: Einführung, 3te vollständig aktualisierte und erweiterte Auflage. Baden-Baden: Nomos: Kap.4.1.-4.4: S. 113-152.
 References: 
-Tags: #🇩🇪 
+Tags:
 Created: 19.01.2025
 

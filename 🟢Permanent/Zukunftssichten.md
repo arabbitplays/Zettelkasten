@@ -1,4 +1,4 @@
-# Different views on the future
+# Views on the future
 
 ## Prognostic view of the future
 
