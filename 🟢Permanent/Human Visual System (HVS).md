@@ -17,6 +17,6 @@ $$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ m = \int M(\lambda)P(\lambda)d\lam
 
 Origin: Computergrafik I
 References: [[Radiometry]]
-Tags: 
+Tags: #🇩🇪 
 Created: 29.10.2024
 

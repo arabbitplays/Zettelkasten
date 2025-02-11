@@ -66,6 +66,6 @@ $$X = \frac{Y}{y}\ \ \ Z = \frac{Y}{y}(1-x-y)$$
 
 Origin: Computergrafik I
 References: 
-Tags: 
+Tags: #🇩🇪 
 Created: 29.10.2024
 

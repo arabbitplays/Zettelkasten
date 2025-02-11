@@ -6,10 +6,10 @@
 	- [[Farbräume]]
 - Bildsynthese
 	- [[Rendering Equation]]
-	- [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+	- [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 
 ---
 
 References: [[Vulkan Index]]
-Tags: #📑 
+Tags: #📑 #🇩🇪 
 Created: 05.11.2024

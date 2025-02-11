@@ -31,7 +31,7 @@ $$k_a\ L$$
 ---
 
 Origin: Computergrafik
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
-Tags: 
+References: [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
+Tags: #🇩🇪 
 Created: 12.11.2024
 

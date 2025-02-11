@@ -25,6 +25,6 @@
 
 Origin: Computergrafik
 References: [[Anti Aliasing]], [[Texture Mapping]]
-Tags: 
+Tags: #🇩🇪
 Created: 26.11.2024
 

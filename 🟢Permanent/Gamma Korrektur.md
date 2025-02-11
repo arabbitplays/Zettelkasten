@@ -40,6 +40,6 @@ Bilder werden mit potenzbasierter Quantisierung gespeichert (unter Angabe des Ex
 
 Origin: Computergrafik I
 References: 
-Tags: 
+Tags: #🇩🇪 
 Created: 24.10.2024
 

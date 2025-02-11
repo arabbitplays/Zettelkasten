@@ -49,6 +49,6 @@
 
 Origin: Computergrafik I
 References: [[Rendering Index]]
-Tags: 
+Tags: #🇩🇪 
 Created: 26.11.2024
 
