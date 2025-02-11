@@ -1,19 +1,19 @@
 # Self-justifying Technology
 
-- Investition in eine Technologie wird gerechtfertigt darüber, dass sie besser ist als eine frühere
-	- das "Problem" an der früheren Technologie ist, dass sie nicht schon die bessere Variante ist
-- Beispiel HDTV: wurde nur entwickelt weil versprochen wurde, das zB die Soundqualität besser ist -> die schlechte Soundqualität ist nur ein Problem weil eine Bessere versprochen wurde
+- Investment in a technology is justified by the fact that it is better than a previous one
+	- the “problem” with the earlier technology is that it is not already the better version
+- Example HDTV: was only developed because it was promised that e.g. the sound quality would be better -> poor sound quality is only a problem because a better one was promised
 
-- Die vertikale Koppelung des [[Ideogramm]] "Technischer Fortschritt" and frühere Durchbrüche erzwingt die tatsächliche Umsetzung von Versprechungen
+- The vertical coupling of the [[Ideogram]] “technical progress” and earlier breakthroughs forces the actual realization of promises
 
-- Kombination aus Versprechungen, Self-justifying Technologie und die Übersetzung in Anforderungen erzeugt Self-fulfilling prophecies
-	- Moore's Law dass sich die Chipdichte verdoppelt ist ein weiteres Beispiel
-		- Die Industrie bewertet ihren Fortschritt an diesem Gesetz und erhöht Anstrengungen wenn es nicht erfüllt ist
+- Combination of promises, self-justifying technology and translation into requirements creates self-fulfilling prophecies
+	- Moore's Law that chip density doubles is another example
+		- The industry evaluates its progress against this law and increases efforts if it is not fulfilled
 
 ---
 
 Origin: 
-References: [[Ideogramm]]
-Tags: #🇩🇪 
+References: [[Remote Zettelkasten/🟢Permanent/Ideogram]]
+Tags: 
 Created: 22.01.2025
 
