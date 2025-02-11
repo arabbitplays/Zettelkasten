@@ -12,6 +12,9 @@
 	- relies on data sources by `nix-channel` and has no version-locking mechanism
 		- better alternative is [[Flakes]]
 
+- <mark style="background: #FFB86CA6;">Nix-channel</mark>
+	- manages software package versions
+
 ---
 
 Origin: https://nixos-and-flakes.thiscute.world/introduction/
