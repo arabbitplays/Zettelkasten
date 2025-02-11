@@ -51,12 +51,12 @@ outputs = { self, nixpkgs, ... }@inputs: {
 };
 ```
 
-- `nixosConfigurations` type is used to configure [[NixOS]] Systems
+- `nixosConfigurations` type is used to configure [[Remote Zettelkasten/🔴Fleeting/NixOS]] Systems
 
 ---
 
 Origin: 
-References: [[NixOS]]
+References: [[Remote Zettelkasten/🔴Fleeting/NixOS]]
 Tags: 
 Created: 11.02.2025
 
