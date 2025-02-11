@@ -30,8 +30,28 @@ inputs = {
 	nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
 };
 ```
+- many more types and definitions
+	- https://nixos-and-flakes.thiscute.world/other-usage-of-flakes/inputs
+- By default a `flake.nix` file is searched at the root of the dependency, evaluated and passed to th
 
+## Outputs
 
+- defines the output of the flake, which can be almost everything
+	- https://nixos-and-flakes.thiscute.world/other-usage-of-flakes/outputs
+
+```nix
+outputs = { self, nixpkgs, ... }@inputs: { 
+	# The host with the hostname `my-nixos` will use this configuration 
+	nixosConfigurations.my-nixos = nixpkgs.lib.nixosSystem { 
+		system = "x86_64-linux"; 
+		modules = [ 
+			./configuration.nix 
+		]; 
+	};
+};
+```
+
+- `nixosConfigurations` type is used to configure [[NixOS]] Systems
 
 ---
 
