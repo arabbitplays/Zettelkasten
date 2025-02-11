@@ -56,7 +56,7 @@ outputs = { self, nixpkgs, ... }@inputs: {
 ---
 
 Origin: 
-References: [[Remote Zettelkasten/🔴Fleeting/NixOS]]
+References: [[Remote Zettelkasten/🔴Fleeting/NixOS|NixOS]]
 Tags: 
 Created: 11.02.2025
 
