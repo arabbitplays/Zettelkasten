@@ -16,7 +16,7 @@
 ---
 
 Origin: Selin, C. (2007): Expectations and the Emergence of Nanotechnology. Science Technology & Human Values 32(2): 196- 220.
-References: [[TA Theorien]]
+References: [[TA Theories]]
 Tags: 
 Created: 23.01.2025
 

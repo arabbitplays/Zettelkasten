@@ -1,32 +1,32 @@
 # Techno-Futures
 
-- Sehr Widersprüchliche Wahrnehmung
-	- wohlstandssichernd, komfortsteigernd, beschützend, ...
-	- Erschöpfung natürlicher Ressourcen, Umweltzerstörung, ethische Herausforderungen
-- Durch Technik erzeugte Probleme sollen eher durch innovative neue Technik gelöst werden statt durch Verzicht
-- Beides erzeugt eine Zunahme der <mark style="background: #D2B3FFA6;">menschlichen Verantwortung</mark> -> Ethik ein gutes Werkzeug
-	- braucht einen Gegenstand, etwas worüber diskutiert werden kann -> <mark style="background: #FFB86CA6;">Technikzukünfte</mark>
+- Very contradictory perception
+	- Ensuring prosperity, increasing comfort, protecting, ...
+- Depletion of natural resources, environmental degradation, ethical challenges
+- Problems caused by technology should be solved by innovative new technology rather than by renunciation
+- Both generate an increase in <mark style="background: #D2B3FFA6;">human responsibility</mark> -> ethics a good tool
+- needs an object, something that can be discussed -> <mark style="background: #FFB86CA6;">techno futures</mark>
 
-## Rolle in der Gesellschaft 
+## Role in society 
 
-- Zukünfte vermitteln zwischen Gesellschaft und Technik
-	- Technik prägt Gesellschaft: Technikfolgenabschätzung um unerwünschte Folgen abzufangen oder zu vermindern
-	- Gesellschaft beeinflusst Technik: Prägt auch stark die Erwartungen und Akzeptanz der Gesellschaft und Entscheidungen über Entwicklung und Einsatz von Technik
-- Pluralität der Zukünfte verhindert logische oder optimale Entscheidungen
-- Agieren als Medium zur gesellschaftlichen Debatte über Technik
+- Mediating futures between society and technology
+	- Technology shapes society: technology assessment to mitigate or minimize undesirable consequences
+	- Society influences technology: also strongly influences the expectations and acceptance of society and decisions on the development and use of technology
+- Plurality of futures prevents logical or optimal decisions
+- Acting as a medium for social debate on technology
 
 ## Definition
 
-<mark style="background: #D2B3FFA6;">Vorstellungen über zukünftige Entwicklungen in denen Technik eine erkennbare Rolle spielt</mark>
+<mark style="background: #D2B3FFA6;">Vision of future developments in which technology plays a recognizable role</mark>
 
-- Umfasst Modellbsierte Szenarien, Prognosen, Visionen, Roadmaps, Science Fiction, Zeitdiagnosen
-- geprägt durch heutiges Wissen, Werte, Annahmen und Interessen
-- genaue Umsetzung sehr abhängig von den verwendeten [[Zukunftssichten]]
+- Includes model-based scenarios, forecasts, visions, roadmaps, science fiction, time diagnoses
+- Characterized by today's knowledge, values, assumptions and interests
+- Exact implementation very dependent on the [[Views on the future | view on the future]] used
 
 ---
 
 Origin: Grunwald, A. (2012): Technikzukünfte als Medium von Zukunftsdebatten und Technikgestaltung
 References: 
-Tags: #🇩🇪
+Tags: 
 Created: 16.01.2025
 

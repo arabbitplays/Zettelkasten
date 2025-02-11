@@ -1,6 +1,6 @@
 # Sozialstrukturanalyse
 
-- [[Rolle von Sozialstrukturanalyse]]
+- [[Role of Social Structure Analysis]]
 - [[Modernisierung]]
 
 

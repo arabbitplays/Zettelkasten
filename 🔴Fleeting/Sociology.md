@@ -2,15 +2,15 @@
 
 ## Social structure analysis
 
-- [[Rolle von Sozialstrukturanalyse]]
+- [[Role of Social Structure Analysis]]
 - [[Modernisierung]]
 
 ## Technology assessment
 
 - Futures
 	- [[Techno-Futures]]
-	- [[Zukunftssichten]]
-- [[TA Theorien]]
+	- [[Views on the future]]
+- [[TA Theories]]
 	- [[Actor Network Theory (ANT)]]
 - [[Self-justifying Technology]]
 

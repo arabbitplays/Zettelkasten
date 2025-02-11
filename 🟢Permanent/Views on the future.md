@@ -28,7 +28,7 @@
 ---
 
 Origin: Grunwald, A. (2012): Technikzukünfte als Medium von Zukunftsdebatten und Technikgestaltung
-References: [[TA Theorien]]
+References: [[TA Theories]]
 Tags:
 Created: 16.01.2025
 
