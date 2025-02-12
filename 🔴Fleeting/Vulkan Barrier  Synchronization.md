@@ -1,3 +1,7 @@
+# Vulkan Barrier  Synchronization
+
+https://github.com/KhronosGroup/Vulkan-Docs/wiki/Synchronization-Examples
+
 ## Image Memory Barrier
 
 - used to transition image layouts and transferring queue family ownership
@@ -42,3 +46,11 @@ if (oldLayout == VK_IMAGE_LAYOUT_UNDEFINED && newLayout == VK_IMAGE_LAYOUT_TRANS
 	destinationStage = VK_PIPELINE_STAGE_FRAGMENT_SHADER_BIT; 
 }
 ```
+
+---
+
+Origin: https://vulkan-tutorial.com/Texture_mapping/Images#page_Layout-transitions
+References: [[Vulkan Index]]
+Tags: 
+Created: 12.02.2025
+
