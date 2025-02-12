@@ -9,7 +9,11 @@
 	- use to store GPU only data (compute buffers), render targets and static resources like texture or geometry buffers
 - `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT` - video memory that the CPU can write to directly
 	- normally pretty small but fast to access for both
-	- used for data that is updated every frame like uniform buffers or dynamic 
+	- used for data that is updated every frame like uniform buffers or dynamic geometry buffers
+- `VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT | VK_MEMORY_PROPERTY_HOST_COHERENT_BIT` - CPU memory that is visible from the GPU
+	- reads go over the PCI-express
+	- in absence of the previous type used for uniform buffers or dynamic geometry buffers
+	- also used for staging buffers to get memory to GPU local memory
 
 ---
 
