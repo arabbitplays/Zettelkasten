@@ -1,0 +1,20 @@
+# Vulkan Memory Management
+
+## Heap Selection
+
+- not all drivers expose all kinds of flag combinations
+
+- `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT` - GPU memory not visible to the CPU
+	- fastest one to access from the GPU
+	- use to store GPU only data (compute buffers), render targets and static resources like texture or geometry buffers
+- `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT | VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT` - video memory that the CPU can write to directly
+	- normally pretty small but fast to access for both
+	- used for data that is updated every frame like uniform buffers or dynamic 
+
+---
+
+Origin: https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/
+References: 
+Tags: 
+Created: 12.02.2025
+
