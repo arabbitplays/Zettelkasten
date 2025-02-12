@@ -19,7 +19,11 @@
 
 - having many small allocations can be slow and drivers are only required to support 4096 single allocations
 - a typical pattern is to allocate a bigger chunk of memory with `vkAllocateMemory` and then suballocating it for single resources
-	- application must handle alignment 
+	- application must handle alignment and the limits for configurations of buffers and images given by `bufferImageGranularity`
+- `bufferImageGranularity` restricts the placement of buffers and images in the same allocation - possible fixes:
+	- suballocate images and buffers in two separate Vulkan allocations <mark style="background: #FF5582A6;">(memory waste if the backing allocation is way to big)</mark>
+	- use maximum of required alignment and `bufferImageGranularity` as size and address alignment <mark style="background: #FF5582A6;">(memory waste through to much padding)</mark>
+	- track which resources are suballocated and only use padding if the resource is different then the last <mark style="background: #FF5582A6;">(required more complex algorithm)</mark>
 
 ---
 
