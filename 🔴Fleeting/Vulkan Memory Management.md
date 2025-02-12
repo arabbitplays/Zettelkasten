@@ -15,6 +15,12 @@
 	- in absence of the previous type used for uniform buffers or dynamic geometry buffers
 	- also used for staging buffers to get memory to GPU local memory
 
+## Suballocation
+
+- having many small allocations can be slow and drivers are only required to support 4096 single allocations
+- a typical pattern is to allocate a bigger chunk of memory with `vkAllocateMemory` and then suballocating it for single resources
+	- application must handle alignment 
+
 ---
 
 Origin: https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/
