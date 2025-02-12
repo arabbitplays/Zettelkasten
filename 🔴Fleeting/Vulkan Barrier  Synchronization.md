@@ -23,7 +23,7 @@ vkCmdPipelineBarrier(
 	- `dstAccessMask` - which types of operations should wait at the barrier
 - `srcStage` - in which stage happen the operations that should finish before the barrier
 - `dstStage` - in which stage happen the operations that should wait for the barrier
-- see possible combinations [https://docs.vulkan.org/spec/latest/chapters/synchronization.html#synchronization-access-types-supported | here]  
+- see possible combinations [here](https://docs.vulkan.org/spec/latest/chapters/synchronization.html#synchronization-access-types-supported) and all the pipeline stages [here](https://docs.vulkan.org/spec/latest/chapters/synchronization.html#VkPipelineStageFlagBits) 
 
 ```c++
 // examples for the parameters in a rasterization pipeline
