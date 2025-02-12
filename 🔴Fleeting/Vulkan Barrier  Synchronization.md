@@ -1,1 +1,3 @@
-## Image Barrier
+## Image Memory Barrier
+
+- used to transition image 
