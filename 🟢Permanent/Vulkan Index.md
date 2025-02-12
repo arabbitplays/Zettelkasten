@@ -4,6 +4,8 @@
 - Basics
 	- [[Important Vulkan Objects]]
 	- [[Important Vulkan Extensions]]
+- Efficency
+	- [[Vulkan Memory Management]]
 - Parallel Computing
 	- [[Vulkan Subgroups]]
 

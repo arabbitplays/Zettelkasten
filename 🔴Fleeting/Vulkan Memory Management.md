@@ -28,7 +28,7 @@
 ---
 
 Origin: https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/
-References: 
+References: [[Vulkan Index]]
 Tags: 
 Created: 12.02.2025
 
