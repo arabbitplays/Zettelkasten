@@ -27,6 +27,12 @@ $$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
 2. Reflection from the sampled microfacet is modeled using the law of specular reflection and the Fresnel equations, which yields the incident direction $\omega_i$ and a reflection coefficient that attenuates the light carried by the path.
 3. The scattered light is finally scaled by $G_1(\omega_i)$ to account for the effect of masking by other microfacets.
 
+- the probability of sampling a direction $\omega_i$ through this process is not directly the distribution of visible normals
+	- instead reflection mapping is used to calculate this
+$$p(\omega_i)=\frac{D_{\omega_o}(\omega_m)}{4}$$
+- The microfacet normal for the needed reflection is the halfway vector of $\omega_o$ and $\omega_i$
+$$\omega_m$$
+
 ---
 
 Origin: 
