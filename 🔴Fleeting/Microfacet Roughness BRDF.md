@@ -18,7 +18,8 @@ $$\Lambda(\omega) = \frac{\sqrt{1+\alpha²tan²\theta}-1}{2}$$
 - $G(\omega_o, \omega_i)$ ist the <mark style="background: #FFB86CA6;">masking-shadowing function</mark> - fraction of microfacet seen simultaneously from both direction
 $$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
 
-- $D_\omega(\omega_m)$ i
+- $D_\omega(\omega_m)$ ist the <mark style="background: #FFB86CA6;">distribution of visible normals</mark> - use to emulate the process of a ray intersecting a microfacet
+	- <mark style="background: #D2B3FFA6;">this is the PDF for the Throwbridge-Reitz distribution</mark>
 
 ---
 
