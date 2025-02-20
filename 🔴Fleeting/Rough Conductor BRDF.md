@@ -29,9 +29,14 @@ $$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
 
 - the probability of sampling a direction $\omega_i$ through this process is not directly the distribution of visible normals
 	- instead reflection mapping is used to calculate this
-$$p(\omega_i)=\frac{D_{\omega_o}(\omega_m)}{4}$$
+$$p(\omega_i)=\frac{D_{\omega_o}(\omega_m)}{4(\omega_o \cdot \omega_i)}$$
 - The microfacet normal for the needed reflection is the halfway vector of $\omega_o$ and $\omega_i$
-$$\omega_m$$
+$$\omega_m=\frac{\omega_i + \omega_o}{||\omega_i + \omega_o||}$$
+
+<mark style="background: #D2B3FFA6;">This is the PDF for the BRDF</mark>
+
+- given this PDF, the BRDF can be calculated
+
 
 ---
 
