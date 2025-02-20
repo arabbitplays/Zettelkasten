@@ -34,7 +34,7 @@ Eigenschaften:
 ---
 
 Origin: Computergrafik
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
-Tags: 
+References: [[Raytracing]]
+Tags: #🇩🇪 
 Created: 07.11.2024
 

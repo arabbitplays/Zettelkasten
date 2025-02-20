@@ -1,4 +1,4 @@
-# Microfacet Roughness BRDF
+# Rough Conductor BRDF
 
 ## Trowbridge-Reitz  Distribution
 
@@ -22,7 +22,7 @@ $$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
 	- <mark style="background: #D2B3FFA6;">this is the PDF for the Throwbridge-Reitz distribution</mark>
 $$D_\omega(\omega_m)=\frac{G_1(\omega)}{cos\theta}D(\omega_m)max(0, \omega \cdot \omega_m)$$
 - <mark style="background: #FF5582A6;">Actually sampling this is a bit more complicated</mark>
-	- (see [here](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory#SamplingtheDistributionofVisibleNormals]) )
+	- (see [here](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory#SamplingtheDistributionofVisibleNormals) )
 
 ## Sampling the BRDF
 
@@ -41,11 +41,13 @@ $$\omega_m=\frac{\omega_i + \omega_o}{||\omega_i + \omega_o||}$$
 - given this PDF, the BRDF can be calculated
 $$f_r(p, \omega_o, \omega_i) = \frac{D(\omega_m)F(\omega_o \cdot \omega_i)G(\omega_o, \omega_i)}{4cos\theta_o cos\theta_i}$$
 
+- <mark style="background: #FF5582A6;">Sampling is a bit more complicated</mark>
+	- see [here](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory#x5-TorrancendashSparrowSampling)
 
 ---
 
 Origin: 
-References: 
+References: [[Bidirectional Reflectance Distribution Function (BRDF)]], [[BRDF Importance Sampling]]
 Tags: 
 Created: 20.02.2025
 
