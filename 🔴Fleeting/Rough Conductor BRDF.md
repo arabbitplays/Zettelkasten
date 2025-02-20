@@ -20,7 +20,10 @@ $$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
 
 - $D_\omega(\omega_m)$ ist the <mark style="background: #FFB86CA6;">distribution of visible normals</mark> - use to emulate the process of a ray intersecting a microfacet
 	- <mark style="background: #D2B3FFA6;">this is the PDF for the Throwbridge-Reitz distribution</mark>
-$$D_\omega(\omega_m)=\frac{}{}$$
+$$D_\omega(\omega_m)=\frac{G_1(\omega)}{cos\theta}D(\omega_m)max(0, \omega \cdot \omega_m)$$
+- <mark style="background: #FF5582A6;">Actually sampling this is a bit more complicated</mark>
+	- (see [here](https://pbr-book.org/4ed/Reflection_Models/Roughness_Using_Microfacet_Theory#SamplingtheDistributionofVisibleNormals]) )
+
 ## Sampling the BRDF
 
 1. Given a viewing ray from direction $\omega_o$, a microfacet normal $\omega_m$ is sampled from the visible normal distribution $D_{\omega_o}(\omega_m)$. This step encapsulates the process of intersecting the viewing ray with the random microstructure.
