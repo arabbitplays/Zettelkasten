@@ -15,7 +15,10 @@ $$G_1(w_m)=\frac{1}{1+\Lambda(\omega)}$$
 $$\Lambda(\omega) = \frac{\sqrt{1+\alpha²tan²\theta}-1}{2}$$
 (this is the isotropic case so $\alpha = \alpha_x = \alpha_y$)
 
-- $G($
+- $G(\omega_o, \omega_i)$ ist the <mark style="background: #FFB86CA6;">masking-shadowing function</mark> - fraction of microfacet seen simultaneously from both direction
+$$G(\omega_o, \omega_i) = \frac{1}{1+\Lambda(\omega_o)+\Lambda(\omega_i)}$$
+
+- $D_\omega(\omega_m)$ i
 
 ---
 
