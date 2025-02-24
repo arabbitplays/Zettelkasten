@@ -2,7 +2,7 @@
 
 - describes direction change of a wave at the transition between two mediums with different <mark style="background: #FFB86CA6;">Index of Refractions</mark>
 - Index of refraction is wavelength dependend: $\eta(\lambda)$
-	- at transition different change durection prism -> <mark style="background: #FFB86CA6;">Dispersion</mark>
+	- at transition different change direction prism -> <mark style="background: #FFB86CA6;">Dispersion</mark>
 	- real part describes velocity relativ to velocity in a vacuum $\eta = c_0/c_\eta$
 	- complex part describes Absorption
 
