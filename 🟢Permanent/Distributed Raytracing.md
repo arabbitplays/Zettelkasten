@@ -13,7 +13,7 @@ $$w_i = (sin(\theta) \ cos(\phi), sin(\theta)\ sin(\phi), cos(\theta))$$
 ---
 
 Origin: Computergrafik I
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]] [[Rendering Equation]]
+References: [[Raytracing]] [[Rendering Equation]]
 Tags: 
 Created: 19.11.2024
 
