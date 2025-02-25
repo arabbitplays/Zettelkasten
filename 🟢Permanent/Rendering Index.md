@@ -7,7 +7,9 @@
 - Bildsynthese
 	- [[Rendering Equation]]
 	- [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
-
+- Curves and planes
+	- [[Bézier Curves]]
+	- [[Tensor-product Bézier Planes]]
 ---
 
 References: [[Vulkan Index]]
