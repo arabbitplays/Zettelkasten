@@ -47,7 +47,7 @@ $$f_r(p, \omega_o, \omega_i) = \frac{D(\omega_m)F(\omega_o \cdot \omega_i)G(\ome
 ---
 
 Origin: 
-References: [[Bidirectional Reflectance Distribution Function (BRDF)]], [[BRDF Importance Sampling]]
+References: [[Bidirectional Reflectance Distribution Function (BRDF)]], [[Importance Sampling]]
 Tags: 
 Created: 20.02.2025
 
