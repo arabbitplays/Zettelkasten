@@ -1,4 +1,4 @@
-# Multiple Importance Sampling
+# Multiple Importance Sampling (MIS)
 
 - Variance reduction technique for [[Monte Carlo Integration]]
 - it is a common case that an integrand has the form $f_a(x)f_b(x)$ where [[Importance Sampling]] techniques exists for both factors ($p_a$ and $p_b$) but not for the product
@@ -10,9 +10,15 @@ $$w_a(X)\frac{f(X)}{p_a(X)} + w_b(Y)\frac{f(Y)}{p_b(Y)}$$
 
 - sampling both and taking the average is bad because once variance is introduced, adding it so a low variance sample doesn't change anything
 - The weight should be big if the integrator and the used technique are a good match
-- The <mark style="background: #FFB86CA6;">Balance heuristik</mark> tries to achieve this by considering all ways a sample could have been generated
-$$w_i(X) = \frac{n_ip_i(x)}{\sum n_j p_x(x)}$$
+- The <mark style="background: #FFB86CA6;">Balance Heuristik</mark> tries to achieve this by considering all ways a sample could have been generated
+$$w_i(X) = \frac{n_ip_i(x)}{\sum n_j p_j(x)}$$
+- even better is the <mark style="background: #FFB86CA6;">Power Heuristik</mark> ($\beta = 2$ is pretty common), further reducing the contribution of low probabilities 
+$$w_i(X) = \frac{(n_ip_i(x))^\beta}{\sum (n_j p_j(x))^\beta}$$
 
+## MIS Compensation
+
+- for normal Monte Carlo Integration it is important for an unbiased estimator to have PDF that is non-zero everywhere where the integrand is non-zero
+- 
 
 ---
 
