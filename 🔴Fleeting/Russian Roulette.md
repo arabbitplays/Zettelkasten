@@ -5,7 +5,8 @@
 - skipping it if $f(X)$ is very low would result in a biased estimator, always underestimating the brightness of the point
 
 - choose a termination probability $q$ of a path 
-	- can be arbitrary but should be chosen 
+	- can be almost arbitrary, for example an estimate of the value of the integrand for the chosen sample direction
+- if the path is not terminated, weight the result by $1/(1-q)$ to compensate the terminated paths
 
 ---
 
