@@ -1,9 +1,8 @@
 # Distributed Raytracing
 
 - use [[Monte Carlo Integration]] to solve the [[Rendering Equation]] 
-	- $2\pi$ js the surface if the hemisphere and thus the PDF for picking a direction is $1/2 \pi$
+	- $2\pi$ is the surface if the hemisphere and thus the PDF for picking a direction is $1/2 \pi$
 $$L(x, \omega)=L_e(x, \omega)+\frac{2\pi}{N}\sum_i^N f_r(\omega_i, x, \omega)L_i(x, \omega_i)cos(\Phi_i)$$
-
 ## Sample random direction
 
 - two uniform random numbers $\xi_i, \xi_2 \in [0, 1)$
