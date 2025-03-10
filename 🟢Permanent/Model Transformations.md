@@ -13,8 +13,15 @@
 ## Model transformation language
 
 - used for the definition of model transformations
-- they should be expressive but simple, performant, interoperable and standardized for standard like [[../🟢Permanent/Unified Modelling Language (UML).md | UML]] or [[../🟢Permanent/Meta-Object Facility (MOF).md | MOF]] 
+- they should be expressive but simple, performant, interoperable and standardized for standards like [[../🟢Permanent/Unified Modelling Language (UML).md | UML]] or [[../🟢Permanent/Meta-Object Facility (MOF).md | MOF]] 
 - can be a functional language or a logical language, only when keeping track of state is very important, imperative languages are used
+
+## Graph Transformations
+
+- MOF-based Metamodels can be described as graph structures
+- Graph Transformations abstract away specific transformation languages
+- Rules or Productions consist of three graphs (left, right and the glue graph $K$)
+	$$r = <L \hookleftarrow K \hookrightarrow R>$$
 
 
 ---
