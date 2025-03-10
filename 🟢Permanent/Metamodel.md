@@ -21,7 +21,7 @@
 	- natural language can describe natural language
 - some approaches have fixed number of layers ([[Unified Modelling Language (UML)| UML]])
 	- other have varible many layers (deep modelling)
-- The [[Meta-Object Facility (MOF)]] is the meta-metamodel
+- The [[Meta-Object Facility (MOF)]] is the meta-metamodel for most common models
 
 ---
 
