@@ -44,7 +44,7 @@
 ## Generalization
 
 - Partitionings of generalizations - multiple generalizations are grouped into a set
-	- overlapping vs disjoint - if disjoint there are no instances that are instances of multiple classes of the generalization set
+	- overlapping vs disjoint - if disjoint there are no instances that are instances of multiple classes of the generalization set (no multiple inheritance)
 	- complete vs incomplete - did all subclasses have been specified
 - a generalization set can be associated with a <mark style="background: #FFB86CA6;">power type</mark>
 	- instances of a powertype are subclasses of the general class
