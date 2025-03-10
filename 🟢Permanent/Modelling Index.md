@@ -1,6 +1,6 @@
 # Modelling Index
 
-- [[Models]] and [[Metamodels]]
+- [[Models]] and [[Metamodel]]
 - [[Model Driven Software Development (MDSD)]]
 - [[Unified Modelling Language (UML)]]
 

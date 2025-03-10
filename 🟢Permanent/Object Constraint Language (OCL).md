@@ -2,7 +2,7 @@
 
 - OCL is a declarative specification language, used to define constraints on a [[Metamodel]] formally
 - can be used for every [[Meta-Object Facility (MOF) |MOF]]-based metamodel
-- the constraints can be evaluated <mark style="background: #D2B3FFA6;">side effect free</mark>
+- the constraints can be evaluated <mark style="background: #D2B3FFA6;">side effect free</mark> and should be decidable
 
 - constraints are defined for classes and evaluated for instances
 

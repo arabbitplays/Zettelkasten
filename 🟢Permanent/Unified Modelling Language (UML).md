@@ -1,6 +1,6 @@
 # Unified Modelling Language (UML)
 
-- a [[Meta-Object Facility (MOF) | MOF]]-based standard that defines a [[Metamodels|metamodel]]  for software engineering
+- a [[Meta-Object Facility (MOF) | MOF]]-based standard that defines a [[Metamodel|metamodel]]  for software engineering
 - Interchange format: UML Diagram Interchange
 - Has no formal semantics, only natural language descriptions
 - The UML Infrastructure defines the basic language constructs (with [[Model Driven Architecture |MDA]] as a framework)
@@ -52,7 +52,7 @@
 ---
 
 Origin: 
-References: [[Metamodels]] [[Meta-Object Facility (MOF)]]
+References: [[Metamodel]] [[Meta-Object Facility (MOF)]]
 Tags: 
 Created: 30.10.2024
 
