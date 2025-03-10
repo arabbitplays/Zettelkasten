@@ -20,9 +20,14 @@
 
 - MOF-based Metamodels can be described as graph structures
 - Graph Transformations abstract away specific transformation languages
-- Rules or Productions consist of three graphs (left, right and the glue graph $K$)
-	$$r = <L \hookleftarrow K \hookrightarrow R>$$
+- Rules or Productions consist of three graphs (left $L$, right $R$ and the glue graph $K$) where $K$ is included in $L$ and $R$
+	- If the rule is applied to a graph $G$, find $L$ in $G$ and replace this part with $R$
+	- $$r = <L \hookleftarrow K \hookrightarrow R>$$
+![[Pasted image 20250310113423.png]]
 
+## Queries, Views and Transformations (QVT)
+
+- Based on EMOF and [[Object Constraint Language (OCL) | OCL]] as a query language 
 
 ---
 
