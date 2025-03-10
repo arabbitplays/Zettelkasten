@@ -17,7 +17,7 @@
 - A <mark style="background: #FFB86CA6;">stereotype</mark> defines how a class can be extended
 	- the application to a class is call <mark style="background: #FFB86CA6;">extension</mark> and marked with a filled arrow
 	- can contain attributes called <mark style="background: #FFB86CA6;">tags</mark> and the values of a stereotype instance are called <mark style="background: #FFB86CA6;">tagged values</mark>
-	- <mark style="background: #D2B3FFA6;">cannot be extended by other stereotypes</mark> but it can be abstract and the specialized
+	- <mark style="background: #D2B3FFA6;">cannot be extended by other stereotypes</mark> but it can be abstract and then specialized
 
 ![[Pasted image 20241111091459.png |300]]
 ![[Pasted image 20241111091618.png |300]]
