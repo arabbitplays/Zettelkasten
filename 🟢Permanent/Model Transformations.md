@@ -12,7 +12,7 @@
 
 ## Model transformation language
 
-- used for the definition of model transformations
+- used for the definition of model transformations (example are QVT-R, QVT-O and ATL)
 - they should be expressive but simple, performant, interoperable and standardized for standards like [[../🟢Permanent/Unified Modelling Language (UML).md | UML]] or [[../🟢Permanent/Meta-Object Facility (MOF).md | MOF]] 
 - can be a functional language or a logical language, only when keeping track of state is very important, imperative languages are used
 
