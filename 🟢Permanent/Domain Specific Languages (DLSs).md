@@ -10,7 +10,7 @@
 - with textual language, existing tools for editing text (versioning, autocompletion, highlighting, ...) can be used
 - textual DLSs can be 
 	- <mark style="background: #FFB86CA6;">grammar based</mark> like [[Xtext]] - define the language with a grammar definition, the [[Metamodel| Metamodel]] is then derived from the grammar
-	- <mark style="background: #FFB86CA6;">mapping based</mark> like Xpand - create a metamodel and define how the element sof the model map to the syntax of the language 
+	- <mark style="background: #FFB86CA6;">mapping based</mark> like Xpand - create a metamodel and define how the elements of the model map to the syntax of the language 
 
 ---
 
