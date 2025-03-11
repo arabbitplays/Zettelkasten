@@ -17,7 +17,11 @@
 
 - formal languages are often described with context-free grammars in the Extended Backus-Naur-Form (EBNF)
 	- The grammar of the EBNF can be describen as a EBNF grammar (selfdescriptive)
-- The EBNF has 
+- The EBNF has productions of the form
+	- `non-terminal symbol = "terminal symbol" | "alternative terminal symbol";`
+	- `,` for concatination, `[...]` for optional elements, `{...}` for repeating elements
+- A new language also needs a parser, an editor (can also use a standard text editor) and tools that traverse the abstract syntax tree, for inking and building, ...
+	- possible framework for these jobs is [[Xtext]]
 
 ---
 
