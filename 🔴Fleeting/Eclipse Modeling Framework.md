@@ -24,7 +24,9 @@ Student ebStudi = DiplomFactory.eINSTANCE.createStudent(); ebStudi.setMatrNr(114
 EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = ebStudi.eClass(); ebStudi.eSet(studiClass.getEStructuralFeature("matrNr"), 1146018);
 ```
 
-- Ecore classes are transformed into two construct, the interface class and the 
+- Ecore classes are [[Model Transformations | transformed]] into two construct, the interface class and the implementation class
+
+![[Pasted image 20250311113905.png]]
 ---
 
 Origin: 
