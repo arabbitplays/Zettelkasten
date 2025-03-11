@@ -12,7 +12,19 @@
 	- input is the model specification (UML, Java, XML, \*.ecore files)
 	- generated meta model in XMI (\*.ecore) and a generator model (\*.genmodel)
 		- generator model contains information for generators and is automatically synchronized 
+- EMF contains mapping between Ecore Elements and Java classes and Interfaces
+- Ecore has all important Java Datatypes (Including java.lang.Object) and its own types 
+- Ecore has its own reflection mechanism similar to java.lang.reflect
 
+```Ecore
+// Setting attribute with the generated API
+Student ebStudi = DiplomFactory.eINSTANCE.createStudent(); ebStudi.setMatrNr(1146018);
+
+// Setting attribute with the refelctive API
+EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = ebStudi.eClass(); ebStudi.eSet(studiClass.getEStructuralFeature("matrNr"), 1146018);
+```
+
+- Ecore classes are transformed into two construct, the interface class and the 
 ---
 
 Origin: 
