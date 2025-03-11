@@ -24,9 +24,17 @@ Student ebStudi = DiplomFactory.eINSTANCE.createStudent(); ebStudi.setMatrNr(114
 EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = ebStudi.eClass(); ebStudi.eSet(studiClass.getEStructuralFeature("matrNr"), 1146018);
 ```
 
-- Ecore classes are [[Model Transformations | transformed]] into two construct, the interface class and the implementation class
+### Code Generation
 
+- Ecore classes are [[Model Transformations | transformed]] into two construct, the interface class and the implementation class
 ![[Pasted image 20250311113905.png]]
+- Automatic generation of
+	- model implementation
+	- editors and views for Eclipse
+	- Junit Test Skeletons
+- Handwritten code can be added
+	- when the @generated annotion is removed, the method is not regenerated on changes
+
 ---
 
 Origin: 
