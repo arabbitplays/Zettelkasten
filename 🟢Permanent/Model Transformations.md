@@ -41,7 +41,8 @@
 - best practices with code generation
 	- Separate manually written and generated code
 	- generate good looking code but in a second generation step
-	- 
+	- generate comments with additional information from the model
+	- ass location strings that specify from which model/template the code was generated
 
 ---
 
