@@ -35,6 +35,10 @@ EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = e
 - Handwritten code can be added
 	- when the @generated annotion is removed, the method is not regenerated on changes
 
+### Xtend and Xpand
+
+- Xtend is a general purpose language that i stran
+
 ---
 
 Origin: 
