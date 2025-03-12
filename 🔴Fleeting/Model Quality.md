@@ -8,6 +8,10 @@
 	- model should follow a tree structure
 	- allows for clear responsibility of life cycle management
 	- an element may have multiple possible containers
+- the default should be directed references, navigability should be explicit
+	- all classes should be reached by references
+- named references can express different roles of a class
+- type-safe enumerations instead of strings
 
 ---
 
