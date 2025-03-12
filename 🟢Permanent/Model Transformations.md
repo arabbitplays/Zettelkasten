@@ -25,9 +25,23 @@
 	- $$r = <L \hookleftarrow K \hookrightarrow R>$$
 ![[Pasted image 20250310113423.png]]
 
-## Queries, Views and Transformations (QVT)
+## Model to Text Transformations
 
-- Based on EMOF and [[Object Constraint Language (OCL) | OCL]] as a query language 
+- the last step, where a model is transformed into code
+
+- Xtend is a general purpose language that is translated to java code
+	- brings additional features like type inference, operator overloading and lambda expressions
+	- fully compatible type system with java
+	- used to generate code with Xpand templates
+- <mark style="background: #FFB86CA6;">templates</mark> are static blocks of code with dynamic parts that are filled with queries
+- Xpand is a template engine that can be used with xTend to define transformations
+
+![[Pasted image 20250312093048.png | 500]]
+
+- best practices with code generation
+	- Separate manually written and generated code
+	- generate good looking code but in a second generation step
+	- 
 
 ---
 

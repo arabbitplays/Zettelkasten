@@ -26,7 +26,7 @@ EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = e
 
 ### Code Generation
 
-- Ecore classes are [[Model Transformations | transformed]] into two construct, the interface class and the implementation class
+- Ecore classes are [[Model Transformations#Model to Text Transformations| transformed]] into two construct, the interface class and the implementation class
 ![[Pasted image 20250311113905.png]]
 - Automatic generation of
 	- model implementation
@@ -34,17 +34,6 @@ EObject ebStudi = DiplomFactory.eINSTANCE.createStudent(); EClass studiClass = e
 	- Junit Test Skeletons
 - Handwritten code can be added
 	- when the @generated annotion is removed, the method is not regenerated on changes
-
-### Xtend and Xpand
-
-- Xtend is a general purpose language that is translated to java code
-	- brings additional features like type inference, operator overloading and lambda expressions
-	- fully compatible type system with java
-	- used to generate code with Xpand templates
-- <mark style="background: #FFB86CA6;">templates</mark> are static blocks of code with dynamic parts that are filled with queries
-- Xpand is a template engine that can be used with xTend to define transformations
-
-![[Pasted image 20250312093048.png | 500]]
 
 ---
 
