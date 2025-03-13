@@ -15,7 +15,21 @@
 
 ## Metamodel Quality
 
-- Quality improvement is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], 
+- Quality improvement is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], editors (see [[Xtext]]) and so on
+
+### Antipatterns
+
+- Isolated classes - classes that don't use other classes and are not used by other classes
+- Isolated packages - packages without references
+- Cycles in the inheritance graph
+
+### Metrics
+
+- Total number of classifiers
+- Total number of elements in the XMI representation
+- Number of element contained in the package
+- Depth of packaging, the longest path from the root to an element
+- Depth of inheritance (see [[OO Quality Metrics]])
 
 ---
 
