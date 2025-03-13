@@ -34,6 +34,9 @@
 	- <mark style="background: #FFB86CA6;">refactoring</mark> if a bijective mapping always exists
 	- <mark style="background: #FFB86CA6;">constructur</mark> if an injective mapping always exists
 	- <mark style="background: #FFB86CA6;">destructor</mark> if a surjective mapping always exists
+- a change is the 
+	- <mark style="background: #FFB86CA6;">inverse</mark> of another change if their concatenation is a refactoring
+	- <mark style="background: #FFB86CA6;">safe-inverse</mark> of another change if their concatenation is model-preserving
 ## The Change Metamodel
 
 - describes the abstract superclasses of possible changes to a metamodel
