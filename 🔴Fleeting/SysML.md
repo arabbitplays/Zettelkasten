@@ -7,6 +7,13 @@
 	- Behaviour - Activity diagrams
 	- Requirements - categorization and relations between requirements
 	- Parametrics - constraints between the properties of values
+- is a [[Unified Modelling Language (UML) | UML]] profile with some extensions
+![[Pasted image 20250313091832.png]]
+
+## Requirement Diagram
+
+- can add user defined requirement categories like functional, interface or performance
+![[Pasted image 20250313092154.png]]
 
 ---
 
