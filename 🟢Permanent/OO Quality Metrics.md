@@ -11,12 +11,13 @@
 		- how much are the properties of other classes used
 		- prevents modular design and reuse
 		- makes testing harder
-	- response sets
+	- response sets - $RSC = |\{M\} \bigcup_i \{R_i\}|$ where $R_i$ is the set of methods called by the method $i$
 		- the size of the set of methods called by methods of a class
 		- testing and debugging is more complicated
 	- lack of cohesion on methods
-		- The numbers of method pairs that share variables minus the method pairs that do share variables
+		- The numbers of method pairs that don't share variables minus the method pairs that do share variables
 		- promotes encapsulation
+		- lack of cohesion suggests a possible split of a class into two
 
 ## Antipatterns
 

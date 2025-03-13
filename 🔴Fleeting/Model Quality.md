@@ -13,6 +13,10 @@
 - named references can express different roles of a class
 - type-safe enumerations instead of strings
 
+## Metamodel Quality
+
+- Quality improvement is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], 
+
 ---
 
 Origin: 
