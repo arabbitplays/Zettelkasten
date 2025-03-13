@@ -22,6 +22,12 @@
 	- <mark style="background: #BBFABBA6;">can be used with generated models</mark>
 	- <mark style="background: #FF5582A6;">finding the sequence requires complex algorithm</mark>
 
+## Co-Evolution
+
+- model instances depend on the metamodel so they can break through changes
+- Severity classification
+	- <mark style="background: #FFB86CA6;">model-preserving</mark> - $\barbelow{x}$
+
 ## The Change Metamodel
 
 - describes the abstract superclasses of possible changes to a metamodel
