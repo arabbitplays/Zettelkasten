@@ -15,6 +15,20 @@
 - can add user defined requirement categories like functional, interface or performance
 ![[Pasted image 20250313092154.png]]
 
+## Blocks
+
+- describe the structure of an element of the system
+- multiple standard compartments of the block (horizontal separator lines)
+	- properties (parts, references, values, ports)
+	- operations
+	- constraints
+	- allocation from/to other model elements
+	- requirements the block satisfies
+- <mark style="background: #FFB86CA6;">Rort</mark> - specify interaction point between blocks and parts
+	- standard UML port - specifies a set of required operations and or signals
+	- flow port - specifies what can flow in out out of the block/part
+		- typed by block, value type of flow specification
+
 ---
 
 Origin: 
