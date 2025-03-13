@@ -25,9 +25,15 @@
 ## Co-Evolution
 
 - model instances depend on the metamodel so they can break through changes
+![[Pasted image 20250313101544.png | 350]]
 - Severity classification
-	- <mark style="background: #FFB86CA6;">model-preserving</mark> - $\barbelow{x}$
-
+	- <mark style="background: #FFB86CA6;">model-preserving</mark> - $\underline{M}$ is a valid instance of $M'$
+	- <mark style="background: #FFB86CA6;">safely model-migration</mark> - $\underline{D}$ is injective
+	- <mark style="background: #FFB86CA6;">unsafely model-migration</mark> - $\underline{D}$ is not injective
+- a change is a
+	- <mark style="background: #FFB86CA6;">refactoring</mark> if a bijective mapping always exists
+	- <mark style="background: #FFB86CA6;">constructur</mark> if an injective mapping always exists
+	- <mark style="background: #FFB86CA6;">destructor</mark> if a surjective mapping always exists
 ## The Change Metamodel
 
 - describes the abstract superclasses of possible changes to a metamodel
