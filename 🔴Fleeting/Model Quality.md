@@ -15,7 +15,7 @@
 
 ## Metamodel Quality
 
-- Quality improvement is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], editors (see [[Xtext]]) and so on
+- Quality improvement ([[Metamodel Evolution]]) is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], editors (see [[Xtext]]) and so on
 - the correct level of abstraction is hard to hit and domain-specific
 - modularisation can be measured through the cohesion within a package and the separation of different packages
 
