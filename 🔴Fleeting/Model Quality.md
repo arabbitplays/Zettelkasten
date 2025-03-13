@@ -16,6 +16,8 @@
 ## Metamodel Quality
 
 - Quality improvement is a heavyweight process, as it requires the adaptation of the [[Model Transformations]], editors (see [[Xtext]]) and so on
+- the correct level of abstraction is hard to hit and domain-specific
+- modularisation can be measured through the cohesion within a package and the separation of different packages
 
 ### Antipatterns
 
@@ -30,6 +32,9 @@
 - Number of element contained in the package
 - Depth of packaging, the longest path from the root to an element
 - Depth of inheritance (see [[OO Quality Metrics]])
+- Depth of containment, the longest chain of containment references
+- Number of containers per concrete class
+- Total number of disjoint roots - ideally one
 
 ---
 
