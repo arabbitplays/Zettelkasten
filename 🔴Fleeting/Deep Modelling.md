@@ -1,6 +1,10 @@
 # Deep Modelling
 
 - <mark style="background: #FFB86CA6;">Strict metamodelling</mark> is a modelling approach where every model is the instance of exactly one metamodel (resulting in the 4 layer hierarchy often used by [[Unified Modelling Language (UML) | UML]] or other [[Meta-Object Facility (MOF) | MOF]]-based metamodels)
+- Deep modelling introduces two modes of classification, <mark style="background: #FFB86CA6;">linguistic</mark> ($L_i$) and <mark style="background: #FFB86CA6;">ontological</mark> ($O_i$)
+	- strict metamodelling in each dimension
+	- every ontological layer in $L_i$ is called <mark style="background: #FFB86CA6;">model</mark>
+	- all models in $L_i$ are called the <mark style="background: #FFB86CA6;">ontology</mark> 
 
 ---
 
