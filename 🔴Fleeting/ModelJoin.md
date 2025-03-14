@@ -17,6 +17,9 @@ THETA JOIN imdb.Actor WITH library.Person
 - combines the Person class of a metamodel "library" with the Actor Class of a metamodel "imdb"
 	- the expression defines the selection of elements and the target metamodel
 	- operators are aligned with [[Structured Query Language (SQL) | SQL]] or rather [[Relationale Algebra]] with `join`, `keep` (projection) and `where` (selection)
+
+- two attributes are <mark style="background: #FFB86CA6;">join conforming</mark> if it has the same type and the same multipicity
+- two instances fulfil <mark style="background: #FFB86CA6;">instance-confomity</mark>
 ---
 
 Origin: MDSD Vorlesung
