@@ -6,6 +6,10 @@
 	- every ontological layer in $L_i$ is called <mark style="background: #FFB86CA6;">model</mark>
 	- all models in $L_i$ are called the <mark style="background: #FFB86CA6;">ontology</mark> 
 	- Elements are now called <mark style="background: #FFB86CA6;">clabjects</mark> as they are calsses AND objects 
+- Linguistic layers define meta concepts for the modelling process
+	- each layer defines the language for the layer down below
+	- those are the "normal" layers of meta-metamodel, metamodel and model
+- Ontological Layers define domain specific, real-world concepts and their classification
 
 - <mark style="background: #FF5582A6;">Classic problem: The power of a locomotive is given by the series, so this is a restriction of instances of instances</mark>
 	- possible solutions are stereotypes of power types, but both are not concise and scale badly
@@ -15,6 +19,8 @@
 	- potency of features is called <mark style="background: #FFB86CA6;">durability</mark> and defines over how many levels it is present in the instances of the clabject
 	- potency of attribute values is called <mark style="background: #FFB86CA6;">mutability</mark> and it defines over how many levels a value may be changed from the default
 
+![[Pasted image 20250314142840.png]]
+- this is now two liguistic layers (model and metamodel) and three ontological layers (The concept of series, the concrete series and a locomotive of the series)
 ---
 
 Origin: MDSD Vorlesung
