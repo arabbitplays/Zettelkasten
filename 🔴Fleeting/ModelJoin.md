@@ -22,7 +22,12 @@ THETA JOIN imdb.Actor WITH library.Person
 - two instances fulfil <mark style="background: #FFB86CA6;">instance-confomity</mark> if they carry the same values for their join-conforming attributes
 
 - the <mark style="background: #FFB86CA6;">natural join</mark> results in a target class that contains all join-conforming attributes and for all instances with conforming attribute values, there is an instance in the target model
-- the outer join in
+	- with no joi-conforming attributes the result is the empty set (NOT the cross product like on databases)
+- the <mark style="background: #FFB86CA6;">outer join</mark> is like the natural one, but for every instance in the source model there is an instance in the target model
+- Outer join left:
+![[Pasted image 20250314134622.png]]
+- The <mark style="background: #FFB86CA6;">theta join</mark> filters additionaly with a given condition, that the instance of the target model has to fulfil
+
 ---
 
 Origin: MDSD Vorlesung
