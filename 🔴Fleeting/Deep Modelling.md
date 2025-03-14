@@ -6,6 +6,7 @@
 	- every ontological layer in $L_i$ is called <mark style="background: #FFB86CA6;">model</mark>
 	- all models in $L_i$ are called the <mark style="background: #FFB86CA6;">ontology</mark> 
 	- Elements are now called <mark style="background: #FFB86CA6;">clabjects</mark> as they are calsses AND objects 
+	- <mark style="background: #FF5582A6;">The layers are counted the other way around, from abstract (0) to concrete (n)</mark>
 - Linguistic layers define meta concepts for the modelling process
 	- each layer defines the language for the layer down below
 	- those are the "normal" layers of meta-metamodel, metamodel and model
@@ -21,6 +22,14 @@
 
 ![[Pasted image 20250314142840.png]]
 - this is now two liguistic layers (model and metamodel) and three ontological layers (The concept of series, the concrete series and a locomotive of the series)
+
+## The language core
+
+- The <mark style="background: #FFB86CA6;">pan-level model</mark> is a linguistic metamodel that defines $L_0$
+	- its the abstract syntacx of [[Unified Modelling Language (UML)]]
+	- The <mark style="background: #FFB86CA6;">Level agnostic Modelling Language (LML)</mark> brings a general purpose concrete syntax and uniform concepts for all ontological levels
+- In LML objects and classes are merged to clabjects
+	- they have onto
 ---
 
 Origin: MDSD Vorlesung
