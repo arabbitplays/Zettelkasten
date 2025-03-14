@@ -1,4 +1,4 @@
-# Eclipse Modeling Framework
+# Eclipse Modeling Framework (EMF)
 
 - Eclipse is a highly extendable IDE
 	- Runtime in very minimal with an extension mechanism, sets of standard plugins are given in packages

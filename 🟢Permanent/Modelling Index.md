@@ -4,7 +4,7 @@
 - [[Model Driven Software Development (MDSD)]]
 
 - [[Model Driven Architecture (MDA)]] and its process:
-	- [[Eclipse Modeling Framework]]
+	- [[Eclipse Modeling Framework (EMF)]]
 	- [[Domain Specific Languages (DSLs)]]
 	- [[Model Transformations]]
 	- [[Model Quality]]
