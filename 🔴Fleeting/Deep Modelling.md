@@ -5,8 +5,14 @@
 	- strict metamodelling in each dimension
 	- every ontological layer in $L_i$ is called <mark style="background: #FFB86CA6;">model</mark>
 	- all models in $L_i$ are called the <mark style="background: #FFB86CA6;">ontology</mark> 
+	- Elements are now called <mark style="background: #FFB86CA6;">clabjects</mark> as they are calsses AND objects 
 
-- Classic problem: The power of a locomo
+- <mark style="background: #FF5582A6;">Classic problem: The power of a locomotive is given by the series, so this is a restriction of instances of instances</mark>
+	- possible solutions are stereotypes of power types, but both are not concise and scale badly
+
+- Deep Instantiation Soution: Assign <mark style="background: #FFB86CA6;">potencies</mark> (non negative integer) to clabjects, attributes and values
+	- potency of clabjects defines over how many levels it may have instances
+	- potency of features 
 
 ---
 
