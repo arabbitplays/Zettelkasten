@@ -6,6 +6,8 @@
 	- every ontological layer in $L_i$ is called <mark style="background: #FFB86CA6;">model</mark>
 	- all models in $L_i$ are called the <mark style="background: #FFB86CA6;">ontology</mark> 
 
+- Classic problem: The power of a locomo
+
 ---
 
 Origin: MDSD Vorlesung
