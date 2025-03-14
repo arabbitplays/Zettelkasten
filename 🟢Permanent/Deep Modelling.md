@@ -29,7 +29,10 @@
 	- its the abstract syntacx of [[Unified Modelling Language (UML)]]
 	- The <mark style="background: #FFB86CA6;">Level agnostic Modelling Language (LML)</mark> brings a general purpose concrete syntax and uniform concepts for all ontological levels
 - In LML objects and classes are merged to clabjects
-	- they have onto
+	- they have ontological attributes with name and optional type and value
+	- associations and links are merged into connections
+		- connections are also clabjects and can thus have attributes and participate in inheritance
+
 ---
 
 Origin: MDSD Vorlesung
