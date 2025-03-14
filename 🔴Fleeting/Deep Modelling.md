@@ -12,7 +12,8 @@
 
 - Deep Instantiation Soution: Assign <mark style="background: #FFB86CA6;">potencies</mark> (non negative integer) to clabjects, attributes and values
 	- potency of clabjects defines over how many levels it may have instances
-	- potency of features 
+	- potency of features is called <mark style="background: #FFB86CA6;">durability</mark> and defines over how many levels it is present in the instances of the clabject
+	- potency of attribute values is called <mark style="background: #FFB86CA6;">mutability</mark> and it defines over how many levels a value may be changed from the default
 
 ---
 
