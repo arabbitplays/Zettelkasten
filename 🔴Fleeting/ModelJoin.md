@@ -28,6 +28,8 @@ THETA JOIN imdb.Actor WITH library.Person
 ![[Pasted image 20250314134622.png]]
 - The <mark style="background: #FFB86CA6;">theta join</mark> filters additionaly with a given condition, that the instance of the target model has to fulfil
 
+- With the operators `KEEP ATTRIBUTES`, `KEEP OUTGOING`, `KEEP SUPERTYPE` and so one, parts of the source models can be preserved
+
 ---
 
 Origin: MDSD Vorlesung
