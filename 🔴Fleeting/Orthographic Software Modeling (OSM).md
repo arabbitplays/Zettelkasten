@@ -11,8 +11,14 @@
 	- apply this in software engineering -> <mark style="background: #FFB86CA6;">Orthographic Software Modeling (OSM)</mark>
 	- ![[Pasted image 20250315091725.png | 200]]
 - Basic principles of OSM
-	- Dynamic View Generation
-	- Dimension-based 
+	- Dynamic view generation
+		- views are created on the fly through [[Model Transformations]] and not persisted
+		- a view is <mark style="background: #FFB86CA6;">editable</mark> if the transformation is bidirectional
+	- Dimension-based view navigation
+		- views are organized as hypercubes, where a sub-cube represents a view type and a specific cell represents a view
+		- dimensions should be orthogonal to each other
+		- ![[Pasted image 20250315092325.png | 300]]
+	- View-oriented methods
 ---
 
 Origin: MDSD Vorlesung
