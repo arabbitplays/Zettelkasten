@@ -26,6 +26,10 @@
 		- projective scope: components from PCM, classes from UML, implements from CS
 		- selective scope: all components and classes that are linked through the implements relation
 		- editability: implements is editable, classes and components are write protected
+- consistency management through transformations
+	- <mark style="background: #FFB86CA6;">change-based</mark> - changes to a model are observed and the transformation works on the sequence of changes
+		- changes are recorded through the Ecore notification system
+		- model monitor saves the changes, triggers the vitruvius fram
 
 ---
 
