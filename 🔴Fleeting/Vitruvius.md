@@ -18,7 +18,14 @@
 - [[Domain Specific Languages (DSLs)#Textual Languages | Textual Languages]] can be included through frameworks like [[Xtext]]
 	- for popular languages, grammars and metamodels exist
 	- allows for the integration of versioning, diff/merge, ...
-- <mark style="background: #FFB86CA6;">Flexible views</mark> 
+- <mark style="background: #FFB86CA6;">Flexible views</mark> can have a single (yellow) or multi-metamodel (red) scope
+	- <mark style="background: #FFB86CA6;">projective scope</mark> - specify the types used in the view as well as their relation to the base metamodels
+	- <mark style="background: #FFB86CA6;">selective scope</mark> - specify the elements for the view based on instance properties
+	- needs rules of editability and proper synchronization to the base model
+	- For example VT2:
+		- projective scope: components from PCM, classes from UML, implements from CS
+		- selective scope: all components and classes that are linked through the implements relation
+		- editability: implements is editable, classes and components are write protected
 
 ---
 
