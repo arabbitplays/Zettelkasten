@@ -12,7 +12,13 @@
 - creation process:
 	- choose the Metamodels that should be used by the SUM
 	- Specify the legacy views that are commonly needed
-	- choose and specify the combined views espacialy needed by this system
+	- choose and specify the combined views especially needed by this system
+		- specify the consistency rules
+	- all of this is then combined into the SUM Metamodel
+- [[Domain Specific Languages (DSLs)#Textual Languages | Textual Languages]] can be included through frameworks like [[Xtext]]
+	- for popular languages, grammars and metamodels exist
+	- allows for the integration of versioning, diff/merge, ...
+- <mark style="background: #FFB86CA6;">Flexible views</mark> 
 
 ---
 
