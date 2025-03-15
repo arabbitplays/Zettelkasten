@@ -33,8 +33,12 @@
 	- for the consistency specifications, there are two types of languages
 		- <mark style="background: #FFB86CA6;">mappings languages</mark> - declarative definition of relations between metamodels
 			- each rule defines conditions (`check`) under which to check elements and properties they must fulfill (`enforce`)
+			- <mark style="background: #BBFABBA6;">generate bidirectional transformations</mark>
+			- <mark style="background: #FF5582A6;">limited expressional power</mark>
 		- <mark style="background: #FFB86CA6;">reactions languages</mark> - imperative definition of actions for restoring consistency
 			- every reaction defines repair routines (`match`) and actions for the change (`action`)
+			- <mark style="background: #FF5582A6;">generate unidirection transformations</mark>
+			- <mark style="background: #BBFABBA6;">turing complete, allows for arbitrary rules</mark>
 
 ---
 
