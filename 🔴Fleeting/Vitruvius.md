@@ -3,10 +3,10 @@
 
 - combines the synthetic and projective approaches to [[Model Views]]
 - based on the SUM model introduced in [[Orthographic Software Modeling (OSM)]]
-
 ## Constructing a SUM
 
 - the SUM Metamodel can be seen a a collection of [[Metamodel | metamodels]] and [[Model Transformations]] to construct different views from these metamodels
+	- becomes virtual, ergo a <mark style="background: #FFB86CA6;">V-SUM</mark> model, as i doesn't exist as a concrete model but as a interconnected set of models and transformations
 ![[Pasted image 20250315093530.png]]
 
 - creation process:
