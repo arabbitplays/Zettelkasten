@@ -12,7 +12,8 @@
 
 - the <mark style="background: #FFB86CA6;">synthetic approach</mark> just model all views and relates them all to each other
 	- <mark style="background: #FF5582A6;">high synchronization cost</mark>
-- 
+- the <mark style="background: #FFB86CA6;">projective approach</mark> derives the views through some routine from an underlying source model
+	- <mark style="background: #FF5582A6;">monolith structure</mark>
 
 ---
 
