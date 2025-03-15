@@ -29,7 +29,12 @@
 - consistency management through transformations
 	- <mark style="background: #FFB86CA6;">change-based</mark> - changes to a model are observed and the transformation works on the sequence of changes
 		- changes are recorded through the Ecore notification system
-		- model monitor saves the changes, triggers the vitruvius fram
+		- model monitor saves the changes, triggers the vitruvius framework which in turn executes consistency preservation transformations
+	- for the consistency specifications, there are two types of languages
+		- <mark style="background: #FFB86CA6;">mappings languages</mark> - declarative definition of relations between metamodels
+			- each rule defines conditions (`check`) under which to check elements and properties they must fulfill (`enforce`)
+		- <mark style="background: #FFB86CA6;">reactions languages</mark> - imperative definition of actions for restoring consistency
+			- every reaction defines repair routines (`match`) and actions for the change (`action`)
 
 ---
 
