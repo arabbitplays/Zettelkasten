@@ -25,6 +25,7 @@
 	- creates pre-defined elements and specifies their source 
 	- gives editing permissions to developers
 - the <mark style="background: #FFB86CA6;">developer</mark> edits the system through views and navigates the dimensions of the system
+
 ---
 
 Origin: MDSD Vorlesung
