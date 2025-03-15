@@ -16,9 +16,15 @@
 		- a view is <mark style="background: #FFB86CA6;">editable</mark> if the transformation is bidirectional
 	- Dimension-based view navigation
 		- views are organized as hypercubes, where a sub-cube represents a view type and a specific cell represents a view
-		- dimensions should be orthogonal to each other
+		- dimensions should be orthogonal to each other, not all combinations make sense
+			- for example level of abstraction, components, variants, versions, ...
 		- ![[Pasted image 20250315092325.png | 300]]
 	- View-oriented methods
+
+- the <mark style="background: #FFB86CA6;">methodologists</mark> creates rules for the dimensions and contents
+	- creates pre-defined elements and specifies their source 
+	- gives editing permissions to developers
+- the <mark style="background: #FFB86CA6;">developer</mark> edits the system through views and navigates the dimensions of the system
 ---
 
 Origin: MDSD Vorlesung
