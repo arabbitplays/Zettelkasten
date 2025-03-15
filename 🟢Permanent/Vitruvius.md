@@ -1,6 +1,8 @@
 
 # Vitruvius
 
+**Vie**w-cen**tr**ic engineering **u**sing a **vi**rtual **u**nderlying **s**ingle model
+
 - combines the synthetic and projective approaches to [[Model Views]]
 - based on the SUM model introduced in [[Orthographic Software Modeling (OSM)]]
 ## Constructing a SUM
