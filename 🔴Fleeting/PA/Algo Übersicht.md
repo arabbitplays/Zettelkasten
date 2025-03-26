@@ -10,7 +10,7 @@
 - Reduction (for an associative operation)
 	- ![[Pasted image 20250326114023.png | 300]]
 	- $O(log n)$ with efficiency $1 / log n$
-
+	- <mark style="background: #FFB86CA6;">Brents Priniciple</mark> - reduce $n/p$ elements sequentialy and then the above
 ## Gossiping
 
 - VL 7
