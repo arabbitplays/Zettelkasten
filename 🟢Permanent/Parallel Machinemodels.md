@@ -75,7 +75,7 @@ $$T(p) = \frac{W}{p} + T_\infty$$
 ![[Pasted image 20241029092252.png |400]]
 - $\mu$ and $\rho$ are programable
 - the shuffle step puts every key value pair into sets with the same key
-- Very abstract, no load balancing, memory hierachies, ...
+- Very abstract -> no load balancing, memory hierachies, ...
 - produces large overheads and limited functionality
 
 ---
