@@ -45,7 +45,9 @@ $$T(p) = \frac{W}{p} + T_\infty$$
 	- in practice, bandwidth and interconnections are plenty enough to assume constant costs for every communication partner -> <mark style="background: #FFB86CA6;">Fully connected point-to-point</mark>
 - $T_{Comm}(m) = \alpha + m \beta$ for message length $m$
 - Destinction between 
-	- <mark style="background: #FFB86CA6;"></mark>
+	- <mark style="background: #FFB86CA6;">half-duplex</mark> - send OR recieve from another PE
+	- <mark style="background: #FFB86CA6;">telephone</mark> - send and recieve from PE $j$
+	- <mark style="background: #FFB86CA6;">duplex</mark> - send and recieve from any PE
 
 ## Bulk Synchronous Parallel (BSP)
 
