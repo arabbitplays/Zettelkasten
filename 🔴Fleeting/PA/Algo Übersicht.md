@@ -11,6 +11,7 @@
 	- ![[Pasted image 20250326114023.png | 300]]
 	- $O(log n)$ with efficiency $1 / log n$
 	- <mark style="background: #FFB86CA6;">Brents Priniciple</mark> - reduce $n/p$ elements sequentialy and then the above
+		- inefficient algorithms get efficient when using less PEs
 ## Gossiping
 
 - VL 7
