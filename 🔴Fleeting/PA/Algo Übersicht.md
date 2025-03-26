@@ -1,3 +1,13 @@
+## Introduction
+
+- VL 1
+- Global Or / And
+	- Jeder schreibt ne 1 wenn $A[i]$ wahr ist
+	- $O(1)$
+- Maximum
+	- $n^2$ PEs die alle Vergleiche machen und $n$ PEs die ein Globales And machen
+	- $O(1)$
+
 ## Gossiping
 
 - VL 7
