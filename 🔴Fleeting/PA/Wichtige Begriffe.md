@@ -1,4 +1,8 @@
 - CRCW Resolvement Strategies
 	- Common - All writers have to agree
-	- Arbitrary - So
-  Single Program Multiple Data (SPMD) principle
+	- Arbitrary - Someone succeeds (not random, just not defined)
+	- Priority - PE with smallest ID succeeds
+	- Combine - All values are combined
+- Single Program Multiple Data (SPMD) principle
+- Work is how much is calculated $pT(p)$
+- Span is the parallelizabi
