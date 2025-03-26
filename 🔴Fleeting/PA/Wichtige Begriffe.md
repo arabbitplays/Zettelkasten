@@ -3,6 +3,9 @@
 	- Arbitrary - Someone succeeds (not random, just not defined)
 	- Priority - PE with smallest ID succeeds
 	- Combine - All values are combined
+- aCRQW models contention with concurrent write access
 - Single Program Multiple Data (SPMD) principle
 - Work is how much is calculated $pT(p)$
-- Span is the parallelizabi
+- Span is the parallelizability $T_\infty = lim_{p\rightarrow \infty}T(p)$
+- Absolute Speedup $S = T_{seq} / T(p)$ with the best sequential algo
+- Efficiency $E = S /p$ with the  goal of $E \approx 1$
