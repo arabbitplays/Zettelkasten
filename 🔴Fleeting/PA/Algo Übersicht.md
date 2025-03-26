@@ -12,6 +12,15 @@
 	- $O(log n)$ with efficiency $1 / log n$
 	- <mark style="background: #FFB86CA6;">Brents Priniciple</mark> - reduce $n/p$ elements sequentialy and then the above
 		- inefficient algorithms get efficient when using less PEs
+
+##  Matrix Multiplication
+
+- Naive parallelization needs $n³$ PEs
+- DNS Algo 
+	- Split Matrix in $N \times N$ matrices of size $n/N \times n/N$
+	- compute result with two broadcasts and a reduction
+		- ![[Pasted image 20250326115513.png | 300]]
+	- <mark style="background: #BBFABBA6;">saves communication -> good for small matrices</mark>
 ## Gossiping
 
 - VL 7
