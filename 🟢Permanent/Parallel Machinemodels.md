@@ -29,7 +29,7 @@
 
 - Use work and span to abstract away from PE count $p$ (see [[Analysis of parallel Algorithms]])
 $$T(p) = \frac{W}{p} + T_\infty$$
-
+- Use fork to create new tasks and use work stealing [[Load Balancing ]] to achieve the expected time above
 ## Parallel External Memory (PEM)
 
 - Models memory hierarchy
@@ -44,6 +44,8 @@ $$T(p) = \frac{W}{p} + T_\infty$$
 - Modelling the whole network structure is complicated ([[Netztopologie]])
 	- in practice, bandwidth and interconnections are plenty enough to assume constant costs for every communication partner -> <mark style="background: #FFB86CA6;">Fully connected point-to-point</mark>
 - $T_{Comm}(m) = \alpha + m \beta$ for message length $m$
+- Destinction between 
+	- <mark style="background: #FFB86CA6;"></mark>
 
 ## Bulk Synchronous Parallel (BSP)
 
