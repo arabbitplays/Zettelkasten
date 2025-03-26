@@ -25,6 +25,11 @@
 - its important that the algorithm is correct, regardless how long an operation need
 - use [[Atomare Operationen#Compare and Swap| Atomic Operations]] to have consistent writes
 
+## Work Span Model
+
+- Use work and span to abstract away from PE count $p$ (see [[Analysis of parallel Algorithms]])
+$$T(p) = \frac{W}{p} + T_\infty$$
+
 ## Parallel External Memory (PEM)
 
 - Models memory hierarchy
