@@ -46,7 +46,8 @@
 	- $2n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$ with $d = \lfloor log_\Phi(p) \rfloor$
 - 23-Broadcast
 	- use two binary trees, where every leaf on the one is inner node of the other
-	- all nodes can send and receive
+	- <mark style="background: #BBFABBA6;">all nodes can send and receive</mark>
+	- ![[Pasted image 20250327122233.png | 300]]
 ## Gossipin)
 
 - VL 7
