@@ -21,6 +21,15 @@
 	- compute result with two broadcasts and a reduction
 		- ![[Pasted image 20250326115513.png | 300]]
 	- <mark style="background: #BBFABBA6;">saves communication -> good for small matrices</mark>
+
+## Broadcasting
+
+- Naive Implementation
+	- One message to everyone in time $(p-1)(\alpha + n \beta)$
+- Binomial Tree 
+	- if the message was already received, send to $i + 2^k$ for all remaining $k$
+	- runs in time $(\lceil log(p) \rceil$
+
 ## Gossiping
 
 - VL 7
