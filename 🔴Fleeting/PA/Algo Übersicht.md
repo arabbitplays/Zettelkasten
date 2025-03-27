@@ -67,6 +67,7 @@
 			- $\beta \frac{n}{\sqrt{p}}$ through the bigger messages; because only rows or columns are sent, the length has the square root
 			- $\frac{n}{p}log(\frac{n}{p})$ because of the local sorting
 		- Local ranking with the two sorted arrays $r$ and $c$ can be done in $O(|r| + |c|)$
+		- <mark style="background: #BBFABBA6;">the fastest for low counts of elements per PE</mark>
 ## Gossiping
 
 - VL 7
