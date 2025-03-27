@@ -60,9 +60,10 @@
 
 - Vl 4 ff
 - Fast Inefficient Ranking
-	- Like the maximum, broadcast your element to everyone, calc $A_i \geq A_j$ and reduce to get the number of smaller elements ($O(\alpha\ log(p)$)
+	- Like the maximum, broadcast your element to everyone, calc $A_i \geq A_j$ and reduce to get the number of smaller elements ($O(\alpha\ log(p))$)
 	- Also possible to do this with Bretts Principle
 		- ![[Pasted image 20250327141915.png]]
+		- $O(\alpha\ log(p) + \beta \frac{n}{\sqrt{p}} + \frac{n}{p}log(\frac{n}{p}))$ zusätzliche Summanden durch längere Nachrichten in den Broadcasts und lokales Sortieren 
 ## Gossiping
 
 - VL 7
