@@ -42,8 +42,11 @@
 	- Fibonacci Tree reduces time to wait for the next package
 	- receive piece $j$ from the parent, send $j-1$ directly to the right child
 	- then send piece $j$ to the left child
-	- runs in $\lfloor log_\Phi(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
-	- $2n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$ with $$d = 
+	- runs in $\alpha d + 3(k-1))(\alpha + \frac{n}{k} \beta)$
+	- $2n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$ with $d = \lfloor log_\Phi(p) \rfloor$
+- 23-Broadcast
+	- use two binary trees, where every leaf on the one is inner node of the other
+	- all nodes can send and receive
 ## Gossipin)
 
 - VL 7
