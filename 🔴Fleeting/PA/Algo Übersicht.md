@@ -69,8 +69,10 @@
 		- Local ranking with the two sorted arrays $r$ and $c$ can be done in $O(|r| + |c|)$
 		- <mark style="background: #BBFABBA6;">the fastest for low counts of elements per PE</mark>
 - Quicksort
-	- Parallelize recursion AND splitting
-		- For splitting: pick pivot $v$, broadcast it, calc $f = e < v$, Präfixsum over f gives count of the "small elements" and allows to pick the right PE to send $e$ to
+	1. Pick a pivot (choose PE random weighted by the local element count, choose element random)
+	2. partition locally into small elements $a$ and big elements $b$
+	3. Calculate number of small and big elements $n_a, n_b$ through 2 reductions
+	4. $k' = \frac{n_a}{n_a + n_b}$ PEs should work on small elements, round $k'$ smart to 
 ## Gossiping
 
 - VL 7
