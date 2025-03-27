@@ -26,14 +26,18 @@
 
 - Naive Implementation
 	- One message to everyone in time $(p-1)(\alpha + n \beta)$
-- Binomial Tree 
+- Binary Tree 
 	- if the message was already received, send to $i + 2^k$ for all remaining $k$
 	- runs in time $(\lceil log(p) \rceil)(\alpha + n \beta)$
+	- <mark style="background: #BBFABBA6;">good for many PEs</mark>
 - Linear Pipeline
 	- Split message of length $n$ into $k$ pieces
 	- receive piece $j$ from PE $i-1$ and send piece $j-1$ to PE $i+1$
 	- runs in time $(k + p - 2)(\alpha + \frac{n}{k}\beta)$, with optimal $k$ its $n \beta + p \alpha + 2 \sqrt{np \alpha \beta}$
-
+	- <mark style="background: #BBFABBA6;">Good for very large messages</mark>
+- Binary Tree Pipeline
+	- receive piece $j$ from parent and send it first to the left, then to the right child
+	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algo runs in $2 \lfloor log(p) \rfloor + 3(k-1)(\alpha +$
 ## Gossiping
 
 - VL 7
