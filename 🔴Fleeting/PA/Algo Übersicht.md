@@ -28,7 +28,11 @@
 	- One message to everyone in time $(p-1)(\alpha + n \beta)$
 - Binomial Tree 
 	- if the message was already received, send to $i + 2^k$ for all remaining $k$
-	- runs in time $(\lceil log(p) \rceil$
+	- runs in time $(\lceil log(p) \rceil)(\alpha + n \beta)$
+- Linear Pipeline
+	- Split message of length $n$ into $k$ pieces
+	- receive piece $j$ from PE $i-1$ and send piece $j-1$ to PE $i+1$
+	- runs in time $(k + p - 2)(\alpha + \frac{n}{k}\beta)$, with optimal $k$ its $n \beta + p \alpha + 2 \sqrt{np \alpha \beta}$
 
 ## Gossiping
 
