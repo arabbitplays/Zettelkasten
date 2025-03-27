@@ -70,7 +70,7 @@
 		- <mark style="background: #BBFABBA6;">the fastest for low counts of elements per PE</mark>
 - Quicksort
 	- Parallelize recursion AND splitting
-		- For splitting: pick pivot $v$, broadcast it, calc $f = e < v$, Präfixsum over f gives count of the "small elements"
+		- For splitting: pick pivot $v$, broadcast it, calc $f = e < v$, Präfixsum over f gives count of the "small elements" and allows to pick the right PE to send $e$ to
 ## Gossiping
 
 - VL 7
