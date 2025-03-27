@@ -26,7 +26,7 @@
 
 - Naive Implementation
 	- One message to everyone in time $(p-1)(\alpha + n \beta)$
-- Binary Tree 
+- Binomial Tree 
 	- if the message was already received, send to $i + 2^k$ for all remaining $k$
 	- runs in time $(\lceil log(p) \rceil)(\alpha + n \beta)$
 	- <mark style="background: #BBFABBA6;">good for many PEs</mark>
@@ -54,7 +54,12 @@
 	- Structure PEs as a Hypercube ($p = 2^d$)
 		- decompose into $d$ ESBTs
 	- PE $0$ distributes packets to the roots, from there its a binomial tree broadcast
-	- In step $i$ theres communication is dimension $i\ mod\ d$
+	- In step $i$ there is communication is dimension $i\ mod\ d$
+	- optimal with $n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$
+## Sorting
+
+- Fast Inefficient Ranking
+	- Like the maximum, 
 ## Gossiping
 
 - VL 7
