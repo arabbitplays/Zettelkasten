@@ -61,9 +61,10 @@
 - Vl 4 ff
 - Fast Inefficient Ranking
 	- Like the maximum, broadcast your element to everyone, calc $A_i \geq A_j$ and reduce to get the number of smaller elements ($O(\alpha\ log(p))$)
-	- Also possible to do this with Bretts Principle
+	- Also possible to do this with Brents Principle
 		- ![[Pasted image 20250327141915.png]]
 		- $O(\alpha\ log(p) + \beta \frac{n}{\sqrt{p}} + \frac{n}{p}log(\frac{n}{p}))$ zusätzliche Summanden durch längere Nachrichten in den Broadcasts und lokales Sortieren 
+		- Local ranking with the two sorted arrays $r$ and $c$ can be done in $O(|r| + |c|)$
 ## Gossiping
 
 - VL 7
