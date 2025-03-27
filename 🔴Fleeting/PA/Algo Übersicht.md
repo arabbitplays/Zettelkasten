@@ -68,6 +68,9 @@
 			- $\frac{n}{p}log(\frac{n}{p})$ because of the local sorting
 		- Local ranking with the two sorted arrays $r$ and $c$ can be done in $O(|r| + |c|)$
 		- <mark style="background: #BBFABBA6;">the fastest for low counts of elements per PE</mark>
+- Quicksort
+	- Parallelize recursion AND splitting
+		- For splitting: pick pivot $v$, broadcast it, calc $f = e < v$, Präfixsum over f gives count of the "small elements"
 ## Gossiping
 
 - VL 7
