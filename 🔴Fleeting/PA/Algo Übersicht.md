@@ -38,9 +38,12 @@
 - Binary Tree Pipeline
 	- receive piece $j$ from parent and send it first to the left, then to the right child
 	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algorithm runs in $(2 \lfloor log(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
-- Full duple fibonnaci tree pipeline
+- Full duple fibonacci tree pipeline
 	- Fibonacci Tree reduces time to wait for the next package
-	- receive piece $j$ from the parent, send $j-1$ dir
+	- receive piece $j$ from the parent, send $j-1$ directly to the right child
+	- then send piece $j$ to the left child
+	- runs in $\lfloor log_\Phi(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
+	- $2n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$ with $$d = 
 ## Gossipin)
 
 - VL 7
