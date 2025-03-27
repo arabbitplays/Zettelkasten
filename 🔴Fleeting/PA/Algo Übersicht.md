@@ -38,7 +38,7 @@
 - Binary Tree Pipeline
 	- receive piece $j$ from parent and send it first to the left, then to the right child
 	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algorithm runs in $(2 \lfloor log(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
-- Full duple fibonacci tree pipeline
+- Full duplex fibonacci tree pipeline
 	- Fibonacci Tree reduces time to wait for the next package
 	- receive piece $j$ from the parent, send $j-1$ directly to the right child
 	- then send piece $j$ to the left child
@@ -48,7 +48,10 @@
 	- use two binary trees, where every leaf on the one is inner node of the other
 	- <mark style="background: #BBFABBA6;">all nodes can send and receive</mark>
 	- ![[Pasted image 20250327122233.png | 300]]
-## Gossipin)
+	- optimal time
+- ESBT Broadcast
+	- 
+## Gossiping
 
 - VL 7
 - Hypercube Algorithm
