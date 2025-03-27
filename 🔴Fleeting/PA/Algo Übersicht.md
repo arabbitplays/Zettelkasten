@@ -37,8 +37,11 @@
 	- <mark style="background: #BBFABBA6;">Good for very large messages</mark>
 - Binary Tree Pipeline
 	- receive piece $j$ from parent and send it first to the left, then to the right child
-	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algo runs in $2 \lfloor log(p) \rfloor + 3(k-1)(\alpha +$
-## Gossiping
+	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algorithm runs in $(2 \lfloor log(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
+- Full duple fibonnaci tree pipeline
+	- Fibonacci Tree reduces time to wait for the next package
+	- receive piece $j$ from the parent, send $j-1$ dir
+## Gossipin)
 
 - VL 7
 - Hypercube Algorithm
