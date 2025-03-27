@@ -59,7 +59,7 @@
 ## Sorting
 
 - Fast Inefficient Ranking
-	- Like the maximum, 
+	- Like the maximum, broadcast your element to everyone, calc $A_i \geq A_j$ and reduce to get the number of smaller elements
 ## Gossiping
 
 - VL 7
