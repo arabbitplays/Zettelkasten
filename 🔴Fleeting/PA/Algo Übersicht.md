@@ -50,7 +50,11 @@
 	- ![[Pasted image 20250327122233.png | 300]]
 	- optimal time
 - ESBT Broadcast
-	- 
+	- Edge Disjoint Binomial Trees
+	- Structure PEs as a Hypercube ($p = 2^d$)
+		- decompose into $d$ ESBTs
+	- PE $0$ distributes packets to the roots, from there its a binomial tree broadcast
+	- In step $i$ theres communication is dimension $i\ mod\ d$
 ## Gossiping
 
 - VL 7
