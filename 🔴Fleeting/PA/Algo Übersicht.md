@@ -75,8 +75,12 @@
 	4. $k' = \frac{n_a}{n_a + n_b}$ PEs should work on small elements, round $k'$ smart to minimize load inbalance
 	5. send $a$ and $b$ to the right PEs, split them up if needed
 	6. Keep on working on the small or the big elements, depending if the own index is smaller or bigger then $k$
-
-- $n/p\ log(p) + n/p\ log (n/p)$
+- Sample Sort
+	- Base Idea:
+		1. Find $p-1$ splitters
+		2. Every PE creates $p$ buckets with the elements $v_k < d_i \leq v_{k+1}$ in bucket $k$ (binary search)
+		3. All-to-all communication to send all the $k$-th buckets to PE $k$
+		4. Sort locally
 ## Gossiping
 
 - VL 7
