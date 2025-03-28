@@ -122,7 +122,11 @@
 
 - Linear Pipeline like in Broadcasting
 - Hypercube
-	- Always communicate 
+	- Always communicate along one dimension (dimension $k$)
+		- send the current running sum
+	- if the k-th bit of the PE is set, then the running sum is added to the local result
+	- $(\alpha + n \beta) log(p)$
+- 
 ## Gossiping
 
 - VL 7
