@@ -88,7 +88,8 @@
 		1. Pick $a * p$ samples ($a = \frac{log(n)}{\epsilon^2}$)
 		2. Sort the samples
 		3. pick every $a$-th sample as a splitter
-	- 
+	- How big $n$ has to be so that the algo is efficient depends on the used sorting algo for the samples
+		- best is fast inefficient ranking with $n \geq \frac{p^2 \beta}{log(p)T_{compr}}$
 ## Gossiping
 
 - VL 7
