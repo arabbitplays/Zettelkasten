@@ -95,7 +95,7 @@
 - Multiway merging
 	- Base Idea:
 		1. Sort local data
-		2. Pick perfect splitters (multi-sequence selection) (Pe $i$ selects element with global rank $k = i $)
+		2. Pick perfect splitters (multi-sequence selection) (Pe $i$ selects element with global rank $k = i \frac{n}{p}$)
 		3. Send parts to the right PE and merge locally
 		- ![[Pasted image 20250328100626.png | 300]]
 ## Gossiping
