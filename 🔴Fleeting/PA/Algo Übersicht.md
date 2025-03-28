@@ -99,13 +99,15 @@
 		3. Send parts to the right PE and merge locally
 		- ![[Pasted image 20250328100626.png | 300]]
 	- Picking the splitters
-		- On Shared Memory:
-		1. Pick random pivot $v$
-		2. Split each sequence through binary search of v
-		3. Determine in which half $k$ is, and do recursion until the intervals are trivial
-		- ![[Pasted image 20250328101254.png | 400]]
-	- $O(\frac{n}{p} log(\frac{n}{p}) + p\ log(n)\ log(\frac{n}{p}) + \frac{n}{p}log(p))$
-		- local sorting + splitter selection ($p$ binary searches over $\frac{n}{p}$ elements and $log(n)$ recursion levels)
+		- On Shared Memory: Pe $i$ selects element with global rank $k = i \frac{n}{p}$
+			1. Pick random pivot $v$
+			2. Split each sequence through binary search of v
+			3. Determine in which half $k$ is, and do recursion until the intervals are trivial
+			- ![[Pasted image 20250328101254.png | 400]]
+			- $O(\frac{n}{p} log(\frac{n}{p}) + p\ log(n)\ log(\frac{n}{p}) + \frac{n}{p}log(p))$
+				- local sorting + splitter selection ($p$ binary searches over $\frac{n}{p}$ elements and $log(n)$ recursion levels)
+				- is efficient for $n > p^2log(p)$
+		- On Distributed Memory
 ## Gossiping
 
 - VL 7
