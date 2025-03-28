@@ -110,6 +110,8 @@
 		- On Distributed Memory: PE $i$ searches the pivots for all selection in his local data (translation of the shared memory approach)
 			1. Binary search all pivots
 			2. Vector reduction to find out in which half for which pivot the search continues
+- CRCW Theoretical Sampling Sort
+	1. Sample of size $\sqr$
 ## Gossiping
 
 - VL 7
