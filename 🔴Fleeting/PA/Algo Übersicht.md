@@ -75,6 +75,8 @@
 	4. $k' = \frac{n_a}{n_a + n_b}$ PEs should work on small elements, round $k'$ smart to minimize load inbalance
 	5. send $a$ and $b$ to the right PEs, split them up if needed
 	6. Keep on working on the small or the big elements, depending if the own index is smaller or bigger then $k$
+
+- $n/p\ log(p) + n/p\ log (n/p)$
 ## Gossiping
 
 - VL 7
