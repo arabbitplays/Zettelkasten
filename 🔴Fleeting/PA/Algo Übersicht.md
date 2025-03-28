@@ -117,6 +117,12 @@
 	4. compactify with prefix sums
 	5. Recursion
 	- <mark style="background: #BBFABBA6;">theoraticaly achieves logarithmic time</mark>
+
+## Präfix Sum
+
+- Linear Pipeline like in Broadcasting
+- Hypercube
+	- Always communicate 
 ## Gossiping
 
 - VL 7
