@@ -111,7 +111,12 @@
 			1. Binary search all pivots
 			2. Vector reduction to find out in which half for which pivot the search continues
 - CRCW Theoretical Sampling Sort
-	1. Sample of size $\sqr$
+	1. Sampling and splitter selection
+	2. Allocate buckets twice as big as expected size
+	3. write to random position in the buckets
+	4. compactify with prefix sums
+	5. Recursion
+	- <mark style="background: #BBFABBA6;">theoraticaly achieves logarithmic time</mark>
 ## Gossiping
 
 - VL 7
