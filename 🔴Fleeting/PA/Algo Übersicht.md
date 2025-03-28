@@ -90,7 +90,14 @@
 		3. pick every $a$-th sample as a splitter
 	- How big $n$ has to be so that the algo is efficient depends on the used sorting algo for the samples
 		- best is fast inefficient ranking with $n \geq \frac{p^2 \beta}{log(p)T_{compr}}$
-- 
+	- <mark style="background: #BBFABBA6;">Only has to send all the data one time</mark>
+	- <mark style="background: #FF5582A6;">p startup overheads</mark>
+- Multiway merging
+	- Base Idea:
+		1. Sort local data
+		2. Pick perfect splitters (multi-sequence selection) (Pe $i$ selects element with global rank $k = i $)
+		3. Send parts to the right PE and merge locally
+		- ![[Pasted image 20250328100626.png | 300]]
 ## Gossiping
 
 - VL 7
