@@ -84,7 +84,11 @@
 		2. Every PE creates $p$ buckets with the elements $v_k < d_i \leq v_{k+1}$ in bucket $k$ (binary search)
 		3. All-to-all communication to send all the $k$-th buckets to PE $k$
 		4. Sort locally
-		5. 
+	- Picking the splitters
+		1. Pick $a * p$ samples ($a = \frac{log(n)}{\epsilon^2}$)
+		2. Sort the samples
+		3. pick every $a$-th sample as a splitter
+	- 
 ## Gossiping
 
 - VL 7
