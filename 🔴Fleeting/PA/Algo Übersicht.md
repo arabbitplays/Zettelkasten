@@ -128,6 +128,11 @@
 	- $(\alpha + n \beta) log(p)$
 - Pipelined Binary Tree
 	- Needs an inorder numbering
+	- ![[Pasted image 20250329102833.png | 200]]
+	- Upwards-Phase calculates sum over whole subtree $i' \dots i''$ (reduction)
+	- Downwards-Phase calculates final results $1 \dots i$ (more general broadcast)
+- Can be done with 23 Trees too
+	- because the numbering is inorder for both trees
 ## Gossiping
 
 - VL 7
