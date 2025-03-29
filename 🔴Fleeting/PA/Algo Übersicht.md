@@ -126,19 +126,19 @@
 		- send the current running sum
 	- if the k-th bit of the PE is set, then the running sum is added to the local result
 	- $(\alpha + n \beta) log(p)$
-- Pipelined Binary Tree
+- <mark style="background: #FFB86CA6;">Pipelined Binary Tree</mark>
 	- Needs an inorder numbering
 	- ![[Pasted image 20250329102833.png | 200]]
 	- Upwards-Phase calculates sum over whole subtree $i' \dots i''$ (reduction)
 	- Downwards-Phase calculates final results $1 \dots i$ (more general broadcast)
-- Can be done with 23 Trees too
+- Can be done with<mark style="background: #FFB86CA6;"> 23 Trees </mark>too
 	- because the numbering is inorder for both trees
 ## Gossiping and All-Reduce
 
 - VL 7
 - Gossiping -> every PE has a message, in the end every PE should have every message
 - All-Reduce -> every PE has a message, in the end every PE should have the reduction result
-- Hypercube Algorithm
+- <mark style="background: #FFB86CA6;">Hypercube Algorithm</mark>
 	- Like the prefix sum one, but the running results always get concatenated (or reduced in the case of all-reduce)
 
 ## h-Relation
@@ -152,23 +152,23 @@
 
 - VL 8
 - Für Nachrichten gleicher Länge
-	- Hypercube Algorithm
+	- <mark style="background: #FFB86CA6;">Hypercube Algorithm</mark>
 		- Communicate in dimension $d-1$ down to $0$
 			- send all messages needed in the $j-D$ - subcube 
 		- $log(p)(\frac{p}{2}n\beta + \alpha)$
 			- Good for short messages as they are send multiple times
-	- 1-Factor Algorithm
+	- <mark style="background: #FFB86CA6;">1-Factor Algorithm</mark>
 		- In each round let pairs of PEs exchange their messages for each other
 			- with odd $p$ one PE is idle
 			- with even $p$, the idle PE communicates with the one "extra" PE
 		- $p(n\beta + \alpha)$
 			- optimal for $n \rightarrow \infty$ but $p$ startups
 - Für Nachrichten unterschiedlicher Länge
-	- Ostrich Algorithm
+	- <mark style="background: #FFB86CA6;">Ostrich Algorithm</mark>
 		- Just send all messages async into the communication network
 		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
 		- <mark style="background: #FF5582A6;">inconsistent</mark>
-	- Coloring based Algos
+	- <mark style="background: #FFB86CA6;">Coloring based Algos</mark>
 		- duplex model
 			- Model $h$-relation as bipartite multigraph
 				- every PE is a node on the left as a sender and on the right and a receiver
@@ -184,13 +184,13 @@
 				- every edge is a sent package (undirected)
 			- coloring is not optimal anymore
 				- ![[Pasted image 20250329111056.png | 300]]
-	- 2 Phase Algorithm
+	- <mark style="background: #FFB86CA6;">2 Phase Algorithm</mark>
 		- make a irregular all-to-all into two regular all-to-all
 		- split every message into $p$ pieces, construct messages with one piece of every original message -> they are all the same length
 		- after all-to-all, regroup the messages into messages that have the same receiver -> they are all the same length
 		- ![[Pasted image 20250329111716.png | 400]]
 		- <mark style="background: #FF5582A6;">a lot of copying and factor 2 more communication</mark>
-	- Non-Preemptive
+	- <mark style="background: #FFB86CA6;">Non-Preemptive</mark>
 		- greed approach: just send a message if both receiver and sender are idle
 		- $k\alpha + 2h\beta$
 			- $k$ is max number of messages a PE is involved in
