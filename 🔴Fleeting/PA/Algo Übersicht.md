@@ -184,6 +184,10 @@
 			- coloring is not optimal anymore
 				- ![[Pasted image 20250329111056.png | 300]]
 	- 2 Phase Algorithm
+		- make a irregular all-to-all into two regular all-to-all
+		- split every message into $p$ pieces, construct messages with one piece of every original message -> they are all the same length
+		- after all-to-all, regroup the messages into messages that have the same receiver -> they are all the same length
+		- ![[Pasted image 20250329111716.png | 400]]
 	- Non-Preemtive
 
 ## Priority Queue und Branch and Bound
