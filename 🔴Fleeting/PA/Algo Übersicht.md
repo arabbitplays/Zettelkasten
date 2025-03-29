@@ -147,7 +147,8 @@
 	- $h_{in}(i) = \# packets\ received\ from\ PE\ i$
 	- $h_{out}(i) = # packets\ sent\ by\ PE\ i$
 	- simplex model: $h = max_p\ h_{in}(i) + h_{out}(i)$
-	- duplex mod
+	- duplex model: $h = max_p\ max(h_{in}(i), h_{out}(i))$
+- lower bound: $h(package\ size * \beta + \alpha)$
 
 - VL 8
 - Für Nachrichten gleicher Länge
@@ -167,6 +168,11 @@
 		- Just send all messages async into the communication network
 		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
 	- Coloring based Algos
+		- Model $h$-relation as bipartite multigraph
+			- every PE is a node on the left as a sender and on the right and a receiver
+			- every edge is a sent package
+		- Theorem: a edge coloring exists with $h$ colors
+		- Algo: $i \in [1, h]$
 	- 2 Phase Algorithm
 	- Non-Preemtive
 
