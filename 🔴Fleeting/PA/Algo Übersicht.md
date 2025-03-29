@@ -188,7 +188,11 @@
 		- split every message into $p$ pieces, construct messages with one piece of every original message -> they are all the same length
 		- after all-to-all, regroup the messages into messages that have the same receiver -> they are all the same length
 		- ![[Pasted image 20250329111716.png | 400]]
-	- Non-Preemtive
+	- Non-Preemptive
+		- greed approach: just send a message if both receiver and sender are idle
+		- $k\alpha + 2h\beta$
+			- $k$ is max number of messages a PE is involved in
+			- $2h\beta$ is a 2-ap
 
 ## Priority Queue und Branch and Bound
 
