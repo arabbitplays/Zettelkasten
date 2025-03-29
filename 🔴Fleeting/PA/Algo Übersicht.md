@@ -146,6 +146,9 @@
 - VL 8
 - Für Nachrichten gleicher Länge
 	- Hypercube Algorithm
+		- Communicate in dimension $d-1$ down to $0$
+			- send all messages needed in the $j-D$ - subcube 
+		- $log(p)($
 		- Gut für kurze Nachrichten
 	- 1-Factor Algorithm
 		- Gut für lange Nachrichten
