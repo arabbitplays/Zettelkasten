@@ -126,7 +126,8 @@
 		- send the current running sum
 	- if the k-th bit of the PE is set, then the running sum is added to the local result
 	- $(\alpha + n \beta) log(p)$
-- 
+- Pipelined Binary Tree
+	- Needs an inorder numbering
 ## Gossiping
 
 - VL 7
