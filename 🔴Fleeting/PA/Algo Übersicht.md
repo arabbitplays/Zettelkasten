@@ -217,7 +217,7 @@
 		- take a sample of $log(p)$ elements from each local queue ($Q_0$)
 		- find $p$ smallest elements $e_i$ and check if $max\ e_i > min\ Q_1 @ j$
 			- if not then repeat
-			- if yes, then reinsert the rest of $Q_0$
+			- if yes, then reinsert the rest of $Q_0$ and use the $e_i$ as a result
 		- assign them through a prefix sum
 - Effizientes Bulk insert und bulk delete min
 - Selection Algorithm
