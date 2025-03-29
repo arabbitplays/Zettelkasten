@@ -145,10 +145,10 @@
 
 - $h$ is defined as the max number of packets communicated by one PE
 	- $h_{in}(i) = \# packets\ received\ from\ PE\ i$
-	- $h_{out}(i) = # packets\ sent\ by\ PE\ i$
+	- $h_{out}(i) = \# packets\ sent\ by\ PE\ i$
 	- simplex model: $h = max_p\ h_{in}(i) + h_{out}(i)$
 	- duplex model: $h = max_p\ max(h_{in}(i), h_{out}(i))$
-- lower bound: $h(package\ size * \beta + \alpha)$
+- lower bound for PACKAGE-wise delivery: $h(package\ size * \beta + \alpha)$
 
 - VL 8
 - Für Nachrichten gleicher Länge
@@ -168,11 +168,14 @@
 		- Just send all messages async into the communication network
 		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
 	- Coloring based Algos
+		- duple
 		- Model $h$-relation as bipartite multigraph
 			- every PE is a node on the left as a sender and on the right and a receiver
 			- every edge is a sent package
-		- Theorem: a edge coloring exists with $h$ colors
-		- Algo: $i \in [1, h]$
+		- Theorem: an edge coloring exists with $h$ colors
+		- Algo: for $i \in [1, h]$, send packages with color $i$
+		- <mark style="background: #FF5582A6;">edge coloring is expensive to compute</mark>
+		- <mark style="background: #FF5582A6;">using packages increases the startups</mark>
 	- 2 Phase Algorithm
 	- Non-Preemtive
 
