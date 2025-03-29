@@ -133,10 +133,13 @@
 	- Downwards-Phase calculates final results $1 \dots i$ (more general broadcast)
 - Can be done with 23 Trees too
 	- because the numbering is inorder for both trees
-## Gossiping
+## Gossiping and All-Reduce
 
 - VL 7
+- Gossiping -> every PE has a message, in the end every PE should have every message
+- All-Reduce -> every PE has a message, in the end every PE should have the reduction result
 - Hypercube Algorithm
+	- Like the prefix sum one, but the running results always get concatenated (or reduced in the case of all-reduce)
 
 ## h-Relation
 
