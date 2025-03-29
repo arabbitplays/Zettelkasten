@@ -3,7 +3,13 @@
 ## Definition
 
 - $H = (V, E)$ - tree with bounded node degree
-- $c(v)$ - costs of a node, growing w
+- $c(v)$ - costs of a node, growing when descending a path
+- $v^*$ - leaf with minimal cost
+- $\widetilde{V} = \{v \in V | c(v) < c(v^*)\}$ - all nodes that are discovered before $v^*$
+- $h$ - depth of $\widetilde{H}$, the subgraph of $H$ induced by $\widetilde{V}$ 
+
+- $T_x$ - time for generating a successor of a node
+- $T_{coll}$ - upper bound for collective operations (boradcast, )
 
 ---
 
