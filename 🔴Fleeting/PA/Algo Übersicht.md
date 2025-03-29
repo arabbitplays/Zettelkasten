@@ -143,6 +143,12 @@
 
 ## h-Relation
 
+- $h$ is defined as the max number of packets communicated by one PE
+	- $h_{in}(i) = \# packets\ received\ from\ PE\ i$
+	- $h_{out}(i) = # packets\ sent\ by\ PE\ i$
+	- simplex model: $h = max_p\ h_{in}(i) + h_{out}(i)$
+	- duplex mod
+
 - VL 8
 - Für Nachrichten gleicher Länge
 	- Hypercube Algorithm
@@ -159,8 +165,7 @@
 - Für Nachrichten unterschiedlicher Länge
 	- Ostrich Algorithm
 		- Just send all messages async into the communication network
-		- With the definition of BSP its just $L + gh$ but it is not cl
-		- Scheduling über Bipartite Multigraphen
+		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
 	- Coloring based Algos
 	- 2 Phase Algorithm
 	- Non-Preemtive
