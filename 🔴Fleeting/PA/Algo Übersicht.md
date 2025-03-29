@@ -168,14 +168,21 @@
 		- Just send all messages async into the communication network
 		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
 	- Coloring based Algos
-		- duple
-		- Model $h$-relation as bipartite multigraph
-			- every PE is a node on the left as a sender and on the right and a receiver
-			- every edge is a sent package
-		- Theorem: an edge coloring exists with $h$ colors
-		- Algo: for $i \in [1, h]$, send packages with color $i$
-		- <mark style="background: #FF5582A6;">edge coloring is expensive to compute</mark>
-		- <mark style="background: #FF5582A6;">using packages increases the startups</mark>
+		- duplex model
+			- Model $h$-relation as bipartite multigraph
+				- every PE is a node on the left as a sender and on the right and a receiver
+				- every directed edge is a sent package
+			- Theorem: an edge coloring exists with $h$ colors
+			- Algo: for $i \in [1, h]$, send packages with color $i$
+			- <mark style="background: #FF5582A6;">edge coloring is expensive to compute</mark>
+			- <mark style="background: #FF5582A6;">using packages increases the startups</mark>
+			- <mark style="background: #BBFABBA6;">is optimal for package wise delivery</mark>
+		- simplex model
+			- Model $h$-relation as multigraph
+				- every PE is a node
+				- every edge is a sent package (undirected)
+			- coloring is not optimal anymore
+				- ![[Pasted image 20250329111056.png | 300]]
 	- 2 Phase Algorithm
 	- Non-Preemtive
 
