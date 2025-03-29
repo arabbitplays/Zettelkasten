@@ -148,9 +148,13 @@
 	- Hypercube Algorithm
 		- Communicate in dimension $d-1$ down to $0$
 			- send all messages needed in the $j-D$ - subcube 
-		- $log(p)($
-		- Gut für kurze Nachrichten
+		- $log(p)(\frac{p}{2}n\beta + \alpha)$
+		- Good for short messages as they are send multiple times
 	- 1-Factor Algorithm
+		- In each round let pairs of PEs exchange their messages for each other
+			- with odd $p$ one PE is idle
+			- with even $p$, the idle PE communicates with the one "extra" PE
+		- $p(n\beta + \alpha$
 		- Gut für lange Nachrichten
 - Für Nachrichten unterschiedlicher Länge
 	- Ostrich Algorithm
