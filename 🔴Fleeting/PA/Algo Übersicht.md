@@ -210,6 +210,15 @@
 - <mark style="background: #FFB86CA6;">Naive Implementation</mark>
 	- Each PE has a sequential priority queue
 	- $\Omega(p(\alpha + log\ n))$
+- <mark style="background: #FFB86CA6;">Local Queues approach</mark>
+	- Every PE has a local PQ $Q_1$
+	- Insert sends the element to a random PE
+	- removeMin finds the $p$ globally smallest elements and assigns them to a PE
+		- take a sample of $log(p)$ elements from each local queue ($Q_0$)
+		- find $p$ smallest elements $e_i$ and check if $max\ e_i > min\ Q_1 @ j$
+			- if not then repeat
+			- if yes, then reinsert the rest of $Q_0$
+		- assign them through a prefix sum
 - Effizientes Bulk insert und bulk delete min
 - Selection Algorithm
 - Communication Efficient Parallel Queues
