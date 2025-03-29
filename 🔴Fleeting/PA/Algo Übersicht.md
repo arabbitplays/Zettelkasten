@@ -202,7 +202,7 @@
 
 - Applications
 	- Priority driven Scheduling
-	- Branch and Bound
+	- [[Branch-and-Bound]]
 	- Heuristik parallelelzation of Dijkstra
 - Goal: Bulk insert and delete min in $O(log(n) + log(p))$
 
