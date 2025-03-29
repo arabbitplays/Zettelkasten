@@ -24,32 +24,32 @@
 
 ## Broadcasting
 
-- Naive Implementation
+- <mark style="background: #FFB86CA6;">Naive Implementation</mark>
 	- One message to everyone in time $(p-1)(\alpha + n \beta)$
-- Binomial Tree 
+- <mark style="background: #FFB86CA6;">Binomial Tree </mark>
 	- if the message was already received, send to $i + 2^k$ for all remaining $k$
 	- runs in time $(\lceil log(p) \rceil)(\alpha + n \beta)$
 	- <mark style="background: #BBFABBA6;">good for many PEs</mark>
-- Linear Pipeline
+- <mark style="background: #FFB86CA6;">Linear Pipeline</mark>
 	- Split message of length $n$ into $k$ pieces
 	- receive piece $j$ from PE $i-1$ and send piece $j-1$ to PE $i+1$
 	- runs in time $(k + p - 2)(\alpha + \frac{n}{k}\beta)$, with optimal $k$ its $n \beta + p \alpha + 2 \sqrt{np \alpha \beta}$
 	- <mark style="background: #BBFABBA6;">Good for very large messages</mark>
-- Binary Tree Pipeline
+- <mark style="background: #FFB86CA6;">Binary Tree Pipeline</mark>
 	- receive piece $j$ from parent and send it first to the left, then to the right child
 	- level $j$ is reached after $2j$ steps, the next package comes every three steps, so the algorithm runs in $(2 \lfloor log(p) \rfloor + 3(k-1))(\alpha + \frac{n}{k} \beta)$
-- Full duplex fibonacci tree pipeline
+- <mark style="background: #FFB86CA6;">Full duplex fibonacci tree pipeline</mark>
 	- Fibonacci Tree reduces time to wait for the next package
 	- receive piece $j$ from the parent, send $j-1$ directly to the right child
 	- then send piece $j$ to the left child
 	- runs in $\alpha d + 3(k-1))(\alpha + \frac{n}{k} \beta)$
 	- $2n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$ with $d = \lfloor log_\Phi(p) \rfloor$
-- 23-Broadcast
+- <mark style="background: #FFB86CA6;">23-Broadcast</mark>
 	- use two binary trees, where every leaf on the one is inner node of the other
 	- <mark style="background: #BBFABBA6;">all nodes can send and receive</mark>
 	- ![[Pasted image 20250327122233.png | 300]]
 	- optimal time
-- ESBT Broadcast
+- <mark style="background: #FFB86CA6;">ESBT Broadcast</mark>
 	- Edge Disjoint Binomial Trees
 	- Structure PEs as a Hypercube ($p = 2^d$)
 		- decompose into $d$ ESBTs
@@ -59,7 +59,7 @@
 ## Sorting
 
 - Vl 4 ff
-- Fast Inefficient Ranking
+- <mark style="background: #FFB86CA6;">Fast Inefficient Ranking</mark>
 	- Like the maximum, broadcast your element to everyone, calc $A_i \geq A_j$ and reduce to get the number of smaller elements ($O(\alpha\ log(p))$)
 	- Also possible to do this with Brents Principle
 		- ![[Pasted image 20250327141915.png]]
@@ -68,7 +68,7 @@
 			- $\frac{n}{p}log(\frac{n}{p})$ because of the local sorting
 		- Local ranking with the two sorted arrays $r$ and $c$ can be done in $O(|r| + |c|)$
 		- <mark style="background: #BBFABBA6;">the fastest for low counts of elements per PE</mark>
-- Quicksort
+- <mark style="background: #FFB86CA6;">Quicksort</mark>
 	1. Pick a pivot (choose PE random weighted by the local element count, choose element random)
 	2. partition locally into small elements $a$ and big elements $b$
 	3. Calculate number of small and big elements $n_a, n_b$ through 2 reductions
@@ -78,7 +78,7 @@
 	- $\frac{n}{p} (log\ n+\beta log\ p) + \alpha log^2 \ p$
 	- <mark style="background: #FF5582A6;">Its bad that the data is sent log times</mark>
 	- <mark style="background: #BBFABBA6;">local work is theoretical optimal</mark>
-- Sample Sort
+- <mark style="background: #FFB86CA6;">Sample Sort</mark>
 	- Base Idea:
 		1. Find $p-1$ splitters
 		2. Every PE creates $p$ buckets with the elements $v_k < d_i \leq v_{k+1}$ in bucket $k$ (binary search)
@@ -92,7 +92,7 @@
 		- best is fast inefficient ranking with $n \geq \frac{p^2 \beta}{log(p)T_{compr}}$
 	- <mark style="background: #BBFABBA6;">Only has to send all the data one time</mark>
 	- <mark style="background: #FF5582A6;">p startup overheads</mark>
-- Multiway merging
+- <mark style="background: #FFB86CA6;">Multiway merging</mark>
 	- Base Idea:
 		1. Sort local data
 		2. Pick perfect splitters (multi-sequence selection)
@@ -110,7 +110,7 @@
 		- On Distributed Memory: PE $i$ searches the pivots for all selection in his local data (translation of the shared memory approach)
 			1. Binary search all pivots
 			2. Vector reduction to find out in which half for which pivot the search continues
-- CRCW Theoretical Sampling Sort
+- <mark style="background: #FFB86CA6;">CRCW Theoretical Sampling Sort</mark>
 	1. Sampling and splitter selection
 	2. Allocate buckets twice as big as expected size
 	3. write to random position in the buckets
@@ -120,8 +120,8 @@
 
 ## Präfix Sum
 
-- Linear Pipeline like in Broadcasting
-- Hypercube
+- <mark style="background: #FFB86CA6;">Linear Pipeline</mark> like in Broadcasting
+- <mark style="background: #FFB86CA6;">Hypercube</mark>
 	- Always communicate along one dimension (dimension $k$)
 		- send the current running sum
 	- if the k-th bit of the PE is set, then the running sum is added to the local result
@@ -167,6 +167,7 @@
 	- Ostrich Algorithm
 		- Just send all messages async into the communication network
 		- With the definition of BSP its just $L + gh$ but it is not clear what $L$ and $g$ are
+		- <mark style="background: #FF5582A6;">inconsistent</mark>
 	- Coloring based Algos
 		- duplex model
 			- Model $h$-relation as bipartite multigraph
@@ -188,11 +189,14 @@
 		- split every message into $p$ pieces, construct messages with one piece of every original message -> they are all the same length
 		- after all-to-all, regroup the messages into messages that have the same receiver -> they are all the same length
 		- ![[Pasted image 20250329111716.png | 400]]
+		- <mark style="background: #FF5582A6;">a lot of copying and factor 2 more communication</mark>
 	- Non-Preemptive
 		- greed approach: just send a message if both receiver and sender are idle
 		- $k\alpha + 2h\beta$
 			- $k$ is max number of messages a PE is involved in
-			- $2h\beta$ is a 2-ap
+			- $2h\beta$ is a 2-approx
+		- <mark style="background: #BBFABBA6;">no unneccessary messages in the network</mark>
+		- <mark style="background: #FF5582A6;">needs centralized scheduling</mark>
 
 ## Priority Queue und Branch and Bound
 
