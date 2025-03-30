@@ -232,7 +232,9 @@
 	- find the $k$ smallest elements in $Q$
 	- take a $\sqrt p$ sample, sort it with fast inefficient ranking
 	- take two splitters $u = k/n |s| + \Delta$ and $l = k/n |s| - \Delta$
-	- whp is $|Q_{<u}| < k$ and $|Q_{<l}| > k$ so select $Q_{<u}$ and find the $k - |Q_{<u}|$ smallest elements in $Q_{>l, <u}$
+	- whp is $|Q_{<u}| < k$ and $|Q_{<l}| > k$ so select $Q_{<u}$ and find the $k - |Q_{<u}|$ smallest elements in $Q_{>l, <u}$ (constant recursions)
+	- $O(\frac{n}{p} + T_{coll})$
+	- ![[Pasted image 20250330101053.png | 350]]
 - Communication Efficient Parallel Queues
 - Shared Memory Parallel Queues
 - Relaxed Multiqueues
