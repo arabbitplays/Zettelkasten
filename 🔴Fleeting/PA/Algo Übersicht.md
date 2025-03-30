@@ -241,10 +241,11 @@
 - <mark style="background: #FFB86CA6;">Communication Efficient PQ</mark>
 	- Insert into local queue $O(log(n))$
 	- find $k$ smallest elements similar like in merge sort ($O(log^2(n))$)
-- Shared Memory Parallel Queues
-- Relaxed Multiqueues
-	- Buffering
-	- Stickyness
+		- but without assigning them to the PEs - depends on the inbalance, myb somewhere else is random distribution
+- <mark style="background: #FFB86CA6;">Shared Memory PQs</mark>
+	- $cp$ local PQs
+	- insert into a random QP with locking, keep searching until a lock-free queue is found
+	- delete smallest elements from $c$ PQs
 
 ## List Ranking
 
