@@ -46,13 +46,17 @@ Idea: grow a tree with the help of the cut property
 - iterate through $E$ in ascending order of weight
 	- if $(u,v)$ connects two different subtrees in $T$, add the edge to $T$
 
-- implement with 
-- $O(sort(m) + m\alpha(m, n)) = O(m\ log(m))$
-	- $\alpha$ is the inverse Ackermann function
+- implement with an Union-Find data structure
+	- $O(sort(m) + m\alpha(m, n)) = O(m\ log(m))$
+		- $\alpha$ is the inverse Ackermann function
 - <mark style="background: #FF5582A6;">inherently sequential</mark>
 	- only sorting can be parallelized
 
 ## Boruvka's Algorithm
+
+ - for each node, find the lightest incident edge
+	 - add to the MST (cut property)
+- contract these edges with edge contraction
 
 ---
 
