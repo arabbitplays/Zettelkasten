@@ -219,6 +219,7 @@
 			- if not then repeat
 			- if yes, then reinsert the rest of $Q_0$ and use the $e_i$ as a result
 		- assign them through a prefix sum
+	- 
 - Effizientes Bulk insert und bulk delete min
 - Selection Algorithm
 - Communication Efficient Parallel Queues
