@@ -84,8 +84,15 @@ Idea: grow a tree with the help of the cut property
 	- ![[Pasted image 20250330155005.png | 200]]
 	- $O(\frac{n}{p}log\ n)$
 4. Contraction
-	- Assign the star roots new node numbers (through a prefix sum)
-	- construct a new edge set $E' = $
+	- Assign the star roots new node numbers (with a bijective function $f$ through a prefix sum)
+	- construct a new edge set $E' = \{(f(pred(u)), f(pred(v))): (u,v) \in E, pred(v) \neq pred(u)\}$
+	- ![[Pasted image 20250330155422.png | 100]]
+	- $O(\frac{m}{p}+ log\ p)$
+	- Convert $G'$ into an adjacency array (integer sorting)
+		- expected sorting time on CRCW PRAM ([[Parallel Machinemodels]]) in $O(\frac{m}{p}+ log(p))$ 
+5. Recursion on $G'$ 
+
+
 ---
 
 Origin: 
