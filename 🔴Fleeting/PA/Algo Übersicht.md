@@ -215,10 +215,17 @@
 	- Insert sends the element to a random PE
 	- removeMin finds the $p$ globally smallest elements and assigns them to a PE
 		- take a sample of $log(p)$ elements from each local queue ($Q_0$)
-		- find $p$ smallest elements $e_i$ and check if $max\ e_i > min\ Q_1 @ j$
+		- find $p$ smallest elements $e_i$ and check if $max\ e_i > min\ Q_1 @ j$ (see selection algo below)
 			- if not then repeat
 			- if yes, then reinsert the rest of $Q_0$ and use the $e_i$ as a result
 		- assign them through a prefix sum
+- <mark style="background: #FFB86CA6;">Better local queues approach</mark>
+	- Split local queue in $Q_0$ and $Q_1$
+	- Insert elements into $Q_0$
+		- move $Q_0$ into $Q_1$ every $log(p)$ iterations
+	- removeMin
+		- add $min(Q_1)$ to $Q_0$ until the $p$ elements in $Q_0$ are smaller then $min(Q_1)$
+		- select the $p$ globally smallest elements of $Q_0$ (see selection below)
 	- 
 - Effizientes Bulk insert und bulk delete min
 - Selection Algorithm
