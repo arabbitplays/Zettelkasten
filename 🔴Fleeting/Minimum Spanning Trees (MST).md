@@ -78,6 +78,14 @@ Idea: grow a tree with the help of the cut property
 		- if $v < pred(v) \wedge v = pred(pred(v))$ then $pred(v) = v$
 	- ![[Pasted image 20250330153704.png | 200]]
 	- $O(\frac{n}{p})$ 
+3. Convert Rooted Trees to Rooted Stars
+	- while $v \in V$ exists with $pred(pred(v)) \neq pred(v)$ do parallel for all $v$
+		- pointer doubleling: $pred(v) = pred(pred(v))$
+	- ![[Pasted image 20250330155005.png | 200]]
+	- $O(\frac{n}{p}log\ n)$
+4. Contraction
+	- Assign the star roots new node numbers (through a prefix sum)
+	- construct a new edge set $E' = $
 ---
 
 Origin: 
