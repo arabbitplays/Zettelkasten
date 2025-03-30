@@ -257,12 +257,14 @@
 	- p = n und CREW PRAM
 	- $R(i)$ is the distance to the last element
 	- $Q(i)$ is a pointer to a later element, in the beginnign just the successor
-	- nutze für Base Cases Solver von anderen Algos
-	- Sehr viel Arbeit
+	- while $R(Q(i)) \neq 0$ do $R(i) += R(Q(i))$ and $Q(i) = Q(Q(i))$
+	- <mark style="background: #FF5582A6;">Very much work</mark> ($n\ log(n))$) -> time $O(log(n))$
+	- <mark style="background: #BBFABBA6;">used as a base case for other algos</mark>
 - Independend set removal
 	- Inpedend Set: Weder pre noch successor ist schon im set
 	- Löse die Instanz ohne das Independend Set, danach ist der Rest schnell aufgefüllt weil der Rank vom Successor ja bekannt ist
 	- Lineare Arbeit mit schlechten konstanten Faktoren
+	- ![[Pasted image 20250330103909.png|]]
 - Ruling Set List Removal
 
 ## MST
