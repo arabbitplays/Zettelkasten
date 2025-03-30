@@ -235,7 +235,12 @@
 	- whp is $|Q_{<u}| < k$ and $|Q_{<l}| > k$ so select $Q_{<u}$ and find the $k - |Q_{<u}|$ smallest elements in $Q_{>l, <u}$ (constant recursions)
 	- $O(\frac{n}{p} + T_{coll})$
 	- ![[Pasted image 20250330101053.png | 350]]
-- Communication Efficient Parallel Queues
+- <mark style="background: #FFB86CA6;">Async PQ</mark>
+	- Accept insertions but buffer them
+	- Do a bulk delete min but hold the result in a buffer
+- <mark style="background: #FFB86CA6;">Communication Efficient PQ</mark>
+	- Insert into local queue $O(log(n))$
+	- find $k$ smallest elements similar like in merge sort ($O(log^2(n))$)
 - Shared Memory Parallel Queues
 - Relaxed Multiqueues
 	- Buffering
