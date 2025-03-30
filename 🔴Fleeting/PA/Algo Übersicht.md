@@ -226,9 +226,13 @@
 	- removeMin
 		- add $min(Q_1)$ to $Q_0$ until the $p$ elements in $Q_0$ are smaller then $min(Q_1)$
 		- select the $p$ globally smallest elements of $Q_0$ (see selection below)
-	- 
-- Effizientes Bulk insert und bulk delete min
-- Selection Algorithm
+		- assign them through a prefix sum
+	- both opertations in $O(t_{coll} + log(\frac{n}{p})$
+- <mark style="background: #FFB86CA6;">Selection Algorithm</mark>
+	- find the $k$ smallest elements in $Q$
+	- take a $\sqrt p$ sample, sort it with fast inefficient ranking
+	- take two splitters $u = k/n |s| + \Delta$ and $l = k/n |s| - \Delta$
+	- whp is $|Q_{<u}| < k$ and $|Q_{<l}| > k$ so select $Q_{<u}$ and find the $k - |Q_{<u}|$ smallest elements in $Q_{>l, <u}$
 - Communication Efficient Parallel Queues
 - Shared Memory Parallel Queues
 - Relaxed Multiqueues
