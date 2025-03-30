@@ -21,6 +21,10 @@ Idea: grow a tree with the help of the cut property
 
  - Start with $S = \{s\}$ for any node $s$ and $T = \emptyset$ 
  - do $n-1$ times: 
+	 - find $(u,v)$ fulfilling the cut property with $S$
+	 - add $v$ to $S$ and $(u,v)$ to $T$
+
+- <mark style="background: #FF5582A6;">inherently sequential</mark>
 
 ---
 
