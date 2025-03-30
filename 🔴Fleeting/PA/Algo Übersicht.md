@@ -253,8 +253,10 @@
 ## List Ranking
 
 - Vl 13
-- Pointer Doubeling
-	- Braucht p = n um gut zu sein 
+- <mark style="background: #FFB86CA6;">Pointer Doubeling</mark>
+	- p = n und CREW PRAM
+	- $R(i)$ is the distance to the last element
+	- $Q(i)$ is a pointer to a later element, in the beginnign just the successor
 	- nutze für Base Cases Solver von anderen Algos
 	- Sehr viel Arbeit
 - Independend set removal
