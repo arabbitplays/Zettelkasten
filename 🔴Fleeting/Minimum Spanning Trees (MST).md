@@ -30,7 +30,7 @@ Idea: grow a tree with the help of the cut property
 	 - find $(u,v)$ fulfilling the cut property with $S$
 	 - add $v$ to $S$ and $(u,v)$ to $T$
 
-- implement with [[Graph Representations#Adjacency Array | Adjacency Array]] and a priority queue with the edge weight as a key
+- implement with an [[Graph Representations#Adjacency Array | Adjacency Array]] and a priority queue with the edge weight as a key
 	- time outside of the PQ: $O(m+n)$
 	- $n$ times delete min on the PQ: $O(n\ log(n))$
 	- $O(m)$ times decrease key on the PQ: amortized $O(m)$
@@ -57,6 +57,18 @@ Idea: grow a tree with the help of the cut property
  - for each node, find the lightest incident edge
 	 - add to the MST (cut property)
 - contract these edges with edge contraction
+
+- implement with an [[Graph Representations#Adjacency Array | Adjacency Array]] 
+	- sequentially its $O(m\ log(m))$
+
+### Parallel Implementation
+
+- a second 
+
+1. Find lightest incident edge
+	- every node gets PEs proportional to the number of incident edges ($|\Gamma(v)|\frac{p}{2m}$) 
+	- find $min_w c(v,w) \in \Gamma(v)$ 
+	- 
 
 ---
 
