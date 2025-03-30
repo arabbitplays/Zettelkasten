@@ -269,8 +269,8 @@
 		- flip a coin $c_i \in \{0, 1\}$ for every element, if $c_i = 1$ and both pre- and successor have $0$, add $i$ to the set
 		- repeat until $|I| = n / 5$
 		- $O(n/p)$
-	- New index for the recursion is 
-	- Lineare Arbeit mit schlechten konstanten Faktoren
+	- New index for the recursion is just an ascending numbering for the elements not in the set
+	- <mark style="background: #D2B3FFA6;">linear work with bad constant factors</mark>
 	- ![[Pasted image 20250330103909.png| 400]]
 - Ruling Set List Removal
 
