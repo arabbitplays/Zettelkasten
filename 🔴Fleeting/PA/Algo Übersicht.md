@@ -245,7 +245,10 @@
 - <mark style="background: #FFB86CA6;">Shared Memory PQs</mark>
 	- $cp$ local PQs
 	- insert into a random QP with locking, keep searching until a lock-free queue is found
-	- delete smallest elements from $c$ PQs
+	- delete smallest elements from $c$ PQs and return the smallest one
+	- cache problems
+		- increase locality through insertion and deletion buffers
+		- <mark style="background: #FFB86CA6;">stickyness</mark> - stick to a set of queues for some consecutive opertations
 
 ## List Ranking
 
