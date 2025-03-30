@@ -30,11 +30,20 @@ Idea: grow a tree with the help of the cut property
 	- $O(m)$ times decrease key on the PQ: amortized $O(m)$
 	- using Fibonacci Heaps: $O(m + n\ log(n))$ 
 - <mark style="background: #FF5582A6;">inherently sequential</mark>
-
+	- only PQ can be parallelized
 
 ## Kruskal's Algorithm
 
-- Di
+- Idea: connect more and more subtrees of $G$ (builds on the cycle property)
+
+- Start with $T = \emptyset$
+- iterate through $E$ in ascending order of weight
+	- if $(u,v)$ connects two different subtrees in $T$, add the edge to $T$
+
+- $O(sort(m) + m\alpha(m, n)) = O(m\ log(m))$
+	- $\alpha$ is the inverse Ackermann function
+- <mark style="background: #FF5582A6;">inherently sequential</mark>
+	- only sorting can be parallelized
 
 ---
 
