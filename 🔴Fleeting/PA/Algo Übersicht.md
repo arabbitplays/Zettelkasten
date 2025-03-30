@@ -262,9 +262,16 @@
 	- <mark style="background: #BBFABBA6;">used as a base case for other algos</mark>
 - Independend set removal
 	- Inpedend Set: Weder pre noch successor ist schon im set
-	- Löse die Instanz ohne das Independend Set, danach ist der Rest schnell aufgefüllt weil der Rank vom Successor ja bekannt ist
+	- Remove independend set from the instance
+		- add the $R$ of a removed node to the successor
+	- when reinserting, the $R$ value is one smaller then the successor
+	- Finding an independend set
+		- flip a coin $c_i \in \{0, 1\}$ for every element, if $c_i = 1$ and both pre- and successor have $0$, add $i$ to the set
+		- repeat until $|I| = n / 5$
+		- $O(n/p)$
+	- New index for the recursion is 
 	- Lineare Arbeit mit schlechten konstanten Faktoren
-	- ![[Pasted image 20250330103909.png|]]
+	- ![[Pasted image 20250330103909.png| 400]]
 - Ruling Set List Removal
 
 ## MST
