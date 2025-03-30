@@ -93,6 +93,8 @@ Idea: grow a tree with the help of the cut property
 5. Recursion on $G'$ 
 
 
+TODO total time
+
 ---
 
 Origin: 

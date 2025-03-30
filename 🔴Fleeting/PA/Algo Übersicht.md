@@ -282,12 +282,7 @@
 
 ## MST
 
-- Vl 14 15
-- The Jarník-Prim Algorithm und Kruskal
-	- inherently sequential
-- Boruvka’s Algorithm
-	- Contraction
-		- Präfix Summe: Jede Star Root ist ne 1, jede andere 0 
+- [[Minimum Spanning Trees (MST)]]
 - Filter Kruskal
 	- Filter ist grundlegende Idee, dass Kanten in leichte und schwere partitioniert werden
 		- Auf den leichten wird eine Zwischenlösung berechnet
