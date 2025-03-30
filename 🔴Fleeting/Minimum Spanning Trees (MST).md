@@ -24,7 +24,17 @@ Idea: grow a tree with the help of the cut property
 	 - find $(u,v)$ fulfilling the cut property with $S$
 	 - add $v$ to $S$ and $(u,v)$ to $T$
 
+- implement with a priority queue with the edge weight as a key
+	- time outside of the PQ: $O(m+n)$
+	- $n$ times delete min on the PQ: $O(n\ log(n))$
+	- $O(m)$ times decrease key on the PQ: amortized $O(m)$
+	- using Fibonacci Heaps: $O(m + n\ log(n))$ 
 - <mark style="background: #FF5582A6;">inherently sequential</mark>
+
+
+## Kruskal's Algorithm
+
+- Di
 
 ---
 
