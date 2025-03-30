@@ -63,13 +63,19 @@ Idea: grow a tree with the help of the cut property
 
 ### Parallel Implementation
 
-- a second 
+- a second *predecessor graph* will be constructed
 
 1. Find lightest incident edge
 	- every node gets PEs proportional to the number of incident edges ($|\Gamma(v)|\frac{p}{2m}$) 
 	- find $min_w c(v,w) \in \Gamma(v)$ 
+	- output $v, w$
+	- *set $pred(v) = w$*
+		- this results in pseudo-trees (trees with one additional edge) with one two-cycle at the lightest edge
+		- ![[Pasted image 20250330153353.png | 200]]
+2. Convert Pseudotrees to Rooted Trees
+	- parallel for every node $v$
+		- if $v < pred(v) \wedge v = pred(pred(v))$ then $pred(v) = v$
 	- 
-
 ---
 
 Origin: 
