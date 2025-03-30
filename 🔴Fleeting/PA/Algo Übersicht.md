@@ -272,7 +272,13 @@
 	- New index for the recursion is just an ascending numbering for the elements not in the set
 	- <mark style="background: #D2B3FFA6;">linear work with bad constant factors</mark>
 	- ![[Pasted image 20250330103909.png| 400]]
-- Ruling Set List Removal
+- <mark style="background: #FFB86CA6;">Ruling Set List Removal</mark>
+	- Pick $O(p\ log(p))$ samples, solve the instance until the next sample is found
+	- use work stealing load balancing
+	- concat the subresults with a prefix sum
+	- $O(n/p + log(p)) + time\ for\ subproblem$ 
+	- <mark style="background: #BBFABBA6;">optimal with optimal base case algo</mark>
+	- ![[Pasted image 20250330105135.png | 400]]
 
 ## MST
 
