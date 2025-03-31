@@ -73,13 +73,13 @@ Idea: grow a tree with the help of the cut property
 		- this results in pseudo-trees (trees with one additional edge) with one two-cycle at the lightest edge
 		- ![[Pasted image 20250330153353.png | 200]]
 	- $O(\frac{m}{p} + log\ p)$
-2. Convert Pseudotrees to Rooted Trees
+2. Convert Pseudotrees to Rooted Trees 
 	- parallel for every node $v$
 		- if $v < pred(v) \wedge v = pred(pred(v))$ then $pred(v) = v$
 	- ![[Pasted image 20250330153704.png | 200]]
 	- $O(\frac{n}{p})$ 
 3. Convert Rooted Trees to Rooted Stars
-	- while $v \in V$ exists with $pred(pred(v)) \neq pred(v)$ do parallel for all $v$
+	- while $v \in V$ exists with $pred(pred(v)) \neq pred(v)$ do parallel for all $v$ // runs max $log(n)$ times
 		- pointer doubleling: $pred(v) = pred(pred(v))$
 	- ![[Pasted image 20250330155005.png | 200]]
 	- $O(\frac{n}{p}log\ n)$
@@ -88,10 +88,14 @@ Idea: grow a tree with the help of the cut property
 	- construct a new edge set $E' = \{(f(pred(u)), f(pred(v))): (u,v) \in E, pred(v) \neq pred(u)\}$
 	- ![[Pasted image 20250330155422.png | 100]]
 	- $O(\frac{m}{p}+ log\ p)$
-	- Convert $G'$ into an adjacency array (integer sorting)
-		- expected sorting time on CRCW PRAM ([[Parallel Machinemodels]]) in $O(\frac{m}{p}+ log(p))$ 
-5. Recursion on $G'$ 
+5. Convert $G'$ into an adjacency array (integer sorting)
+	- expected sorting time on CRCW PRAM ([[Parallel Machinemodels]]) in $O(\frac{m}{p}+ log(p))$ when the keys are in $O(m\ log^k(m)$
+	- optional: remove parallel edges, but they are hard to find
+		- sorting after $u$ and $v$, but then the keys are in $O(n^2)$
+6. Recursion on $G'$ 
 
+- Total time: $O(\frac{m}{p}log(n) + log^2(n))$
+	- Max $log(n)$ recursions, because in eve
 
 TODO total time
 
