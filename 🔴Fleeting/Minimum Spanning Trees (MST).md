@@ -95,14 +95,17 @@ Idea: grow a tree with the help of the cut property
 6. Recursion on $G'$ 
 
 - Total time: $O(\frac{m}{p}log(n) + log^2(n))$
-	- Max $log(n)$ recursions, because in eve
+	- Max $log(n)$ recursions, because in every level, at least $n/2$ MST edges are found
+	- Problem is the conversion to rooted stars because $log(n)*O(\frac{n}{p}log(n))$ is too slow
+		- but the $n$ is getting smaller in every level
+		- $\sum \frac{n}{2^i}$ TODO
 
 TODO total time
 
 ---
 
 Origin: 
-References: 
+References: [[Graph Representations]]
 Tags: 
 Created: 30.03.2025
 
