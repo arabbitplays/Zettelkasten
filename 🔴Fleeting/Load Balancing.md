@@ -15,12 +15,17 @@
 ### Next fit
 
 - work per PE is $C = \sum l_i / p$
+- $pos = \sum_{i < j} l_i$
 - Sequential:
 	- for every job, assign the part of the job to PE $j$
 	- if PE $j$ has no more free space, continue with $j + 1$ and assign the rest of the job to it
 - Parallel:
-	- every job $j$ can calculate its PE with $\lfloor \sum_{i < j} l_i \rfloor$
+	- every job $j$ can calculate its PEs with $\lfloor pos / C \rfloor \dots \lfloor (pos + l_j) / C \rfloor$
+	- $C + O(\frac{n}{p} + log(p))$ if jobs are distributed randomly
 ![[Pasted image 20250401100321.png | 300]]
+
+- if the jobs are atomic
+	- assign job to $\lfloor pos / C \rfloor$
 
 ---
 
