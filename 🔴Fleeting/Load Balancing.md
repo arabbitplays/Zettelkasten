@@ -50,6 +50,10 @@ $$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
 
 - all jobs are on master-PE
 - job sizes can be estimated 
+- once jobs are assigned they can not be subdivided <mark style="background: #FFB86CA6;">(non-preemtive)</mark>
+- <mark style="background: #BBFABBA6;">simple and easy to debug</mark>
+- <mark style="background: #FF5582A6;">hard to find a balance between load balancing and communication cost (is a bottleneck)</mark>
+- 
 
 ---
 
