@@ -103,7 +103,16 @@ Idea: grow a tree with the help of the cut property
 ## Filter Kruskal
 
 1. if $m$ is small enough, use normal Kruskal
-2. While sorting, partition edges into $E_\leq$ and $E_>$
+2. While sorting, partition edges into $E_\leq$ and $E_>$ (like quicksort)
+3. Recursion on $E_\leq$_ result is $T$ 
+	- If $T$ already has $n-1$ edges, return
+4. Filter $E_>$: if an edge closes a circle in $T$, remove the edge
+5. Recursion on $E_>$
+
+### Parallel Implementation
+
+- Partitioning/sorting can be done in parallel
+- Filtering can be done in parallel (removeIf operation)
 
 ---
 
