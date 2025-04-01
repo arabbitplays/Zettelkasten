@@ -18,6 +18,7 @@
 - Sequentially:
 	- for every job, assign the part of the job to PE $j$
 	- if PE $j$ has no more free space, continue with $j + 1$ and assign the rest of the job to it
+![[Pasted image 20250401100321.png | 300]]
 
 ---
 
