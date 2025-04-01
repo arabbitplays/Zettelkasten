@@ -32,6 +32,12 @@
 
 - best distribution though random permutation with an all-to-all communication
 	- problem is getting a parallel generation of a random permutation
+- $L = \sum l_i$
+- $l_{max} = max\ l_i$
+- If $L \geq 2(\beta +1)pl_{max}\frac{ln(p)}{\epsilon^2} + O(1 / \epsilon^3)$
+	- then whp the max load is $(1+ \epsilon)\frac{L}{p}$
+	- which is fine if $l_{max}$ is not that big
+- <mark style="background: #BBFABBA6;">its irrelevant where jobs come from and how big they are</mark>
 
 ### Random Permutation
 
@@ -40,6 +46,10 @@
 - chain <mark style="background: #FFB86CA6;">Feistel Permutation</mark> $\pi_f((a,b)) = (b, a + f(b)\ mod\ \sqrt n)$ 
 $$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
 
+### Master-Worker Scheme
+
+- all jobs are on master-PE
+- job sizes can be estimated 
 
 ---
 
