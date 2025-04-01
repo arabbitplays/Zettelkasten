@@ -69,6 +69,7 @@ $$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
 	- Everything where parts of the computation tree influence each other
 		- [[Branch-and-Bound]] for example, where a new best solution can cut of parts of the tree
 
+
 ---
 
 Origin: Parallel Algorithms Lecture
