@@ -15,9 +15,11 @@
 ### Next fit
 
 - work per PE is $C = \sum l_i / p$
-- Sequentially:
+- Sequential:
 	- for every job, assign the part of the job to PE $j$
 	- if PE $j$ has no more free space, continue with $j + 1$ and assign the rest of the job to it
+- Parallel:
+	- every job $j$ can calculate its PE with $\lfloor \sum_{i < j} l_i \rfloor$
 ![[Pasted image 20250401100321.png | 300]]
 
 ---
