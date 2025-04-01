@@ -7,7 +7,17 @@
 - Jobs can be subdivisible or not
 - PEs can have (fluctuating) external load, if for example they are part of a public cluster
 
-## 
+## Simple Model
+
+- $n$ jobs that are independend, splittable and have a description of size $O(1)$
+- Size $l_i$ is exactly known
+
+### Next fit
+
+- work per PE is $C = \sum l_i / p$
+- Sequentially:
+	- for every job, assign the part of the job to PE $j$
+	- if PE $j$ has no more free space, continue with $j + 1$ and assign the rest of the job to it
 
 ---
 
