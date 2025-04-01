@@ -98,9 +98,12 @@ Idea: grow a tree with the help of the cut property
 	- Max $log(n)$ recursions, because in every level, at least $n/2$ MST edges are found
 	- Problem is the conversion to rooted stars because $log(n)*O(\frac{n}{p}log(n))$ is too slow
 		- but the $n$ is getting smaller in every level
-		- $\sum \frac{n}{2^i}$ TODO
+		- $\sum \frac{n}{2^i}log(\frac{n}{2^i}) \leq \sum \frac{n}{2^i}log(n) = n\ log(n) \sum 2^{-i} = O(n\ log(n))$ 
 
-TODO total time
+## Filter Kruskal
+
+1. if $m$ is small enough, use normal Kruskal
+2. While sorting, partition edges into $E_\leq$ and $E_>$
 
 ---
 
