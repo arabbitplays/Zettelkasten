@@ -25,8 +25,13 @@
 ![[Pasted image 20250401100321.png | 300]]
 
 - if the jobs are atomic
-	- assign job to $\lfloor pos / C \rfloor$
+	- assign job to $\lfloor pos / C \rfloor$ -> 2-approximation
+	- better approximation if large jobs get assigned first, but propably not parallelizable
 
+## Unkown Sizes
+
+- best distribution though random permutation with an all-to-all communication
+	- problem is getting a parallel generation of a random permutation
 ---
 
 Origin: Parallel Algorithms Lecture
