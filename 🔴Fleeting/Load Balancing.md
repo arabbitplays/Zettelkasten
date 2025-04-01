@@ -63,7 +63,10 @@ $$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
 	- take the first problem and split the child problem between both PEs (right)
 	- ![[Pasted image 20250401130057.png | 300]]
 - ![[Pasted image 20250401130736.png | 400]]
-- 
+- its not trivial to detect termination, because all PEs could try to get new work from each other
+- <mark style="background: #FF5582A6;">Limitations of the Model</mark>
+	- Everything where parts of the computation tree influence each other
+		- [[Branch-and-Bound]] for example, where a new best solution can cut of parts of the tree
 
 ---
 
