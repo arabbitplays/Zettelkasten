@@ -32,6 +32,15 @@
 
 - best distribution though random permutation with an all-to-all communication
 	- problem is getting a parallel generation of a random permutation
+
+### Random Permutation
+
+- interpret numbers from $0 .. n-1$ as tupel from $\{0 .. \sqrt n - 1\}^2$
+- get a (pseudo) random function $f : 0..\sqrt n - 1 \rightarrow 0..\sqrt n- 1$
+- chain <mark style="background: #FFB86CA6;">Feistel Permutation</mark> $\pi_f((a,b)) = (b, a + f(b)\ mod\ \sqrt n)$ 
+$$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
+
+
 ---
 
 Origin: Parallel Algorithms Lecture
