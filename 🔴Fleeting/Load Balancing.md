@@ -53,6 +53,16 @@ $$\pi(x) = \pi_f(\pi_g(\dots(x)\dots))$$
 - once jobs are assigned they can not be subdivided <mark style="background: #FFB86CA6;">(non-preemtive)</mark>
 - <mark style="background: #BBFABBA6;">simple and easy to debug</mark>
 - <mark style="background: #FF5582A6;">hard to find a balance between load balancing and communication cost (is a bottleneck)</mark>
+
+## Load Stealing
+
+- good for problems that search a solution in a search space
+	- often they generate new sub-problems in a tree structure and hold open jobs in a stack
+- How to split a stack for two PEs
+	- copy the stack and split the child problems between both PEs (left)
+	- take the first problem and split the child problem between both PEs (right)
+	- ![[Pasted image 20250401130057.png | 300]]
+- ![[Pasted image 20250401130736.png | 400]]
 - 
 
 ---
