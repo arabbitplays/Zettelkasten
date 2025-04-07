@@ -1,4 +1,4 @@
-	## Introduction
+## Introduction
 
 - VL 1
 - Global Or / And
