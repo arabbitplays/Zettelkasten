@@ -18,7 +18,7 @@
 ---
 
 Origin: 
-References: 
+References: [[Parallel Computing Index]]
 Tags: 
 Created: 29.03.2025
 
