@@ -1,26 +1,3 @@
-## Introduction
-
-- VL 1
-- Global Or / And
-	- Jeder schreibt ne 1 wenn $A[i]$ wahr ist
-	- $O(1)$
-- Maximum
-	- $n^2$ PEs die alle Vergleiche machen und $n$ PEs die ein Globales And machen
-	- $O(1)$
-- Reduction (for an associative operation)
-	- ![[Pasted image 20250326114023.png | 300]]
-	- $O(log n)$ with efficiency $1 / log n$
-	- <mark style="background: #FFB86CA6;">Brents Priniciple</mark> - reduce $n/p$ elements sequentialy and then the above
-		- inefficient algorithms get efficient when using less PEs
-
-##  Matrix Multiplication
-
-- Naive parallelization needs $n³$ PEs
-- DNS Algo 
-	- Split Matrix in $N \times N$ matrices of size $n/N \times n/N$
-	- compute result with two broadcasts and a reduction
-		- ![[Pasted image 20250326115513.png | 300]]
-	- <mark style="background: #BBFABBA6;">saves communication -> good for small matrices</mark>
 
 ## Broadcasting
 
