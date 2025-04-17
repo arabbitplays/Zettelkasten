@@ -4,8 +4,12 @@
 - [[Parallel Machinemodels]]
 - [[Analysis of parallel Algorithms]]
 - [[Branch-and-Bound]]
-- [[Minimum Spanning Trees (MST)]]
 - [[Load Balancing]]
+
+- Algorithms
+	- [[Parallel Communication Patterns]]
+	- [[Parallel Sorting]]
+	- [[Minimum Spanning Trees (MST)]]
 
 ---
 
