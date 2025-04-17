@@ -1,6 +1,9 @@
 # Parallel Communication Patterns
 
+- How [[Parallel Machinemodels#Parallel External Memory (PEM) | Distributed Systems]] communicate data efficiently between each other
+
 ## Broadcasting
+	Send one message to every other PE
 
 - <mark style="background: #FFB86CA6;">Naive Implementation</mark>
 	- One message to everyone in time $(p-1)(\alpha + n \beta)$
@@ -36,6 +39,7 @@
 	- optimal with $n \beta + d \alpha + 2 \sqrt{np \alpha \beta}$
 
 ## Präfix Sum
+	Get the sum (or other operations) of all PEs with a lower id
 
 - <mark style="background: #FFB86CA6;">Linear Pipeline</mark> like in Broadcasting
 - <mark style="background: #FFB86CA6;">Hypercube</mark>
@@ -52,13 +56,14 @@
 	- because the numbering is inorder for both trees
 ## Gossiping and All-Reduce
 
-- VL 7
-- Gossiping -> every PE has a message, in the end every PE should have every message
-- All-Reduce -> every PE has a message, in the end every PE should have the reduction result
+	Gossiping -> every PE has a message, in the end every PE should have every message
+	All-Reduce -> every PE has a message, in the end every PE should have the reduction result
 - <mark style="background: #FFB86CA6;">Hypercube Algorithm</mark>
 	- Like the prefix sum one, but the running results always get concatenated (or reduced in the case of all-reduce)
 
 ## h-Relation
+
+	Every PE has a different message for every other PE
 
 - $h$ is defined as the max number of packets communicated by one PE
 	- $h_{in}(i) = \# packets\ received\ from\ PE\ i$
@@ -67,7 +72,6 @@
 	- duplex model: $h = max_p\ max(h_{in}(i), h_{out}(i))$
 - lower bound for PACKAGE-wise delivery: $h(package\ size * \beta + \alpha)$
 
-- VL 8
 - Für Nachrichten gleicher Länge
 	- <mark style="background: #FFB86CA6;">Hypercube Algorithm</mark>
 		- Communicate in dimension $d-1$ down to $0$
@@ -118,8 +122,8 @@
 
 ---
 
-Origin: 
-References: 
+Origin: Parallele Algorithmen Vorlesung
+References: [[Parallel Computing Index]], [[Parallel Machinemodels]]
 Tags: 
 Created: 17.04.2025
 
