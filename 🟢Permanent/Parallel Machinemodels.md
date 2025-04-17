@@ -25,6 +25,11 @@
 - its important that the algorithm is correct, regardless how long an operation need
 - use [[Atomare Operationen#Compare and Swap| Atomic Operations]] to have consistent writes
 
+## Work Span Model
+
+- Use work and span to abstract away from PE count $p$ (see [[Analysis of parallel Algorithms]])
+$$T(p) = \frac{W}{p} + T_\infty$$
+- Use fork to create new tasks and use work stealing [[Load Balancing ]] to achieve the expected time above
 ## Parallel External Memory (PEM)
 
 - Models memory hierarchy
@@ -39,6 +44,10 @@
 - Modelling the whole network structure is complicated ([[Netztopologie]])
 	- in practice, bandwidth and interconnections are plenty enough to assume constant costs for every communication partner -> <mark style="background: #FFB86CA6;">Fully connected point-to-point</mark>
 - $T_{Comm}(m) = \alpha + m \beta$ for message length $m$
+- Destinction between 
+	- <mark style="background: #FFB86CA6;">half-duplex</mark> - send OR recieve from another PE
+	- <mark style="background: #FFB86CA6;">telephone</mark> - send and recieve from PE $j$
+	- <mark style="background: #FFB86CA6;">duplex</mark> - send and recieve from any PE
 
 ## Bulk Synchronous Parallel (BSP)
 
@@ -66,7 +75,7 @@
 ![[Pasted image 20241029092252.png |400]]
 - $\mu$ and $\rho$ are programable
 - the shuffle step puts every key value pair into sets with the same key
-- Very abstract, no load balancing, memory hierachies, ...
+- Very abstract -> no load balancing, memory hierachies, ...
 - produces large overheads and limited functionality
 
 ---
