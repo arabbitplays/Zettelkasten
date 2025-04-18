@@ -15,6 +15,14 @@
 
 
 #TODO sequential and parallel algorithms
+
+
+## Sequential Algorithm
+- hold a priority queue that has all nodes that have been found but not explored (starting with the root node)
+- while the queue is not empty
+	- delete the minimum
+Tseq = m(Tx +O(logm))
+
 ---
 
 Origin: 
