@@ -18,10 +18,20 @@
 
 
 ## Sequential Algorithm
-- hold a priority queue that has all nodes that have been found but not explored (starting with the root node)
+
+- hold a priority queue $Q$ that has all nodes that have been found but not explored (starting with the root node)
+- save the currently best solution cost in $c^*$
 - while the queue is not empty
-	- delete the minimum
-Tseq = m(Tx +O(logm))
+	- delete the minimum node $v$
+	- if $c(v) < c^*$
+		- if $v$ is a leaf, process the new best solution and set $c^* = c(v)$
+		- else insert the successors of $v$ in $Q$
+
+$$T_{seq} = m(T_x +O(log\ m))$$
+
+## Parallel Algorithm
+
+- use a [[Parallel Priority Queue]]
 
 ---
 
