@@ -6,7 +6,6 @@
 	- Heuristik parallelelzation of Dijkstra
 - Goal: Bulk insert and delete min in $O(log(n) + log(p))$
 
-- VL 8 und 9 und 13
 - <mark style="background: #FFB86CA6;">Naive Implementation</mark>
 	- Each PE has a sequential priority queue
 	- $\Omega(p(\alpha + log\ n))$
