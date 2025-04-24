@@ -1,11 +1,14 @@
 # Bidirectional Reflectance Distribution Function (BRDF)
 
-- Beschreibt Reflektionsverhalten von Materialien 
-	- Einfluss von Oberflächenstrukturen die nicht geometrische beschrieben sind
+- Describes the reflection behavior of materials 
+- Influence of surface structures that are not described geometrically
 $$f_r(\omega_i, x, \omega_o) = \frac{dL_o(x, \omega_o)}{L_i(x, \omega_i) cos(\theta_i)d\omega_i}\ [sr^{-1}]$$
 
-- Die Richtungen $\omega_i, \omega_o$ können über 2 Polarwinkel beschrieben werden
-- Basiert auf [[Radiometry|radiometrischen]] Größen und ist Verhältnis zwischen der einfallenden Irradiance aus Richtung $l$ und der ausgehenden Radiance in Richtung $v$
+- The directions $\omega_i, \omega_o$ can be described via 2 polar angles
+- Based on [[Radiometry|radiometric]] quantities and is the ratio between the incident irradiance from direction $l$ and the outgoing radiance in direction $v$
+
+- <mark style="background: #FFB86CA6;">Anisotropic BRDF</mark> - Reflection depends on the rotation around the normal (4 dimensions and the point $x$)
+- <mark style="background: #FFB86CA6;">Isotropic BRDF</mark> - Rotational invariance around the normal (3 dimensions and the point $x$)
 
 - <mark style="background: #FFB86CA6;">Anisotrope BRDF</mark> - Reflexion ist abhängig von der Rotation um die Normale (4 Dimensionen und der Punkt $x$)
 - <mark style="background: #FFB86CA6;">Isotrope BRDF</mark> - Rotationsinvarianz um die Normale (3 Dimensionen und der Punkt $x$)

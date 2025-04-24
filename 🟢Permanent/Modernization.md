@@ -47,7 +47,7 @@
 ---
 
 Origin: 
-References: 
-Tags: #🇩🇪 
+References: [[Sociology]]
+Tags: 
 Created: 05.01.2025
 
