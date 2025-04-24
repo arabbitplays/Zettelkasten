@@ -14,5 +14,5 @@
 ---
 
 References: [[Vulkan Index]]
-Tags: #📑 #🇩🇪 
+Tags: #📑
 Created: 05.11.2024

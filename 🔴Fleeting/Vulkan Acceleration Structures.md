@@ -28,12 +28,11 @@ VkPhysicalDeviceAccelerationStructureFeaturesKHR accelerationStructureFeatures{}
     deviceAddressFeatures.bufferDeviceAddress = VK_TRUE;
     deviceAddressFeatures.pNext = &rayTracingPipelineFeatures;
 ```
-- Features:
 
 ---
 
 Origin: 
 References: [[Vulkan Index]]
-Tags: #🇩🇪 
+Tags: 
 Created: 13.12.2024
 
