@@ -25,6 +25,10 @@
 - Preconditions can only be weakened
 - Postconditions can only be strengthened
 
+## Interface Segregation Principle
+
+## Dependency Inversion Principle
+
 ---
 
 Origin: 
