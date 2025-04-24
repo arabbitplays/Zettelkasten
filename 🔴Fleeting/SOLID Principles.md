@@ -16,10 +16,19 @@
 - Every class should have one concern
 - Bad smells: big classes with more than 200 lines and 15 methods/fields
 
+## Open Closed Principle
+
+## Liskov Substitution Principle
+
+- <mark style="background: #D2B3FFA6;">Instances of a class can always be substituted by an instance of a subclass</mark>
+- Invariants can only be strengthened
+- Preconditions can only be weakened
+- Postconditions can only be strengthened
+
 ---
 
 Origin: 
-References:  Software Engineering Lecture
+References:  Software Engineering Lecture 
 Tags: 
 Created: 24.04.2025
 
