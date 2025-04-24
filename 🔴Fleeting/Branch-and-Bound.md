@@ -32,6 +32,13 @@ $$T_{seq} = m(T_x +O(log\ m))$$
 ## Parallel Algorithm
 
 - use a [[Parallel Priority Queue]]
+- while the queue is not empty
+	- delete the $p$ minimum nodes
+	- do parallel for the $p$ nodes: if $c(v) < c^*$
+		- if $v$ is a leaf, process the new best solution and set $c^* = c(v)$
+		- else insert the successors of $v$ in $Q$
+
+$$T_{par} = (\frac{m}{p}+h)(T_x + O(T_{queueOp}))$$
 
 ---
 
