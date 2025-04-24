@@ -8,7 +8,7 @@
 
 ## Texturen
 
-- Vorfiltern -> hohe Frequenzen entfernen ([[Textur Filterung]])
+- Vorfiltern -> hohe Frequenzen entfernen ([[Texture filtering]])
 ## Supersampling
 
 - Mehrfach samplen und dann mitteln

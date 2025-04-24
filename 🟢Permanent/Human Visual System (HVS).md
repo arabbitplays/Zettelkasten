@@ -1,22 +1,22 @@
 # Human Visual System (HVS)
 
 ![[Pasted image 20241029120854.png | 400]]
-- Perzeptuelle Antwort auf Licht verschiedener Wellenlänge (Spektrum $P$)
-$$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ m = \int M(\lambda)P(\lambda)d\lambda \ \ \ l = \int L(\lambda)P(\lambda)d\lambda$$
-- Das Verhältnis von s, m und l ergibt den wahrgenommenen Farbton
+- Perceptual response to light of different wavelengths (spectrum $P$)
+$$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ \ m = \int M(\lambda)P(\lambda)d\lambda \ \ \ l = \int L(\lambda)P(\lambda)d\lambda$$
+- The ratio of s, m and l gives the perceived hue
 
-## Metamerismus
+## Metamerism
 
-- unterschiedliche Spektren können gleich aussehen -> gdw. $P(\lambda)$ die selbe Reaktion $(s,m,l)$ erzeugt
-- dadurch können Bildschirme mit 3 Primärfarben komplexe Spektren nachstellen
-## Photometrie
+- different spectra can look the same -> as long as $P(\lambda)$ produces the same response. $P(\lambda)$ produces the same response $(s,m,l)$
+- this allows screens with 3 primary colors to recreate complex spectra
+## Photometry
 
-- Ähnliche Größen wie in der [[Radiometry]] aber gewichtet von der Helligkeitsempfindlichkeitskurve
+- Similar quantities as in [[radiometry]] but weighted by the brightness sensitivity curve
 
 ---
 
 Origin: Computergrafik I
 References: [[Radiometry]]
-Tags: #🇩🇪 
+Tags: 
 Created: 29.10.2024
 

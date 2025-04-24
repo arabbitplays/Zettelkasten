@@ -42,7 +42,7 @@
 	- Kann für jede Achse einzeln definiert werden
 ![[Pasted image 20241126133103.png | 400]]
 
-## [[Textur Filterung]]
+## [[Texture filtering]]
 
 
 ---

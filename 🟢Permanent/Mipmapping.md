@@ -1,6 +1,6 @@
 # Mipmapping
 
-- Methode der [[Textur Filterung]] für [[Anti Aliasing]]
+- Methode der [[Texture filtering]] für [[Anti Aliasing]]
 - Speichere mehrere Auflösungsstufen der Textur -> benötigt nur $1/3$ mehr Speicherplatz
 	- ![[Pasted image 20241129144259.png |200]]
 - Wähle abhängig von der Entfernung zur Kamera
@@ -11,7 +11,7 @@
 ---
 
 Origin: Computergrafik I
-References: [[Textur Filterung]]
+References: [[Texture filtering]]
 Tags: 
 Created: 28.11.2024
 
