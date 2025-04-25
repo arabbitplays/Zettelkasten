@@ -39,8 +39,13 @@
 
 - <mark style="background: #FFB86CA6;">High cohesion</mark>: Interfaces should only be concerned with single concepts 
 - <mark style="background: #FFB86CA6;">Interface pollution</mark>: Interfaces should not depend on other interfaces just because a subclass requires those
-
+![[Pasted image 20250425124033.png | 400]]
 ## Dependency Inversion Principle
+
+- everything should depend on interfaces/abstractions
+- abstractions should not depend on details, but only the other way around
+![[Pasted image 20250425124146.png | 300]]
+
 
 ---
 
