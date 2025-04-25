@@ -25,6 +25,7 @@
 ## Open Closed Principle
 
 - classes should be open for extension but closed for modification
+	- modify behavior through adding code, not changing old code
 
 ## Liskov Substitution Principle
 
