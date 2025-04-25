@@ -37,6 +37,9 @@
 
 ## Interface Segregation Principle
 
+- <mark style="background: #FFB86CA6;">High cohesion</mark>: Interfaces should only be concerned with single concepts 
+- <mark style="background: #FFB86CA6;">Interface pollution</mark>: Interfaces should not depend on other interfaces just because a subclass requires those
+
 ## Dependency Inversion Principle
 
 ---
