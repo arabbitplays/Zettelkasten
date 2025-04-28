@@ -33,7 +33,7 @@ post: insertedCard = null and insertedCard @pre.invalid
 - sets have unique elements, ordered set and sequence have ordering
 
 
-- strongly typed, have to adhere to the [[Liskov Substitution Principle]]
+- strongly typed, have to adhere to the [[SOLID Principles#Liskov Substitution Principle]]
 
 ## Operations
 
