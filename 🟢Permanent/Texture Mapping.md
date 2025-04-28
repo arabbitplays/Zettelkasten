@@ -1,54 +1,54 @@
 # Texture Mapping
 
-## Anwendungen
+## Applications
 
-- Color Mapping (Diffuse Parameter im [[Phong-Beleuchtungsmodell]])
-- Gloss Mapping (Specular Parameter im [[Phong-Beleuchtungsmodell]])
-- Normal Mapping -> nutze die Normale in der Textur
-	- Bump Mapping -> rotiere die Normale entsprechend der Textur
-- Displacement Mapping -> verschiebe die Positionen der Vertices entsprechend der Textur
+- Color Mapping (diffuse parameters in the [[Phong lighting model]])
+- Gloss Mapping (specular parameters in the [[Phong lighting model]])
+- Normal Mapping -> use the normals in the texture
+- Bump Mapping -> rotate the normals according to the texture
+- Displacement Mapping -> move the positions of the vertices according to the texture
 - Ambient Occlusion
 
-## Natürliche Parametrisierung
+## Natural parameterization
 
-- Die uv-Koordinaten einer Ebene sind trivial
-- Eine Kugel ist durch die Kugelkoordinaten $(r, \phi, \theta)$ mit $(u,v)=(\phi/2\pi, \theta/2\pi)$
-- Ein Zyliner ist durch Zylinderkoordinaten $(r, \phi, \gamma)$ mit $(u,v) = (\phi/2\pi, \gamma/h)$ 
-- Würfel sind durch 6 Ebenen Parametrisierbar
+- The uv-coordinates of a plane are trivial
+- A sphere is defined by the sphere coordinates $(r, \phi, \theta)$ with $(u,v)=(\phi/2\pi, \theta/2\pi)$
+- A cylinder can be parameterized by cylinder coordinates $(r, \phi, \gamma)$ with $(u,v) = (\phi/2\pi, \gamma/h)$ 
+- Cubes can be parameterized by 6 planes
 
-## Beliebige Parametrisierung
+## Arbitrary parameterization
 
-- Abbilden der Textur auf einen Standardkörper und dann auf das eigentliche Objekt
+- Mapping the texture to a standard body and then to the actual object
 ![[Pasted image 20241126132010.png | 400]]
 ![[Pasted image 20241126132218.png |400]]
 
-## Explizite Parametrisierung
+## Explicit parameterization
 
-- Bei Dreiecksnetzen werden uv-Koordinaten pro Vertex explizit gespeichert 
-	- Interpolation mit [[Baryzentrische Koordinaten]]
-- Werden oft auch (Semi-)manuell festgelegt
+- For triangle meshes, uv coordinates are stored explicitly for each vertex 
+- Interpolation with [[barycentric coordinates]]
+- Are often also defined (semi-)manually
 
 ## Sphere Mapping
 
-- Fotografieren einer reflektierenden Kugel von vorne
-- Bild der Kugel wird eine sogenannte Sphere Map
+- Photographing a reflecting sphere from the front
+- Image of the sphere becomes a so-called sphere map
 ![[Pasted image 20241207124752.png | 400]]
 ## Texture Wrapping
 
 
-- Definiert wie mit Texturkoordinaten $(u,v) \notin [0,1]^2$ umgegangen wird
-	- <mark style="background: #FFB86CA6;">Clamp-Mode</mark> - Gibt einen Standardwert zurück
-	- <mark style="background: #FFB86CA6;">Repeat-Mode</mark> - Wiederholt die Textur immer wieder
-	- Kann für jede Achse einzeln definiert werden
+- Defines how texture coordinates $(u,v) \notin [0,1]^2$ are handled
+- <mark style="background: #FFB86CA6;">Clamp-Mode</mark> - Returns a default value
+- <mark style="background: #FFB86CA6;">Repeat-Mode</mark> - Repeats the texture again and again
+- Can be defined individually for each axis
 ![[Pasted image 20241126133103.png | 400]]
 
-## [[Textur Filterung]]
+## [[Texture filtering]]
 
 
 ---
 
 Origin: Computergrafik I
 References: [[Rendering Index]]
-Tags: #🇩🇪 
+Tags: 
 Created: 26.11.2024
 

@@ -1,6 +1,6 @@
 # Anti Aliasing
 
-- <mark style="background: #FFB86CA6;">Aliasing</mark> sind Artefakte durch die Verletzung des [[Shannon-Abtasttheorem]]
+- <mark style="background: #FFB86CA6;">Aliasing</mark> sind Artefakte durch die Verletzung des [[Shannon sampling theorem]]
 - typische Quellen von Aliasing 
 	- detaillierte Geometrie 
 	- Texturen/Textursignale (Farben, Normalen, ...)
@@ -8,7 +8,7 @@
 
 ## Texturen
 
-- Vorfiltern -> hohe Frequenzen entfernen ([[Textur Filterung]])
+- Vorfiltern -> hohe Frequenzen entfernen ([[Texture filtering]])
 ## Supersampling
 
 - Mehrfach samplen und dann mitteln
