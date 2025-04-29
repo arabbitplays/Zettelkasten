@@ -1,8 +1,9 @@
 # Rendering Equation
 
-- $f_r$ is the [[Bidirectional Reflectance Distribution Function (BRDF) |BRDF]], $\Omega^+$ is the hemisphere amount the point $x$
+- used to calculate the light a point $x$ emits in the direction $\omega_o$ 
+- $f_r$ is the [[Bidirectional Reflectance Distribution Function (BRDF) |BRDF]], $\Omega^+$ is the hemisphere around the point $x$
 $$L(x, \omega_o) = L_e(x, \omega_o)+\int_{\Omega^+}f_r(\omega_o, x, \omega_i)(n \cdot \omega_i)d\omega_i$$
-
+- the native space of this equation is [[Solid Angle]]
 ## Derivation
 
 Equations from [[Radiometry]]:
