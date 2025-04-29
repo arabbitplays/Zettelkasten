@@ -7,7 +7,10 @@ $$L(x, \omega_o) = L_e(x, \omega_o)+\int_{\Omega^+}f_r(\omega_o, x, \omega_i)(n 
 
 ## With Respect to Area
 
--  
+-  to relate a differential solid angle with a differential patch of area around a visible point $y$
+$$d\omega_i = \frac{dy\ cos(\theta_j)}{||x-y||^2}$$
+- to get the visiblility, introduce the binary function $V(x,y)$ thats true when $y$ is visible from $x$
+$$L(x, \omega_o) = L_e(x, \omega_o)+\int_{S}f_r(\omega_o, x, \omega_i)V(x,y)d\omega_i$$
 ## Derivation from Radiometry
 
 Equations from [[Radiometry]]:
