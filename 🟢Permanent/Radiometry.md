@@ -18,12 +18,24 @@
 	- $$E = \frac{d\Phi}{dA}\ [W/m^2]$$
 	- <mark style="background: #FFB86CA6;">Radiant exitance</mark> is an alternate term for the flux leaving a surface
 	- From this quantity [[Lambert's law]] is derivable
+- <mark style="background: #FFB86CA6;">Radiosity</mark> is how much light leaves a point per unit area 
+	- $$B(x) = \frac{d\Phi}{dA} [W/m^2]$$
 - <mark style="background: #FFB86CA6;">Radiance</mark> is how much light arrives at a surface from a give direction ([[Solid Angle]] $\omega$) 
 	- $$L = \frac{dE}{d\omega} = \frac{dE}{dA^\Phi d\omega} [W/m^2 sr]$$
 
 	- $A^\Phi$ is the area projected kn the plane perpendicular to $\omega$ ($dA^\Phi = dA\ cos(\Phi)$)
 	- ![[Pasted image 20241119121536.png |200]]
 	- <mark style="background: #D2B3FFA6;">Radiance is constant along a ray in free space</mark>
+
+
+| Incoming | Outgoing                                                                  |
+| -------- | ------------------------------------------------------------------------- |
+| data     | path to data files to supply the data that will be passed into templates. |
+| engine   | engine to be used for processing templates. Handlebars is the default.    |
+| ext      | extension to be used for dest files.                                      |
+|          |                                                                           |
+
+
 
 - Relationship between radiance and irradiance 
 $$E(x) = \int_{\Omega^+}L(x, \omega)cos(\Phi)d\omega$$
