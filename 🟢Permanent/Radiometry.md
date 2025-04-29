@@ -28,14 +28,12 @@
 	- <mark style="background: #D2B3FFA6;">Radiance is constant along a ray in free space</mark>
 
 
-| Incoming | Outgoing                                                                  |
-| -------- | ------------------------------------------------------------------------- |
-| data     | path to data files to supply the data that will be passed into templates. |
-| engine   | engine to be used for processing templates. Handlebars is the default.    |
-| ext      | extension to be used for dest files.                                      |
-|          |                                                                           |
-
-
+|                     | Incoming   | Outgoing  |
+| ------------------- | ---------- | --------- |
+| **wrt solid angle** | Radiance   | Radiance  |
+| **wrt area**        | Irradiance | Radiosity |
+|                     |            |           |
+|                     |            |           |
 
 - Relationship between radiance and irradiance 
 $$E(x) = \int_{\Omega^+}L(x, \omega)cos(\Phi)d\omega$$
