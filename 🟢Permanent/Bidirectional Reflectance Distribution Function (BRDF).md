@@ -6,6 +6,9 @@ $$f_r(\omega_i, x, \omega_o) = \frac{dL_o(x, \omega_o)}{L_i(x, \omega_i) cos(\th
 
 - The directions $\omega_i, \omega_o$ can be described via 2 polar angles
 - Based on [[Radiometry|radiometric]] quantities and is the ratio between the incident irradiance from direction $l$ and the outgoing radiance in direction $v$
+- examples of BRDFs
+	- 
+	- [[Rough Conductor BRDF]]
 
 - <mark style="background: #FFB86CA6;">Anisotropic BRDF</mark> - Reflection depends on the rotation around the normal (4 dimensions and the point $x$)
 - <mark style="background: #FFB86CA6;">Isotropic BRDF</mark> - Rotational invariance around the normal (3 dimensions and the point $x$)
