@@ -26,6 +26,11 @@ $$B_i = E_i + \rho_i \sum_j B_j \frac{1}{A_i} \int_x \int_y G'(x,y)dydy := E_i +
 - assume the $F_{ij}$ are given
 - bring the equation $B_i = E_i + \rho_i \sum_j B_j F_{ij}$ into matrix form
 ![[Pasted image 20250430121118.png]]
+$$B = E + TB \implies B = (1-T)^{-1} E$$
+- Solve the system (for example invert with Gauss elemination in $O(n^3)$ for $n$ patches) and convert radiosity to radiance with $L_i = B_i / \pi$
+	- interpolate patches for smooth results
+
+## Form Factor Calculation
 
 ---
 
