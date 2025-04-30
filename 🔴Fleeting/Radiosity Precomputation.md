@@ -20,6 +20,13 @@ $$B_i = E_i + \frac{1}{A_i} \int_x \rho_i \sum_j B_j \int_y G'(x,y)dydy$$
 $$B_i = E_i + \rho_i \sum_j B_j \frac{1}{A_i} \int_x \int_y G'(x,y)dydy := E_i + \rho_i \sum_j B_j F_{ij}$$
 - The $F_{ij}$ are called <mark style="background: #FFB86CA6;">Form Factors</mark> and give the share of the radiosity $B_j$ that reaches the patch $i$
 - $F_{ij} \neq F_{ji}$ but $A_i F_{ij} = A_j F_{ji}$
+
+## Solution Strategies
+
+- assume the $F_{ij}$ are given
+- bring the equation $B_i = E_i + \rho_i \sum_j B_j F_{ij}$ into matrix form
+![[Pasted image 20250430121118.png]]
+
 ---
 
 Origin: 
