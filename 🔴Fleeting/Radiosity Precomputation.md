@@ -18,6 +18,8 @@ $$B(x) = B_e(x) + \rho(x) \sum_j B_j \int_{y\in A_j} G'(x,y)dy$$
 	- we're interested in the average incoming light vor the patches, so average both sides over $x \in A_i$
 $$B_i = E_i + \frac{1}{A_i} \int_x \rho_i \sum_j B_j \int_y G'(x,y)dydy$$
 $$B_i = E_i + \rho_i \sum_j B_j \frac{1}{A_i} \int_x \int_y G'(x,y)dydy := E_i + \rho_i \sum_j B_j F_{ij}$$
+- The $F_{ij}$ are called <mark style="background: #FFB86CA6;">Form Factors</mark> and give the share of the radiosity $B_j$ that reaches the patch $i$
+- $F_{ij} \neq F_{ji}$ but $A_i F_{ij} = A_j F_{ji}$
 ---
 
 Origin: 
