@@ -11,12 +11,13 @@ $$B(x) = B_e(x) + \frac{\rho(x)}{\pi} \int_S B(y)V(x,y)G(x,y)dy$$
 
 - simplify 
 	- with new geometry function $G'(x,y) = \frac{V(x,y)G(x,y)}{\pi}$
-	- finite element method: assume radiosity (and emissison and reflectivity) is constant over surface patches 
+	- finite element method: assume radiosity (and emissison $E_i$ and reflectivity $\rho_i$) is constant over surface patches 
 		- area of a patch is $A_i$
 		- Radiosity of a patch is average over all points: $B_i = \frac{1}{A_i}\int_{x\in A_i} B(x)dx$
 $$B(x) = B_e(x) + \rho(x) \sum_j B_j \int_{y\in A_j} G'(x,y)dy$$
-- we're interested in the ave
-
+	- we're interested in the average incoming light vor the patches, so average both sides over $x \in A_i$
+$$B_i = E_i + \frac{1}{A_i} \int_x \rho_i \sum_j B_j \int_y G'(x,y)dydy$$
+$$B_i = E_i + \rho_i \sum_j B_j \frac{1}{A_i} \int_x \int_y G'(x,y)dydy := E_i + \rho_i \sum_j B_j F_{ij}$$
 ---
 
 Origin: 
