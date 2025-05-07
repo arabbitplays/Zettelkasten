@@ -32,10 +32,13 @@ $$B = E + TB \implies B = (1-T)^{-1} E$$
 
 ## Form Factor Calculation
 
-- in almost all cases, they have to be calculated numerically (iterations)
+- in almost all cases, they have to be calculated numerically 
+	- with [[Monte Carlo Integration]] or by iteration
 - two basic approaches
 	- <mark style="background: #FFB86CA6;">Gathering:</mark> each step gathers radiosity form other patches
+		- Jacobi Iteration, Gau-Seidel Iteration
 	- <mark style="background: #FFB86CA6;">Shooting:</mark> each step finds bright patches and distributes their radiosity to other patches
+		- Southwell relaxation
 
 ---
 
