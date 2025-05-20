@@ -4,7 +4,7 @@
 	- the real window implementation
 - physical device
 	- may need specific extensions and other features to support functionality
-	- supports different kind of [[Queues]] families for different kinds of operations
+	- supports different kind of queue families for different kinds of operations
 - logical device
 - window surface
 	- platform agnostic version of a window

@@ -8,6 +8,7 @@
 	- [[Rendering Equation]]
 	- [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 		- [[Bidirectional Reflectance Distribution Function (BRDF)]]
+		- [[Sampling Distribution Functions]]
 - Curves and planes
 	- [[Bézier Curves]]
 	- [[Tensor-product Bézier Planes]]

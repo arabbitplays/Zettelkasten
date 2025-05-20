@@ -22,7 +22,7 @@
 - <mark style="background: #FFB86CA6;">Blue Noise Sampling</mark>
 	- Vorberechnete zufällige Punkte mit uniformen Abstand
 	- ![[Pasted image 20241116092106.png |200]]
-	- Unerlässlich, vor allem bei Realtime [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+	- Unerlässlich, vor allem bei Realtime [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 
 ---
 

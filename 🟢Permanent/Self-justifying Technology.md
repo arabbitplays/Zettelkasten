@@ -13,7 +13,7 @@
 ---
 
 Origin: 
-References: [[Remote Zettelkasten/🟢Permanent/Ideogram]]
+References: [[Zettelkasten/🟢Permanent/Ideogram|Ideogram]]
 Tags: 
 Created: 22.01.2025
 

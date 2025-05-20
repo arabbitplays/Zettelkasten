@@ -4,7 +4,7 @@
 - the<mark style="background: #FFB86CA6;"> transformation definition</mark> is a set of transformations that describe how the target model is generated
 - a <mark style="background: #FFB86CA6;">transformation rule</mark> is a description on how one concept is transformed into the other
 
-- allows for separation of domain and technology like in [[Model Driven Architecture (MDA) | MDA]]
+- allows for separation of domain and technology like in [[Model Driven Architecture | MDA]]
 - <mark style="background: #FFB86CA6;">endogenous</mark> transformations - transform between instances of the same [[Metamodel]] for optimization or refactoring
 - <mark style="background: #FFB86CA6;">exogenous</mark> transformations - between instances of heterogenous metamodels for code generation or migration
 - <mark style="background: #FFB86CA6;">horizontal vs vertical</mark> - if target and source lie on the same abstraction level
