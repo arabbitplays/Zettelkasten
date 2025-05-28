@@ -67,6 +67,9 @@ $$A \approx r_s * d_s / cos(\alpha_s)$$
 	- doesn't remove aliasing, only blurring the seen texel
 	- or needing a very big kernel (using a bigger neighborhood) making the filtering very expensive very quickly
 
+
+TODO: Variance Shadow Mapping
+
 ---
 
 Origin: 

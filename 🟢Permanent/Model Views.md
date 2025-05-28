@@ -15,6 +15,13 @@
 - the <mark style="background: #FFB86CA6;">projective approach</mark> derives the views through some routine from an underlying source model
 	- <mark style="background: #FF5582A6;">monolith structure</mark>
 
+## Types of Views
+
+- <mark style="background: #FFB86CA6;">structural views</mark> - focus on the static parts of the system
+- <mark style="background: #FFB86CA6;">behavioural views</mark> - focus on the functional execution semantics of the system
+	- behaviour of users or other systems is also described
+- <mark style="background: #FFB86CA6;">deployment views</mark> - focus on the environment and resource usages
+
 ---
 
 Origin: MDSD Vorlesung

@@ -23,6 +23,8 @@
 
 - Isolated classes or package, that have no references to other classes or packages
 - Cycles in the inheritance Graph
+- giant classes or methods
+- class A calls lots and lots of methods of class B (feature envy)
 
 ---
 

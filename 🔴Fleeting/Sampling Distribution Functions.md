@@ -8,7 +8,7 @@ But pseudo random number generators only produce uniformly distributed random va
 - [[Disk Sampling]]
 - [[Triangle Sampling]]
 ## [[Inverse CDF Method]]
-
+#todo Rejection sampling
 
 ---
 
