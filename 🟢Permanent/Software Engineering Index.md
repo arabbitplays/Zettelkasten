@@ -1,9 +1,10 @@
 # Software Engineering Index
 
 - closely related to [[Modelling Index]]
-- [[OO Quality Metrics]]
 - [[Clean Code]]
+	- [[OO Quality Metrics]]
 - [[Software Architecture]]
+- [[Software Components]]
 
 ---
 

@@ -1,6 +1,6 @@
 # ModelJoin
 
-- a [[Domain Specific Languages (DSLs) | DSL ]] with human-readable textual concrete syntax
+- a [[Domain Specific Language (DSL)| DSL ]] with human-readable textual concrete syntax
 - instances of heterogenous [[Metamodel | Metamodels]] can be merged into user defined views
 	- basicly [[Model Transformations]] from two source models to one target view model
 - does not change the source models

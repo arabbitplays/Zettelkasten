@@ -1,6 +1,6 @@
-# Domain Specific Languages (DSLs)
+# Domain Specific Language (DSL)
 
-- with <mark style="background: #FFB86CA6;">domain specific modeling languages</mark>, the application structure, behaviour and requirements are specified
+- with <mark style="background: #FFB86CA6;">domain specific modeling languages</mark>, the application structure, behavior and requirements are specified
 	- The are not general purpose like java, but less expressive and more compact and precise
 
 ## Textual Languages

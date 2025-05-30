@@ -3,7 +3,7 @@
 - framework for the definition of textual languages
 - provides complete infrastructure with a compiler, linker and an editor with syntax highlighting, autocompletion, ...
 
-- XText definition of a [[Domain Specific Languages (DSLs)| DSL]] 
+- XText definition of a [[Domain Specific Language (DSL)| DSL]] 
 ```Xtext
 grammar edu.kit.ipd.sdq.Student with org.eclipse.xtext.common.Terminals 
 
@@ -30,7 +30,7 @@ Student "Erik Burger" <<
 ---
 
 Origin: 
-References: [[Domain Specific Languages (DSLs)]]
+References: [[Domain Specific Language (DSL)]]
 Tags: 
 Created: 11.03.2025
 

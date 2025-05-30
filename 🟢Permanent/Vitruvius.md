@@ -17,7 +17,7 @@
 	- choose and specify the combined views especially needed by this system
 		- specify the consistency rules
 	- all of this is then combined into the SUM Metamodel
-- [[Domain Specific Languages (DSLs)#Textual Languages | Textual Languages]] can be included through frameworks like [[Xtext]]
+- [[Domain Specific Language (DSL)#Textual Languages| Textual Languages]] can be included through frameworks like [[Xtext]]
 	- for popular languages, grammars and metamodels exist
 	- allows for the integration of versioning, diff/merge, ...
 - <mark style="background: #FFB86CA6;">Flexible views</mark> can have a single (yellow) or multi-metamodel (red) scope

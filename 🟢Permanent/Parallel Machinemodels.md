@@ -49,7 +49,7 @@ $$T(p) = \frac{W}{p} + T_\infty$$
 ---
 
 Origin: Parallele Algorithmen
-References: [[Analysis of parallel Algorithms]]
+References: [[Analysis of parallel Algorithms]], [[Single Program Multiple Data principle]]
 Tags: 
 Created: 24.10.2024
 

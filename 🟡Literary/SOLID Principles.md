@@ -44,8 +44,16 @@
 
 - everything should depend on interfaces/abstractions
 - abstractions should not depend on details, but only the other way around
-![[Pasted image 20250425124146.png | 300]]
+- example using [[Model-View-Controller (MVC)]]:
 
+Problematic Version:
+![[Pasted image 20250528180811.png | 400]]
+
+Solution:
+![[Pasted image 20250528180910.png]]
+
+- <mark style="background: #BBFABBA6;">simplifies testing through the possibility of  mock implementations</mark>
+- <mark style="background: #FF5582A6;">assumes good and stable interface abstractions are possible</mark>  
 
 ---
 

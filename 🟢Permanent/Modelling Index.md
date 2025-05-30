@@ -5,7 +5,7 @@
 
 - [[Model Driven Architecture]] and its process:
 	- [[Eclipse Modeling Framework (EMF)]]
-	- [[Domain Specific Languages (DSLs)]]
+	- [[Domain Specific Language (DSL)]]
 	- [[Model Transformations]]
 	- [[Model Quality]]
 	- [[Metamodel Evolution]]
