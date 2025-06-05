@@ -61,14 +61,27 @@ $$A \approx r_s * d_s / cos(\alpha_s)$$
 
 ## Filtering
 
+- normal shadow maps only provide hard shadows
+	- blur them to achieve soft shadows
 - classic [[Texture filtering]] does not work on the depth values of the shadow map 
 - use <mark style="background: #FFB86CA6;">Percentage Closer Filtering (PCF)</mark> 
 	- shadow test is done with the four neigboring texels, results are interpolated
 	- doesn't remove aliasing, only blurring the seen texel
 	- or needing a very big kernel (using a bigger neighborhood) making the filtering very expensive very quickly
 
+### Variance Shadow Mapping
 
-TODO: Variance Shadow Mapping
+- store not only depth (in the red channel) but also the depth squared in the green channel
+	- filter them like above $R = \sum w_i z_i$, $G = \sum w_i z_i^2$
+- deduce the mean and the variance of the depth distribution $\mu = R, \sigma^2 = G - R^2$
+- calculate the "chance" that the point is shaded given these two value (Cantellis Inequation)
+- <mark style="background: #BBFABBA6;">much better edges</mark>
+- <mark style="background: #FF5582A6;">light leaking: unshadowed edges behind small geometry</mark>
+	- Cantelli underestimates the shadow probability -> no shadows where they should be
+	- solution -> <mark style="background: #FFB86CA6;">Moments Shadow Mapping</mark> using 4 channels
+		- reconstruction gets very complicated
+
+
 
 ---
 
