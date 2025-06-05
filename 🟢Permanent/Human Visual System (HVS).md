@@ -4,7 +4,7 @@
 - Perceptual response to light of different wavelengths (spectrum $P$)
 $$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ \ m = \int M(\lambda)P(\lambda)d\lambda \ \ \ l = \int L(\lambda)P(\lambda)d\lambda$$
 - The ratio of s, m and l gives the perceived hue
-
+- those are the [[Color Spaces#Color Matching Functions]] of the eye (LMS color space)
 ## Metamerism
 
 - different spectra can look the same -> as long as $P(\lambda)$ produces the same response. $P(\lambda)$ produces the same response $(s,m,l)$
