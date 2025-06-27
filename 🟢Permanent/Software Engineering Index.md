@@ -5,6 +5,8 @@
 	- [[OO Quality Metrics]]
 - [[Software Architecture]]
 - [[Software Components]]
+- [[Enterprise Applications]]
+- [[Cloud Computing]]
 
 ---
 
