@@ -10,9 +10,11 @@
 	- [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 		- [[Bidirectional Reflectance Distribution Function (BRDF)]]
 		- [[Sampling Distribution Functions]]
+		- [[Ray Marching]]
 	- Rasterization
 		- [[Shadow Maps]]
 		- [[Deferred Shading]]
+	- [[Machine Learning in Computer Graphics]]
 - Curves and planes
 	- [[Bézier Curves]]
 	- [[Tensor-product Bézier Planes]]
