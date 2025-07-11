@@ -15,6 +15,7 @@
 		- [[Shadow Maps]]
 		- [[Deferred Shading]]
 	- [[Machine Learning in Computer Graphics]]
+	- [[Precomputed Radiance Transfer]]
 - Curves and planes
 	- [[Bézier Curves]]
 	- [[Tensor-product Bézier Planes]]

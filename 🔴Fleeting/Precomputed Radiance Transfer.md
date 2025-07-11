@@ -5,7 +5,7 @@
 - realtime rendering technique, precomputing how incident light gets turned into reflected light
 - incident light is often given by an [[Environment Maps]]
 	-  but reflected light depends on the [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]] and the surrounding geometry (visiblity)  
-- represent spherical functions in regards to $m$ orthonormal basis functions $y_k(\omega)$
+- represent spherical functions in regards to $m$ orthonormal basis functions $y_k(\omega)$ (most of the time [[Spherical Harmonics]])
 
 ## Example
 
@@ -27,15 +27,10 @@ $$t_{x,k} = T_x \cdot y_k \approx \frac{2 \pi}{N}\sum_i^N T_x(\omega_i)y_k(\omeg
 - approximate reflected light with
 $$L_r(x) = k_d(x) = \int_0^{2\pi}T_x(\omega_i)L(\omega_i)d\omega_i \approx k_d(x) \sum_i^m t_{x,i}l_i$$
 
-## Basis Functions
-
-- most often used: Spherical harmonics
-- structured in multiple bands -> more bands give better results but need more memory
-
 ---
 
 Origin: 
-References: 
+References: [[Spherical Harmonics]]
 Tags: 
 Created: 08.07.2025
 
