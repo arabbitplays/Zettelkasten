@@ -1,7 +1,8 @@
 # Parallel Computing Index
 
-
+- for GPU parallelisation: [[GPU Computing Index]]
 - [[Parallel Machinemodels]]
+- [[Parallelism for Machine Instructions]]
 
 ## Algorithms
 

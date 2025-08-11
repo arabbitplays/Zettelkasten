@@ -1,5 +1,10 @@
 # Parallel Machinemodels
 
+## Introduction
+
+- these machine models are ways to quantify the runtime of parallel programs
+- they try to mimic realty but are not necessarily real machines
+- therefore it is not the same as [[Flynn's Taxonomy]]
 ## Modelling problems from real computers
 
 - Asychronous - design, analysis and debugging is more complicated

@@ -2,6 +2,7 @@
 
 ## Introduction
 
+- some basic terminology, metrics and design questions about computer systems
 
 ## Areas of Application
 
@@ -43,6 +44,15 @@ $$T_{exe} = IC * CPI * T_c$$
 - <mark style="background: #FFB86CA6;">mean time between failures (MTBF)</mark> $MTBF = MTTF + MTTR$
 - <mark style="background: #FFB86CA6;">availability V</mark> $$V = \frac{MTTF}{MTBF}$$
 - <mark style="background: #FFB86CA6;">fault tolerance</mark> is the ability to achieve a goal even with a given number of faulty subsystems
+
+## Cost analysis
+
+- <mark style="background: #FFB86CA6;">Dies</mark> are the units that a waver consists of
+$$cost\ of\ dies = \frac{cost\ of\ wafers}{dies\ per\ wafer * yield}$$
+![[Pasted image 20250729154014.png]]
+$$dies\ per\ wafer = \frac{\pi * (0,5*diameter\ of\ wafer)^2}{area\ of\ die}-\frac{\pi * diameter\ of\ wafer}{\sqrt{2*area\ of\ die}}$$
+$$die\ yield = wafer\ yield / (1 + defects\ per\ area * die\ area)^N$$
+- $N$ is the <mark style="background: #FFB86CA6;">technology factor</mark> and describes the complexity of the production process
 
 ---
 

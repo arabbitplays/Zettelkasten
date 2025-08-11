@@ -1,5 +1,7 @@
 # Rendering Index
 
+- for basics of parallel computing on the GPU, see [[GPU Computing Index]]
+
 - Perception
 	- [[Human Visual System (HVS)]]
 	- [[Gamma correction]]
@@ -7,7 +9,7 @@
 	- [[Image Difference Metrics]]
 - Image Synthesis
 	- [[Rendering Equation]]
-	- [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
+	- [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 		- [[Bidirectional Reflectance Distribution Function (BRDF)]]
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
@@ -22,6 +24,6 @@
 
 ---
 
-References: [[Vulkan Index]]
+References: [[Vulkan Index]], [[GPU Computing Index]]
 Tags: #📑
 Created: 05.11.2024

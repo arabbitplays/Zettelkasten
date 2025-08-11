@@ -30,7 +30,7 @@ $$k_a\ L$$
 ---
 
 Origin: Computergrafik
-References: [[Remote Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags:  
 Created: 12.11.2024
 
