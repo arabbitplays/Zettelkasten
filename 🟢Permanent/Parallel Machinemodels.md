@@ -10,7 +10,7 @@
 - Asychronous - design, analysis and debugging is more complicated
 - Contention for memory modules, cells or the network
 - Memory hierarchy with different speeds
-- Networks between processors do not scale linear
+- [[Connection Networks]] between processors do not scale linear
 
 ## [[Uniform Memory Architecture (UMA)]]
 

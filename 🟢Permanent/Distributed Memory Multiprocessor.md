@@ -3,7 +3,7 @@
 ## Introduction
 
 - no common memory or address space
-- communication over messages sent over a connection network (see [[Netztopologie]])
+- communication over messages sent over [[Connection Networks]] (see [[Network Topology]])
 - can basicaly scale indefinitly, only capped by the connection network
 
 ## Structure
@@ -14,7 +14,7 @@
 
 ### Network Costs
 
-- Modelling the whole network structure is complicated ([[Netztopologie]])
+- Modelling the whole network structure is complicated ([[Network Topology]])
 	- in practice, bandwidth and interconnections are plenty enough to assume constant costs for every communication partner -> <mark style="background: #FFB86CA6;">Fully connected point-to-point</mark>
 - $T_{Comm}(m) = \alpha + m \beta$ for message length $m$
 - Destinction between 

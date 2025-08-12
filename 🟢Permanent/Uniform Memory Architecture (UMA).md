@@ -7,6 +7,7 @@
 	- global address space
 - communication and synchronization is done over variables
 - very popular both in servers and desktop systems (see every multi-core processor)
+![[Pasted image 20250812113434.png | 400]]
 
 ## Parallel random access machine - PRAM 
 

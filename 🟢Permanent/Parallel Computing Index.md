@@ -4,6 +4,10 @@
 - [[Parallel Machinemodels]]
 - [[Parallelism for Machine Instructions]]
 
+## Programming Models
+
+- [[OpenMP]]
+- [[Message Passing Interface (MPI)]]
 ## Algorithms
 
 - [[Analysis of parallel Algorithms]]
