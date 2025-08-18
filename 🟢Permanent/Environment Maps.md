@@ -1,7 +1,7 @@
 # Environment Maps
 
 - Display of reflective objects and their mirroring without geometric representation
-  - Enables faking of reflections without [[ray tracing]]
+  - Enables faking of reflections without [[Raytracing]]
   - Save an image of the environment in a [[Texture Mapping#Sphere Mapping | Sphere Map]] or a cube map
 
 - For imperfect reflections: Light around the reflection direction contributes the most
