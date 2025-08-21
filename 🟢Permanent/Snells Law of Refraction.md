@@ -18,7 +18,7 @@ $$\eta_i\ sin\ \theta_i = \eta_t\ sin\ \theta_t$$
 ---
 
 Origin:  Computergrafik I
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags: 
 Created: 15.11.2024
 

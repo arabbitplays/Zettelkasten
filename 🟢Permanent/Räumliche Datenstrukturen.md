@@ -41,7 +41,7 @@ $$C=C_T + P(treffe\ L)C(L) + P(treffe\ R)C(R)$$
 ---
 
 Origin: 
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags: 
 Created: 17.12.2024
 

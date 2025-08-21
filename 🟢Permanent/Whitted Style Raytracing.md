@@ -11,7 +11,7 @@
 ---
 
 Origin: Computergrafik I
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags: 
 Created: 19.11.2024
 

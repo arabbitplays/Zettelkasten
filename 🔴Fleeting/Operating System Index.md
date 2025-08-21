@@ -3,6 +3,7 @@
 - [[Cache]]
 - [[Synchronization]]
 
+- [[NixOS]]
 ---
 
 References: 

@@ -26,7 +26,7 @@ $$dL_o(x, \omega_o) = f_r(\omega_i, x, \omega_o)\ L_i(x, \omega_i)\ cos\theta\ d
 ---
 
 Origin: Computergrafik I
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags: 
 Created: 19.11.2024
 

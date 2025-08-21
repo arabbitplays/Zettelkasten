@@ -12,7 +12,7 @@
 ---
 
 Origin: Computer Grafik I
-References: [[💡Resources/📦Zettelkasten/🟢Permanent/Raytracing]]
+References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 Tags: 
 Created: 05.11.2024
 
