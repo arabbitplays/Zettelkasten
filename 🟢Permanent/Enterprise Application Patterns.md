@@ -1,4 +1,4 @@
-# Enterprise Applications
+# Enterprise Application Patterns
 
 ## Introduction
 

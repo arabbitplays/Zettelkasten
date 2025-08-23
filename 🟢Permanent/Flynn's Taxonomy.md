@@ -11,8 +11,9 @@
 	- one instruction stream on one storage (von Neumann architecture)
 - Single Instruction, Multiple Data
 	- classic graphics carts
+	- [[Vectorprocessors]]
 - Multiple Instruction, Multiple Data
-	- modern multiprocessors
+	- modern multiprocessors (see [[Parallel Machinemodels]])
 
 ---
 

@@ -2,6 +2,9 @@
 
 ## Introduction
 
+- Domain Driven Design is a way to find a common language in software development for use cases, requirements and documentation
+	- basis for understanding the problem and for finding a way to iteratively develop a solution
+
 1. Identify bounded context of application domains
 2. For each domain
 	1. Extract the domains ubiquitous language

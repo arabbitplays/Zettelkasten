@@ -83,7 +83,7 @@ $$L = \lambda * t, Q = \lambda * w$$
 ---
 
 Origin: 
-References: [[Design of computer systems]]
+References: [[Design of computer systems]], [[Reliability of Computer Systems]]
 Tags: 
 Created: 29.07.2025
 

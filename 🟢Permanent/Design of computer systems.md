@@ -57,7 +57,7 @@ $$die\ yield = wafer\ yield / (1 + defects\ per\ area * die\ area)^N$$
 ---
 
 Origin: 
-References: 
+References: [[Evaluation of Computer Systems]]
 Tags: 
 Created: 13.05.2025
 

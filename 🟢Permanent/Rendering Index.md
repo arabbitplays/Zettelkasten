@@ -14,10 +14,13 @@
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
 	- Rasterization
+		- [[Frustum Culling]]
 		- [[Shadow Maps]]
 		- [[Deferred Shading]]
 	- [[Machine Learning in Computer Graphics]]
-	- [[Precomputed Radiance Transfer]]
+	- Precomputed Lighting
+		- [[Precomputed Radiance Transfer]]
+		- [[Radiosity Precomputation]]
 - Curves and planes
 	- [[Bézier Curves]]
 	- [[Tensor-product Bézier Planes]]

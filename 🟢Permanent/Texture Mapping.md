@@ -2,8 +2,8 @@
 
 ## Applications
 
-- Color Mapping (diffuse parameters in the [[Phong lighting model]])
-- Gloss Mapping (specular parameters in the [[Phong lighting model]])
+- Color Mapping (diffuse parameters in the [[Phong Lighting Model]])
+- Gloss Mapping (specular parameters in the [[Phong Lighting Model]])
 - Normal Mapping -> use the normals in the texture
 - Bump Mapping -> rotate the normals according to the texture
 - Displacement Mapping -> move the positions of the vertices according to the texture

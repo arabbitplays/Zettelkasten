@@ -1,21 +1,24 @@
-# Phong lighting model
+# Phong Lighting Model
 
-- Consists of 3 components
-- Ambient - indirect lighting from the surroundings
-- Diffuse
-- Specular - imperfect reflection
-- Diffuse and specular are only present if the object is not in shadow
+## Introduction 
+
+- Consists of 3 components (and four parameters $k_a, k_d, k_s, n$)
+	- Ambient - indirect lighting from the surroundings
+	- Diffuse - scattered light in every direction
+	- Specular - imperfect reflection, scattered light in a lobe around the reflection direction
+- Diffuse and specular are only present if the object is not in a shadow
+
 - $n$ is normal, $l$ vector towards light, $x$ is the position, $v$ vector towards camera, all normalized
 - $L$ is the light intensity from direction $l$
+
 ## Diffuse
 
 - ideally diffuse reflection, i.e. evenly in all directions
 - If the beam comes from the front ($|\theta| < \pi / 2)$, the following applies to the irradiation of the surface
 $$I_L \propto cos(\theta) = n \cdot l$$
-- Use diffuse color $k_d$ 
+- Use diffuse color $k_d$
 $$L\ k_d\ max(0, n \cdot l)$$
-
-## Specular 
+## Specular
 
 - Specular highlight lies in the ideal reflection direction
 $$r_l = 2(l \cdot n)n -l$$
@@ -27,10 +30,10 @@ $$L\ k_s\ max(ß, r \cdot v)^n$$
 
 - Only modeled via a parameter $k_a$ and the following applies
 $$k_a\ L$$
+
 ---
 
 Origin: Computergrafik
 References: [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
-Tags:  
+Tags:
 Created: 12.11.2024
-

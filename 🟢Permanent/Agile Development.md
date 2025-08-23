@@ -22,6 +22,7 @@
 
 ![[Pasted image 20250821154446.png]]
 - <mark style="background: #FFB86CA6;">product backlog</mark> is a high level list of features and known requirements for the project, <mark style="background: #FFB86CA6;">sprint backlog</mark> is the todo list of activities for the current sprint
+	- build from use stories, one or two sentence descriptions what a user wants to do (light weight version of [[Use Cases]])
 - <mark style="background: #FFB86CA6;">Product Owner</mark>
 	- represents customer interest
 	- helps clarify questions and makes sure, that the right features are implemented

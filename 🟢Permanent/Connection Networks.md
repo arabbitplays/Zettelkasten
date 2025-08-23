@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- Connect components of computer systems or even multiple computer systems
+- Connect components of [[Design of computer systems | computer systems]]  or even multiple computer systems
 	- allows communication and cooperation between components
 - components can be processor chips or cores, [[Cache | Caches]], Memory Modules, ...
 

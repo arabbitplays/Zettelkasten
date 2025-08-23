@@ -18,6 +18,7 @@ $$\int_\Omega a^*(\omega)b^*(\omega) = \sum a_i b_i$$
 
 - for high frequent functions, the numerical projection can resulting in too high results for the coefficients of high bands (<mark style="background: #FFB86CA6;">Gibbsches Phänomenon</mark>)
 	- reduce the influence of higher bands
+
 ---
 
 Origin: 

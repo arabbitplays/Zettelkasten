@@ -9,12 +9,13 @@
 	- [[Model Transformations]]
 	- [[Model Quality]]
 	- [[Metamodel Evolution]]
-
 - Languages
 	- [[Unified Modelling Language (UML)]]
 	- Constraints and Static Semantic: [[Object Constraint Language (OCL)]]
 	- Concrete textual syntax: [[Xtext]]
 	- System Modeling: [[SysML]]
+- [[Deep Modelling]]
+- [[Vitruvius]]
 
 ---
 
