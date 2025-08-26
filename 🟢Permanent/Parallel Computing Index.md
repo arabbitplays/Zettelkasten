@@ -2,8 +2,7 @@
 
 - for GPU parallelization: [[GPU Computing Index]]
 - [[Parallelism for Machine Instructions]]
-
-- [[Parallel Machinemodels]]
+- [[Parallel Computer Systems]]
 ## Programming Models
 
 - [[OpenMP]]

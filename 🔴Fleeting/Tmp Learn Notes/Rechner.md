@@ -1,0 +1,14 @@
+- Nachrichtengekoppelte Systeme
+	- IBM RS/6000
+		- Nachrichtengekoppelt -> Omega Netz
+		- POWER Architektur
+		- Fileserver Knoten
+		- Jeder Knoten entweder als Workstation oder Multiprocessor Node
+	- IBM p690 eSeries
+		- 3 Cache Level
+		- 32 POWER4 CPUs
+		- Erster Dual Core Processor Chip
+- DSM
+	- Cray T3E
+		- 3D Torus Connection Network
+	- SGI Altix

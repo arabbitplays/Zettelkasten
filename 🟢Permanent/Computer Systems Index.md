@@ -4,8 +4,7 @@
 - [[Evaluation of Computer Systems]]
 - [[Reliability of Computer Systems]]
 
-- [[Uniform Memory Architecture (UMA)]]
-- [[Distributed Memory Multiprocessor]]
+- [[Parallel Computer Systems]]
 - [[Parallelism for Machine Instructions]]
 - [[Vectorprocessors]]
 

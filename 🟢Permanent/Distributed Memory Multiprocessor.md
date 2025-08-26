@@ -5,6 +5,7 @@
 - no common memory or address space
 - communication over messages sent over [[Connection Networks]] (see [[Network Topology]])
 - It can basically scale indefinitely, only capped by the connection network
+- basic architecture for super computers
 
 ## Structure
 

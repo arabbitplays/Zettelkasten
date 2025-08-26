@@ -4,6 +4,7 @@
 
 - <mark style="background: #FFB86CA6;">dependability</mark> - ability of the system, to fulfill a specific function in the right conditions for a given amount of time
 - <mark style="background: #FFB86CA6;">safety</mark> - a state that has no danger for humans and objects, so that no segnificant damage can happen
+- <mark style="background: #FFB86CA6;">correctness</mark> - the system is build according to the specification
 
 ## Dependability
 
