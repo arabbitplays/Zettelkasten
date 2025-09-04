@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- [[Parallel Computer Systems]] that have distributed memory but share a common address space
+- [[Multiprocessor Systems]] that have distributed memory but share a common address space
 	- its common, that memory access to address in the local memory module is faster than to the local memory of another processor <mark style="background: #FFB86CA6;">(Non-uniform memory access (NUMA))</mark>
 - often caches are used
 	- when [[Cache Coherence Problem | Cache Coherence]] is maintained across all processors, its a <mark style="background: #FFB86CA6;">CC-NUMA</mark> system

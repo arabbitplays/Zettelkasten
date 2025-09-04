@@ -4,7 +4,7 @@
 - [[Evaluation of Computer Systems]]
 - [[Reliability of Computer Systems]]
 
-- [[Parallel Computer Systems]]
+- [[Multiprocessor Systems]]
 - [[Parallelism for Machine Instructions]]
 - [[Vectorprocessors]]
 
