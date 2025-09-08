@@ -17,7 +17,10 @@ nix flake show templates
 nix flake init -t templates#full 
 ```
 
-
+- to update the lock file to the newest package versions of the channel, use
+```bash
+nix update --flake path/to/flake_dir
+```
 ## Inputs
 
 https://nixos-and-flakes.thiscute.world/other-usage-of-flakes/inputs
