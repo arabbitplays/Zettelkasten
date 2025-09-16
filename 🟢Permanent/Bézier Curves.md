@@ -1,5 +1,7 @@
 # Bézier Curves
 
+
+
 ## Bernstein polynomials
 
 $$B_i^n(u) = \binom{n}{i}u^i(1-u)^{n-i}\ or\ 0\ if\ i<0 \vee i > n$$

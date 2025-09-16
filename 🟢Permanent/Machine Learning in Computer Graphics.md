@@ -16,7 +16,8 @@
 $$argmin_x |y-F(x)| + \lambda P(x)$$
 - what are good terms for that job? 
 	- <mark style="background: #FFB86CA6;">Total Variantion</mark> - $TV(f) = \int |\nabla f(x)|dx$
-		- weight rare strong steps ar the edges vs. uniform minor changes
+		- measure of how much the function changes over the whole domain
+		- weight rare strong steps at the edges vs. uniform minor changes
 	- other domain specific terms
 
 ## Input Encoding
