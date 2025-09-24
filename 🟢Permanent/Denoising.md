@@ -38,6 +38,8 @@ $$BF(I_p) = \frac{1}{W_p}\sum_{q \in S}(G_{\sigma_s} (||p-q||))(G_{\sigma_r}|I_p
 - <mark style="background: #FFB86CA6;">kernel prediction</mark> - let the network predict a kernel that can be applied to the image
 	- allows for kernel normalisation to keep mean brightness and color
 - both use [[Convolutional Neural Networks (CNN)]]
+
+
 ---
 
 Origin: 

@@ -20,6 +20,7 @@
 	- From this quantity [[Lambert's law]] is derivable
 - <mark style="background: #FFB86CA6;">Radiosity</mark> is how much light leaves a point per unit area 
 	- $$B(x) = \frac{d\Phi}{dA} [W/m^2]$$
+	- the irradiance minus what is absorbed depending on the material
 - <mark style="background: #FFB86CA6;">Radiance</mark> is how much light arrives at a surface from a give direction ([[Solid Angle]] $\omega$) 
 	- $$L = \frac{dE}{d\omega} = \frac{dE}{dA^\Phi d\omega} [W/m^2 sr]$$
 
@@ -27,13 +28,10 @@
 	- ![[Pasted image 20241119121536.png |200]]
 	- <mark style="background: #D2B3FFA6;">Radiance is constant along a ray in free space</mark>
 
-
 |                     | Incoming   | Outgoing  |
 | ------------------- | ---------- | --------- |
 | **wrt solid angle** | Radiance   | Radiance  |
 | **wrt area**        | Irradiance | Radiosity |
-|                     |            |           |
-|                     |            |           |
 
 - Relationship between radiance and irradiance 
 $$E(x) = \int_{\Omega^+}L(x, \omega)cos(\Phi)d\omega$$

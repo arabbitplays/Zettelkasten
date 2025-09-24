@@ -24,6 +24,8 @@
 - Curves and planes
 	- [[Bézier Curves]]
 	- [[Tensor-product Bézier Planes]]
+- [[Animation]]
+- [[Rigid body Dynamics]]
 
 ---
 

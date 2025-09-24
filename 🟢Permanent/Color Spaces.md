@@ -60,7 +60,14 @@ $$X = \frac{Y}{y}\ \ \ Z = \frac{Y}{y}(1-x-y)$$
 - Real perception works with color differences 
 - It is measured: Luminance, red-green difference and money-blue difference
 - The L\*a\*b model is an intuitive reproduction of perception
-- Euclidean distance corresponds to perceived color differences
+- Euclidean distance corresponds to perceived color differences -> <mark style="background: #FFB86CA6;">perceptual uniform</mark> 
+- other uniform color spaces:
+	- The Munsell System
+		- the three dimensions are hue, chroma and value
+		- created through thousands of observations and experiments with the HVS
+			- thus still an approximation, but a good one
+	- CIE Lab
+	- [OkLab](https://bottosson.github.io/posts/oklab/)
 
 ---
 

@@ -1,4 +1,6 @@
 # Vulkan Subgroups
+#todo add presentation and CG 2 stuff
+- [Vulkan Subgroups](https://www.khronos.org/assets/uploads/developers/library/2018-vulkan-devday/06-subgroups.pdf)
 
 - Tasks are split on multiple GPU PEs where they run concurrently
 	- All tasks on one PE are calles the <mark style="background: #FFB86CA6;">local workgroup</mark>

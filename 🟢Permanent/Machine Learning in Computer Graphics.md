@@ -5,8 +5,13 @@
 - used to speedup the evaluation of complex [[Signed Distance Field (SDF)]]s or to get the behavior of them given a given voxel grid
 	- either use an existing SDF as the ground truth
 	- or a discrete voxel grid storing the distance to the next surface (if a full SDF is to complex to aquire)
+	- fit a number of observations from different angles
 - they have a fixed size in memory given the network architecture
 	- breaks the curse of dimension at least a bit
+- another possible application is calculating a radiance field
+	- how much light travels at any point in any direction
+	- can use normal [[Ray Marching]] techniques to render those
+		- alternatively use Gaussian Splatting to render them
 
 ## Regularisation
 

@@ -5,6 +5,10 @@
 $$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ \ m = \int M(\lambda)P(\lambda)d\lambda \ \ \ l = \int L(\lambda)P(\lambda)d\lambda$$
 - The ratio of s, m and l gives the perceived hue
 - those are the [[Color Spaces#Color Matching Functions]] of the eye (LMS color space)
+- perception of the HVS is not per pixel, but following a <mark style="background: #FFB86CA6;">receptive field</mark>
+	- this allows for the detection of points and edges
+	- frequency of the perceived signal matters -> thus the distance to the object
+- the <mark style="background: #FFB86CA6;">Hunt Effect</mark> describes that brighter colors appear more colorful
 ## Metamerism
 
 - different spectra can look the same -> as long as $P(\lambda)$ produces the same response. $P(\lambda)$ produces the same response $(s,m,l)$

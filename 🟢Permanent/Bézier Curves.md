@@ -1,7 +1,5 @@
 # Bézier Curves
 
-
-
 ## Bernstein polynomials
 
 $$B_i^n(u) = \binom{n}{i}u^i(1-u)^{n-i}\ or\ 0\ if\ i<0 \vee i > n$$
@@ -46,6 +44,11 @@ $$b_i^1=(1-u)b_i^0 + ub_{i+1}^0$$
 	- ![[Pasted image 20250128123654.png | 400]]
 	- This is called a <mark style="background: #FFB86CA6;">B-Spline</mark>
 
+## Use in animation
+
+- to move along a spline at constant speed, use [[Bézier Curves Parameterisation]] with the arc length
+- De casteljau algorithm produces smooth and continous paths along the spline
+	- for rotations, use [[Quaternions#Interpolation|SLERP]]
 ---
 
 Origin: https://www.youtube.com/watch?v=aVwxzDHniEw&ab_channel=FreyaHolm%C3%A9r

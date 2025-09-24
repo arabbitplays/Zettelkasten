@@ -27,11 +27,24 @@ $$SMAPE(x,y) = \frac{|x-y|}{|x|+|y|+\epsilon}$$
 
 ## FLIP
 
-- Perceptual based metric -> measure the visible difference, not the numerical 
+- Perceptual based metric -> measure the to the [[Human Visual System (HVS) | HVS]] visible difference, not the numerical 
 - uses a perceptually uniform [[Color Spaces | Color Space]] and corrects for several perception effects
-	- receptive fields  and contrast sensitivity
-	- Hunt effect
-- splits the error into a color error and a feature error (points and edges)
+	- receptive fields, contrast sensitivity, Hunt effect, ...
+
+![[Pasted image 20250919125432.png]]
+1. Linearise color from sRGB if need
+2. split into a chromacity and a luminance pipeline
+	- color error checks for difference in hue and saturation, corrected from the Hunt effect
+	- feature error checks for points and edges
+3. combine the errors to the final error map
+
+- the color pipeline
+	- spatial filtering with the contrast sensitivity functions in opponent space
+		- they are low pass filter in the frequency domain, so they can be approximated with a Gauss kernel
+	- compare images in perceptual uniform colorspace
+	- adjust for Hunt effect by scaling the chromacity components by the luminance
+- the feature pipeline
+	- use difference of gaussian convolution to calculate the partial derivatives
 - backed by real experimental data regarding the color space and the error metric itself
 - <mark style="background: #BBFABBA6;">current state of the art</mark>
 
