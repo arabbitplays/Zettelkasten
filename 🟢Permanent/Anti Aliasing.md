@@ -24,6 +24,8 @@
 	- ![[Pasted image 20241116092106.png |200]]
 	- Unerlässlich, vor allem bei Realtime [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 
+## [[Temporal Antialiasing (TAA)]]
+
 ---
 
 Origin: 

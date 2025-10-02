@@ -1,6 +1,7 @@
 # GPU Computing Index
 
 
+[[GPU Computing History]]
 [[Graphics Pipelines Implemented by GPUs]]
 #todo merge this with vulkan index
 - [[CUDA Introduction]]
