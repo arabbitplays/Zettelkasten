@@ -65,7 +65,7 @@ $$A \approx r_s * d_s / cos(\alpha_s)$$
 	- blur them to achieve soft shadows
 - classic [[Texture filtering]] does not work on the depth values of the shadow map 
 - use <mark style="background: #FFB86CA6;">Percentage Closer Filtering (PCF)</mark> 
-	- shadow test is done with the four neigboring texels, results are interpolated
+	- shadow test is done with the four neigboring texels, results of the test are interpolated
 	- doesn't remove aliasing, only blurring the seen texel
 	- or needing a very big kernel (using a bigger neighborhood) making the filtering very expensive very quickly
 

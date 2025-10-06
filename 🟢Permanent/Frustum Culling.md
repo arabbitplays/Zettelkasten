@@ -16,7 +16,7 @@ $$right: 0 <v \cdot (row_4 - row_1)$$$$bottom: 0 <v \cdot (row_4 + row_2)$$$$top
 ---
 
 Origin: Fast Extraction of Viewing Frustum Planes from the WorldView-Projection Matrix by Gil Gribb ( ggribb@ravensoft.com ) Klaus Hartmann
-References: 
+References: [[Culling]]
 Tags: 
 Created: 14.05.2025
 

@@ -14,7 +14,8 @@
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
 	- Rasterization
-		- [[Frustum Culling]]
+		- [[Culling]]
+		- [[Level-of-Detail]]
 		- [[Shadow Maps]]
 		- [[Deferred Shading]]
 	- [[Machine Learning in Computer Graphics]]

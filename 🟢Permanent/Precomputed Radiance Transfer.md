@@ -20,13 +20,22 @@ $$V(x, \omega_i)max(0, cos\ \theta_i)$$
 	- dot product between functions is defined as $f \cdot g = \int_a^b f(x)g(x)dx$
 $$t_{x,k} = T_x \cdot y_k \approx \frac{2 \pi}{N}\sum_i^N T_x(\omega_i)y_k(\omega_i)$$
 - store the coefficients vector $\{t_{x,k}\}$ for every vertex
+	- they describe how much light is reflected from a direction interval at the point $x$
 
 ### Runtime Computation
 
 - project environment map onto the basis function -> coefficients $\{l_{k}\}$
+	- they describe how much light arrives from a direction interval
 - approximate reflected light with
 $$L_r(x) = k_d(x) = \int_0^{2\pi}T_x(\omega_i)L(\omega_i)d\omega_i \approx k_d(x) \sum_i^m t_{x,i}l_i$$
+## Extensions
 
+1. local lights, not only environment maps
+	- calculate SH-coefficients for different light directions
+	- with a given light position -> interpolate coefficients to achieve the specific direction (see [[Spherical Harmonics#Properties]])
+2. Multiple reflektions in transfer function
+3. Specular [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]]
+	- discretize reflection directions, calculate multiple coefficient vectors for these directions, interpolate later
 ---
 
 Origin: 

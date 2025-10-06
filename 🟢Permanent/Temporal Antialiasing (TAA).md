@@ -3,6 +3,7 @@
 ## Introduction
 
 - Instead of sampling multiple positions per frame, sample only one per frame but collect them over time
+	- + jittering of the camera (watch out for this when reprojecting)
 - reproject fragment with the previous view and projection matrix to the screen position of the last frame
 	- if depth, normal, material id, etc. is the same, the sample can be integrated with the other ones
 	- these tests should fail if a disocclusion happens
