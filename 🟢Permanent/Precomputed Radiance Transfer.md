@@ -28,6 +28,11 @@ $$t_{x,k} = T_x \cdot y_k \approx \frac{2 \pi}{N}\sum_i^N T_x(\omega_i)y_k(\omeg
 	- they describe how much light arrives from a direction interval
 - approximate reflected light with
 $$L_r(x) = k_d(x) = \int_0^{2\pi}T_x(\omega_i)L(\omega_i)d\omega_i \approx k_d(x) \sum_i^m t_{x,i}l_i$$
+
+## Problems
+
+- <mark style="background: #FFB86CA6;">Ringing</mark> - spherical harmonics only approximate hard edges, and they tend to overshoot around such an edge
+	- solution: <mark style="background: #FFB86CA6;">windowing</mark>, where the influence of higher order bands is reduced, to hide these artifacts
 ## Extensions
 
 1. local lights, not only environment maps
