@@ -12,7 +12,7 @@
 - <mark style="background: #FFB86CA6;">Speed</mark> $c_m$ is dependend on the index of refraction $\mu_m$ of the medium ($c = c_m \mu_m$)
 - <mark style="background: #FFB86CA6;">Wavelength</mark> $\lambda_m\ [nm]$ or <mark style="background: #FFB86CA6;">frequency</mark> $f = c_m / \lambda_m$ (dependent on $\mu_m$)
 - <mark style="background: #FFB86CA6;">Energy of a photon</mark> $q = hf\ [J]$ (Planck’s constant $h$)
-	- Multiplied with the photon count $P$ gets the energy of a light source $Q = P hf$
+	- Multiplied with the photon count $P$ gets the <mark style="background: #FFB86CA6;">radiant energy</mark> of a light source $Q = P hf$
 - <mark style="background: #FFB86CA6;">Radiant flux</mark> is the energy of a light source over time $\Phi = dQ / dt\ [W = Js^-1]$
 - <mark style="background: #FFB86CA6;">Irradiance</mark> is how much flux gets to a surface from any direction
 	- $$E = \frac{d\Phi}{dA}\ [W/m^2]$$
