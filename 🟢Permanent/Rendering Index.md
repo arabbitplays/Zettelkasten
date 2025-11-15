@@ -7,8 +7,10 @@
 	- [[Gamma correction]]
 	- [[Color Spaces]]
 	- [[Image Difference Metrics]]
+- Scenes
+	- [[Light Sources]]
 - Image Synthesis
-	- [[Rendering Equation]]
+	- [[Rendering Equation]], [[Radiance Transfer Equation]]
 	- [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 		- [[Bidirectional Reflectance Distribution Function (BRDF)]]
 		- [[Sampling Distribution Functions]]

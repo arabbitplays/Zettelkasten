@@ -13,14 +13,11 @@ $$s = \int S(\lambda)P(\lambda)d\lambda \ \ \ \ m = \int M(\lambda)P(\lambda)d\l
 
 - different spectra can look the same -> as long as $P(\lambda)$ produces the same response. $P(\lambda)$ produces the same response $(s,m,l)$
 - this allows screens with 3 primary colors to recreate complex spectra
-## Photometry
-
-- Similar quantities as in [[radiometry]] but weighted by the brightness sensitivity curve
 
 ---
 
 Origin: Computergrafik I
-References: [[Radiometry]]
+References: [[Radiometry]], [[Photometry]]
 Tags: 
 Created: 29.10.2024
 

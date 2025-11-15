@@ -6,7 +6,7 @@
 - <mark style="background: #FFB86CA6;">geometric level-of-detail</mark> - reduce geometric complexity of models 
 	- also results in automatic [[Anti Aliasing]]
 ![[Pasted image 20251004124358.png]]
-
+- to avoid geometric [[Anti Aliasing | Aliasing]], [[Appearance Filtering]] may be needed
 ## Terrain Rendering
 
 - when a terrain is represented with a height field, the triangle mesh can be adapted to show more of less detail of this height field
