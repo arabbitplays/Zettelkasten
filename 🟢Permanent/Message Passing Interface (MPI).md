@@ -1,5 +1,5 @@
 # Message Passing Interface (MPI)
-- siehe auch [[💡Resources/🅾️Programming/Setup#MPI]]
+- siehe auch [[🪐Areas/✈️Travel/🅾️Programming/Setup#MPI]]
 
 ## Introduction
 
