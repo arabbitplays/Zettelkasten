@@ -46,8 +46,14 @@ $$\mathbb{E}(X) = \int_\Omega X p(x)dx$$
 	- we start with a probabilistic measure space $(\Omega, \sigma, \mathbb{P})$ and a random variable $X:\Omega \rightarrow \mathbb{R}$ 
 	- there is a difference between [[Measure and Measure Space#Definition | measuring a set]] $\mathbb{P}(A \subset \Omega)$ and [[Lebesgue Integrals#Definition | measuring a function]] $\mathbb{P}(X)$ 
 $$\mathbb{E}(X) = \mathbb{P}(X) = \int_\Omega X\ d\mathbb{P}$$
-- discrete random variables can be interpreted a simple functions and thus $d\mathbb{P}$ can easily be evaluated like this (with $\mathbb{P}(A_i) = p_i$ the chance of $X = x_i$)
+- discrete random variables can be interpreted as a simple functions and thus $d\mathbb{P}$ can easily be evaluated like this (with $\mathbb{P}(A_i) = p_i$ the chance of $X = x_i$)
 $$\mathbb{E}(X) = \int_\Omega X\ d\mathbb{P} = \sum x_i \mathbb{P}(A_i)$$
+- in the continuous case we don't know how to evaluate $d\mathbb{P}$ for a general measure
+	- only for the Lebesgue measure we know that $d\lambda(x) = dx$ so we need to transform $\mathbb{P}$ into $\lambda$
+	- Radon-Nixon derivative to the rescure!
+
+### Radon-Nixon derivative
+- Radon Nixon needed because we only know how to evaluate $d\lambda(x) = dx$ 
 
 ---
 
