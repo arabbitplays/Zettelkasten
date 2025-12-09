@@ -6,7 +6,7 @@
 
 ## BSDF Importance Sampling
 
-- Choose the direction to continue the path not uniformly but by a PDF that resembles the value of the [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]] in this direction
+- Choose the direction to continue the path not uniformly but by a PDF that resembles the value of the [[Bidirectional Scattering Distribution Function (BSDF)| BRDF]] in this direction
 	- ergo the PDF resembles the $f(\omega_i, p, \omega_o)$ term of the integrand
 - Such sampling techniques exist for most common BSDFs (see [[Rough Conductor BRDF]])
 
@@ -24,7 +24,7 @@
 ---
 
 Origin: 
-References: [[Raytracing]], [[Bidirectional Reflectance Distribution Function (BRDF)]], [[Rough Conductor BRDF]]
+References: [[Raytracing]], [[Bidirectional Scattering Distribution Function (BSDF)]], [[Rough Conductor BRDF]]
 Tags: 
 Created: 20.02.2025
 

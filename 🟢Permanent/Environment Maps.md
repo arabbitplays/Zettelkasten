@@ -8,7 +8,7 @@
 - For imperfect reflections: Light around the reflection direction contributes the most
   - Pre-filtering of the texture possible to save later calculation
 	  - for specular reflections, the reflection vector is used to index the environment map, else its the normal
-  - Size and weighting of the texture depends on the [[Bidirectional Reflectance Distribution Function (BRDF) |BRDF]]
+  - Size and weighting of the texture depends on the [[Bidirectional Scattering Distribution Function (BSDF)|BRDF]]
 ![[Pasted image 20251003114055.png]]
 
 ---

@@ -6,7 +6,7 @@
 
 ## Derivation
 
-- take the rendering equation with respect to area, assume a diffuse [[Bidirectional Reflectance Distribution Function (BRDF)]] with albedo $\rho(x)$ and replace radiance with radiosity
+- take the rendering equation with respect to area, assume a diffuse [[Bidirectional Scattering Distribution Function (BSDF)]] with albedo $\rho(x)$ and replace radiance with radiosity
 $$B(x) = B_e(x) + \frac{\rho(x)}{\pi} \int_S B(y)V(x,y)G(x,y)dy$$
 
 - simplify 

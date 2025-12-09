@@ -4,7 +4,7 @@
 
 - realtime rendering technique, precomputing how incident light gets turned into reflected light
 - incident light is often given by an [[Environment Maps]]
-	-  but reflected light depends on the [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]] and the surrounding geometry (visiblity)  
+	-  but reflected light depends on the [[Bidirectional Scattering Distribution Function (BSDF)| BRDF]] and the surrounding geometry (visiblity)  
 - represent spherical functions in regards to $m$ orthonormal basis functions $y_k(\omega)$ (most of the time [[Spherical Harmonics]])
 
 ## Example
@@ -39,7 +39,7 @@ $$L_r(x) = k_d(x) = \int_0^{2\pi}T_x(\omega_i)L(\omega_i)d\omega_i \approx k_d(x
 	- calculate SH-coefficients for different light directions
 	- with a given light position -> interpolate coefficients to achieve the specific direction (see [[Spherical Harmonics#Properties]])
 2. Multiple reflektions in transfer function
-3. Specular [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]]
+3. Specular [[Bidirectional Scattering Distribution Function (BSDF)| BRDF]]
 	- discretize reflection directions, calculate multiple coefficient vectors for these directions, interpolate later
 ---
 

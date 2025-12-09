@@ -18,6 +18,7 @@
 	- the 3. and 4. focus on concrete aspects of the concrete realization of such systems
 		- [[Wave III - Runtime Models]]
 	- the 5. and 6. focus on uncertainties as a key driver for self-adaptation
+		- [[Wave V - Guarantees under uncertainty]]
 	- the 7. focuses on exploiting [[Machine Learning Index | ML]] to support different functions of the system
 		- especially [[Explainable AI (XAI)]] is crucial here
 

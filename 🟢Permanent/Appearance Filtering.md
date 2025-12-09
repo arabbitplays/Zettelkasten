@@ -13,7 +13,7 @@ $$1/N \sum f(n_i) \neq f(1/N\sum n_i)$$
 - for every texel of the normal map, store the distribution of normals 
 	- with a combination of [[von Mises Fisher Distribution]]s
 - distributions of multiple texels can be combined
-- reconstruct a normal distribution function (after filtering, [[Mipmapping]], etc.) and plug it into a microfacet [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]] like Cook-Torance
+- reconstruct a normal distribution function (after filtering, [[Mipmapping]], etc.) and plug it into a microfacet [[Bidirectional Scattering Distribution Function (BSDF)| BRDF]] like Cook-Torance
 
 ---
 

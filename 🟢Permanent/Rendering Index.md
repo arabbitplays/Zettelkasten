@@ -12,7 +12,7 @@
 - Image Synthesis
 	- [[Rendering Equation]], [[Radiance Transfer Equation]]
 	- [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
-		- [[Bidirectional Reflectance Distribution Function (BRDF)]]
+		- [[Materials]]
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
 	- Rasterization

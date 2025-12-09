@@ -30,7 +30,7 @@
 - the <mark style="background: #FFB86CA6;">area measure</mark> $\mu_A$ measures surface area on geometry and is the product of two Lebesgue measures
 - <mark style="background: #FFB86CA6;">solid angle measure</mark> $\mu_\sigma$ measures the [[Solid Angle]] on the unit-sphere as seen from the center
 - the <mark style="background: #FFB86CA6;">projected solid angle measure</mark> $\mu_{\sigma^\perp}$ measures the projected solid angle on the unit disc, oriented with the surface normal
-- the <mark style="background: #FFB86CA6;">half vector space</mark> $\mu_h$ is the solid angle of the halfway vector $h = \frac{\omega_i+\omega_o}{\|\omega_i+\omega_o\|}$ as [[Bidirectional Reflectance Distribution Function (BRDF) | BRDF]] interaction
+- the <mark style="background: #FFB86CA6;">half vector space</mark> $\mu_h$ is the solid angle of the halfway vector $h = \frac{\omega_i+\omega_o}{\|\omega_i+\omega_o\|}$ as [[Bidirectional Scattering Distribution Function (BSDF)| BRDF]] interaction
 
 ## Probability Measures 
 

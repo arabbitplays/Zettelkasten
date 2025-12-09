@@ -50,10 +50,23 @@ $$\mathbb{E}(X) = \mathbb{P}(X) = \int_\Omega X\ d\mathbb{P}$$
 $$\mathbb{E}(X) = \int_\Omega X\ d\mathbb{P} = \sum x_i \mathbb{P}(A_i)$$
 - in the continuous case we don't know how to evaluate $d\mathbb{P}$ for a general measure
 	- only for the Lebesgue measure we know that $d\lambda(x) = dx$ so we need to transform $\mathbb{P}$ into $\lambda$
-	- Radon-Nixon derivative to the rescure!
+	- Radon-Nikodym derivative to the rescue!
 
-### Radon-Nixon derivative
+### Radon-Nikodym derivative
+
 - Radon Nixon needed because we only know how to evaluate $d\lambda(x) = dx$ 
+
+- let $\nu, \mu$ be measures, where $\nu$ is absolut continuous wrt. $\mu$
+	- absolut continuous is slightly more general than differentiable almost everywhere (except null sets)
+- then there exists a function $p$ = $\frac{d\nu}{d\mu}$ called the <mark style="background: #FFB86CA6;">Radon-Nikodym derivative</mark> of $\nu$ wrt. $\mu$ with
+$$\nu(E) = \mu(\mathbf{1}_E p)$$
+- then we can see that $p$ is the PDF to $F$ here:
+$$F(x) = \nu((-\infty, x]) = \int_{(-\infty, x]} d\nu = \int_{(-\infty, x]} p(x)d\lambda$$
+
+
+- so measures can be transformed to the Lebesgue measure like this:
+$$\nu(\mathbf{1}_B X) = \int_B X(x)\,\mathrm{d}\nu(x)
+=\lambda(\mathbf{1}_B X\, p) = \int_B X(x)\,p(x)\,\mathrm{d}\lambda(x)$$
 
 ---
 
