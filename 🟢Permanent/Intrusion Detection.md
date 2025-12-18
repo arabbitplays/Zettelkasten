@@ -37,19 +37,10 @@
 1. center of mass -> place one hyper-sphere at the center of mass
 	- $\mu = \frac{1}{n}\sum \phi(x_i)$
 	- anomaly score is the distance to $\mu$
-2. center of neighborhood -> basicaly [[Clustering]]
+2. center of neighborhood -> basically [[Clustering]]
 	- anomaly score is the distance to the closest center
-3. <mark style="background: #FFB86CA6;">One-class Support Vector Machines (SVMs)</mark>
-	- finds the minimum hypersphere enclosing the data
-	- made robust against outliers through regularisation
+3. [[Support Vector Machine (SVM)#One class support vector machines]]
 
-$$min_{\mu, R}\ R^2$$ $$with \ ||\phi(x_i)-\mu|| ^2 \leq R^2\ for\ all\ i$$
-- regularisation through slack variables $\xi_i$ 
-	- small $C$ is a smooth boundary, large C is a firm decision boundary
-	- the $\xi_i$ are learned and are constrained to $\xi_i \geq 0$
-$$min_{\mu, R, \xi}\ R^2+C \sum \xi_i$$
-$$with \ ||\phi(x_i)-\mu|| ^2 \leq R^2+\xi_i\ for\ all\ i$$
-![[Pasted image 20251117123150.png | 300]]
 
 ---
 

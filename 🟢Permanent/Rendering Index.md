@@ -15,6 +15,7 @@
 		- [[Materials]]
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
+		- [[Spectral Rendering]]
 	- Rasterization
 		- [[Culling]]
 		- [[Level-of-Detail]]

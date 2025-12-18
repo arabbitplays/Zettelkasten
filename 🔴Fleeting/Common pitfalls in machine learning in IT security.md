@@ -1,8 +1,5 @@
 # Common pitfalls in machine learning in IT security
 
-## Introduction
-
-
 ## Sampling Bias
 
 - the collected data does not sufficiently represent the real-world distribution of the underlying security-problem

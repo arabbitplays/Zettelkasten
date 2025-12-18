@@ -33,7 +33,7 @@ $$argmin_x |y-F(x)| + \lambda P(x)$$
 ---
 
 Origin: 
-References: [[Neuronale Netze]], [[Signed Distance Field (SDF)]]
+References: [[Neural Networks]], [[Signed Distance Field (SDF)]]
 Tags: 
 Created: 08.07.2025
 

@@ -40,6 +40,8 @@ $$f_r(\omega_i, x, \omega_o) = \frac{dL_o(x, \omega_o)}{L_i(x, \omega_i) cos(\th
 - perfectly smooth surface -> perfect mirror
 $$f_r = \frac{1}{cos \theta_i}\delta(\omega_i-\omega_r),\ \omega_r = 2\langle\omega_o,n\rangle n - \omega_o$$
 - [[Lambert Diffuse]]
+- [[Microfacet Models]] ([[Rough Conductor BRDF]])
+- [[Oren-Nayar BRDF]] 
 
 
 ---
