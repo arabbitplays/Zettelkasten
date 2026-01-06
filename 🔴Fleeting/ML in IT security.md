@@ -7,6 +7,11 @@
 	- [[Intrusion Detection]]
 	- [[Malware Classification]]
 	- [[XAI for IT security]]
+- there are different classes of attacks against ML
+	- [[Adversarial Examples]]
+	- [[Model Stealing]]
+	- [[Neural Backdoors]]
+	
 
 ---
 
