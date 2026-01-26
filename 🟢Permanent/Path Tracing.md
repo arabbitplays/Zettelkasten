@@ -5,7 +5,9 @@
 - improve [[Monte Carlo Integration]] by choosing sampling direction more sophisticated (see [[Importance Sampling]] and [[Multiple Importance Sampling (MIS)]])
 	- always remember to divide out the chance to pick a certain direction
 - Other techniques:
+	- [[Next Event Estimation (NEE)]]
 	- [[Russian Roulette]]
+	- [[Path Guiding]]
 
 ---
 

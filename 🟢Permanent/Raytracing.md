@@ -36,6 +36,9 @@ $$e+td = P_1 + \lambda_2 e_1 + \lambda_3 e_2$$
 - [[Whitted Style Raytracing]]
 - [[Distributed Raytracing]]
 - [[Path Tracing]]
+- [[Light tracing]]
+- [[Bidirectional Path Tracing]]
+- [[Photon Mapping]]
 
 ---
 

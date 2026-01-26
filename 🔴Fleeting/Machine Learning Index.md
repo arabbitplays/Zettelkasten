@@ -5,6 +5,7 @@
 - types of models
 	- [[Neural Networks]]
 	- [[Support Vector Machine (SVM)]]
+	
 
 ---
 

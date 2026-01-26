@@ -18,7 +18,7 @@ $$w_i(X) = \frac{(n_ip_i(x))^\beta}{\sum (n_j p_j(x))^\beta}$$
 ## MIS Compensation
 
 - for normal Monte Carlo Integration it is important for an unbiased estimator to have PDF that is non-zero everywhere where the integrand is non-zero
-	- using MIS this must only be the case for one of the distributio
+	- using MIS this must only be the case for one of the distributions
 - when all the techniques have a low propability where the integrand's value is low, the region can be oversampled
 	- so one or more others can be sharpened
 

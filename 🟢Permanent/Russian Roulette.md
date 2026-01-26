@@ -1,6 +1,8 @@
 # Russian Roulette
 
 - A method for improving the efficiency of [[Monte Carlo Integration]] on [[Path Tracing]]
+- also it is a unbiased way to terminate paths 
+	- a hard limit is biased
 - if a integrand has the form $f(X)v(X)$ where $f$ is cheap to evaluate and $v$ is expensive (for example BRDf and the visibility of a light source), the calculation of $v$ can be skipped if $f(X) = 0$
 - skipping it if $f(X)$ is very low would result in a biased estimator, always underestimating the brightness of the point
 
