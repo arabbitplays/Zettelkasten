@@ -1,4 +1,4 @@
-# Minimum Spanning Trees (MST)
+# Minimal Spanning Trees (MST)
 
 ## Problem Definition
 

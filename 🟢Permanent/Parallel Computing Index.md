@@ -17,7 +17,7 @@
 - Concrete Algorithms
 	- [[Parallel Communication Patterns]]
 	- [[Parallel Sorting]]
-	- [[Minimum Spanning Trees (MST)]]
+	- [[Minimal Spanning Trees (MST)]]
 
 ---
 
