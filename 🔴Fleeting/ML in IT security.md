@@ -11,6 +11,7 @@
 	- [[Adversarial Examples]]
 	- [[Model Stealing]]
 	- [[Neural Backdoors]]
+	- [[Membership Inference Attack (MIA)]]
 	
 
 ---

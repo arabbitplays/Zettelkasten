@@ -24,22 +24,34 @@
 - for non-linear models, it is not that easy as there is not direct relationship between weights and features
 	- consider relative changes, so what makes a dog less/more a dog and propagate this relevance
 	- $$\frac{\partial f_\theta(x)_y}{\partial x_i}$$
+
+## Layer-wise Relevance Propagation (LRP)
+
 - in neural networks, we want the relevance of all $L$ layers
 	- $$r_i^l = \sum_{j:node\ in\ layer\ l+1} \frac{a_i^l W_{ij}^l}{\sum_{k:node\ in\ layer\ l} a_k^l W_{kj}^l}r_j^{l+1}$$
+	- the relevance of the layer $l+1$ is distributed to the nodes of layer $l$ based on the ration of contribution (ratio of the red line to all the green lines)
 	- ![[Pasted image 20260105111900.png | 200]]
+- this definition fulfills the relevance conservation
+	- $\sum r_i^{(1)} = \sum r_i^{(2)} = \dots \approx f_\theta(x)$
 - because all parameters need to be known for this, this is called <mark style="background: #FFB86CA6;">white-box explanation</mark>
+	- <mark style="background: #FF5582A6;">such methods are specific for a given model (not general)</mark>
+	- <mark style="background: #BBFABBA6;">but they provide the most accurate information</mark>
 
 ## Black-box Explanations
 
 - no knowledge about the model or its parameters
+	- <mark style="background: #BBFABBA6;">methods are agnostic to the model that is used</mark>
+	- <mark style="background: #BBFABBA6;">internals of a model don't have to be known (for privacy or integrity reasons)</mark>
+	- <mark style="background: #FF5582A6;">results are only approximate, gets worse the more not-linear and complex the model is</mark>
 - approximate the decision boundary through surrogate models
 	- either globally by learning the output of the entire classifier
 	- or locally by breaking it down to localized regions (e.g. LIME)
 
 ### LIME
 
-- LIME = Local Interpretavle Model-Agnostic Explanations
+- LIME = Local Interpretable Model-Agnostic Explanations
 - approximates regions of the decision boundary on nearby samples
+	- perturbate the input and watch how the output changes
 - ![[Pasted image 20260105112503.png | 300]]
 - Choice of surrogate model is very important
 	- data representation must be interpretable

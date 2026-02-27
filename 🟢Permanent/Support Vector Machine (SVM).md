@@ -37,6 +37,11 @@ $$min_{\mu, R, \xi}\ R^2+C \sum \xi_i$$
 $$with \ ||\phi(x_i)-\mu|| ^2 \leq R^2+\xi_i\ for\ all\ i$$
 ![[Pasted image 20251117123150.png | 300]]
 
+## Multi-class SVM
+
+- just train multiple classifiers
+	- either separating on class from all others -> N classifiers needed
+	- or separate each two classes -> $\frac{N(N-1)}{2}$ classifiers needed
 
 ---
 
