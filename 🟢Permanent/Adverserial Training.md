@@ -24,8 +24,8 @@ $$min_\theta \frac{1}{n} \sum_i^n max_{\delta_i} L(x_i + \delta_i, \theta, y_i)$
 - <mark style="background: #FFB86CA6;">robust error</mark> is then the sum of both
 ---
 
-Origin: 
-References: 
+Origin: AI and IT Sec lecture
+References: [[ML in IT security]]
 Tags: 
 Created: 23.01.2026
 

@@ -9,12 +9,13 @@
 	- [[Image Difference Metrics]]
 - Scenes
 	- [[Light Sources]]
+	- [[Materials]]
 - Image Synthesis
 	- [[Rendering Equation]], [[Radiance Transfer Equation]]
 	- [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
-		- [[Materials]]
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
+		- [[Rendering Participating Media]]
 		- [[Spectral Rendering]]
 	- Rasterization
 		- [[Culling]]
@@ -33,6 +34,6 @@
 
 ---
 
-References: [[Vulkan Index]], [[GPU Computing Index]]
+References: [[GPU Computing Index]]
 Tags: #📑
 Created: 05.11.2024

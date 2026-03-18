@@ -4,6 +4,7 @@
 
 - the idea of stepping along a ray and evaluating a function at each step
 - most common application is sphere tracing, but can also be used for volume rendering (for example evaluating a density function)
+- can also be used for [[Distance and Transmittance Sampling]]
 
 ## Sphere Tracing
 
@@ -11,7 +12,7 @@
 - when tracing a ray: evaluate $SDF(x,y,z) = d$ and move $d$ units along the ray
 	- when $d \rightarrow 0$ the ray has hit a surface
 - can do a lot of useless steps if  a surface is missed by a bit (because only small steps are taken there)
-#todo add volume rendering and more sphere tracing and everything
+- allows for rendering crazy SDF fields and even fractals
 
 ---
 

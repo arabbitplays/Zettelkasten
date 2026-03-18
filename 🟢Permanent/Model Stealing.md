@@ -73,7 +73,7 @@
 - watermark your own model through [[Neural Backdoors]] 
 ---
 
-Origin: ML and Security lecture
+Origin: ML and IT Security lecture
 References: [[ML in IT security]]
 Tags: 
 Created: 21.02.2026

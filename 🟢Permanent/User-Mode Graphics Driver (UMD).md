@@ -1,6 +1,6 @@
 # User-Mode Graphics Driver (UMD)
 
-- The layer under graphics APIs like [[Vulkan Index | Vulkan]] 
+- The layer under graphics APIs 
 - runs in user mode without any elevated privileges
 	- only crashes the app and not the system
 	- can be debugged with normal debuggers 

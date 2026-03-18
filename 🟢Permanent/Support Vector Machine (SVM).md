@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- modern supervised learning algorithm for [[Klassifikation | classification]] 
+- modern supervised learning algorithm for [[Classifier| classification]] 
 - a hyperplane separating the data with maximum margin 
 	- [[Regularisierung | regularisation]] through softening the boundary
 	- supports [[Kernels in ML | kernels]] for learning and training

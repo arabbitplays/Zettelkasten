@@ -50,7 +50,7 @@ if (oldLayout == VK_IMAGE_LAYOUT_UNDEFINED && newLayout == VK_IMAGE_LAYOUT_TRANS
 ---
 
 Origin: https://vulkan-tutorial.com/Texture_mapping/Images#page_Layout-transitions
-References: [[Vulkan Index]]
+References: [[GPU Computing Index]]
 Tags: 
 Created: 12.02.2025
 

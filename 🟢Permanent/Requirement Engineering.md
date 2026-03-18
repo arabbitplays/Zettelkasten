@@ -54,7 +54,7 @@
 - acceptance test cases - force the specification to become concrete
 - simulation / animation - for dynamic system behavior
 - prototyping
-- formal verification / [[[Models]] Checking
+- formal verification / [[Models]] Checking
 
 ## Traceability
 

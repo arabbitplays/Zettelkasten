@@ -13,10 +13,6 @@
 - $T_{coll}$ - upper bound for collective operations for one element (broadcast, prefix-sum, ...)
 	- On most networks $\alpha\ log\ p$
 
-
-#TODO sequential and parallel algorithms
-
-
 ## Sequential Algorithm
 
 - hold a priority queue $Q$ that has all nodes that have been found but not explored (starting with the root node)

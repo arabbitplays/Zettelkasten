@@ -28,7 +28,7 @@
 ---
 
 Origin: https://zeux.io/2020/02/27/writing-an-efficient-vulkan-renderer/
-References: [[Vulkan Index]]
+References: [[GPU Computing Index]]
 Tags: 
 Created: 12.02.2025
 

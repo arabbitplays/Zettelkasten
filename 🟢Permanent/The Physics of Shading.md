@@ -15,7 +15,7 @@ There are two main ways of light interacting with surfaces
 ---
 
 Origin: Background: Physics and Math of Shading - by Naty Hoffman
-References: [[Vulkan Index]]
+References: [[Rendering Index]]
 Tags: 
 Created: 28.09.2024
 

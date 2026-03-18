@@ -1,12 +1,10 @@
 # Vulkan Subgroups
-#todo add presentation and CG 2 stuff
 - [Vulkan Subgroups](https://www.khronos.org/assets/uploads/developers/library/2018-vulkan-devday/06-subgroups.pdf)
 
 - Tasks are split on multiple GPU PEs where they run concurrently
 	- All tasks on one PE are calles the <mark style="background: #FFB86CA6;">local workgroup</mark>
 	- Each task individualy is calles an <mark style="background: #FFB86CA6;">invokation</mark>
 	- One PE can run multiple invokations in parallel
-
 
 - The workgroup is all the invokations that should run on this PE
 - The subgroup is all the invokations on the PE that run in parallel

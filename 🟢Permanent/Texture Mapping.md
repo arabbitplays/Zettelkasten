@@ -25,7 +25,7 @@
 ## Explicit parameterization
 
 - For triangle meshes, uv coordinates are stored explicitly for each vertex 
-- Interpolation with [[barycentric coordinates]]
+- Interpolation with [[Baryzentrische Koordinaten]]
 - Are often also defined (semi-)manually
 
 ## Sphere Mapping

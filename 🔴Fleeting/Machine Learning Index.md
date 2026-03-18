@@ -2,10 +2,12 @@
 
 - [[ML in IT security]]
 
-- types of models
+- supervised learning 
+	- [[Classifier]]
 	- [[Neural Networks]]
+- unsupervised learning
 	- [[Support Vector Machine (SVM)]]
-	
+- [[Kernels in ML]]
 
 ---
 

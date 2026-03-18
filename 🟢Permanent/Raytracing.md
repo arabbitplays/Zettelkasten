@@ -31,6 +31,7 @@ $$e+td = P_1 + \lambda_2 e_1 + \lambda_3 e_2$$
 
 - as a normal use triangle normal <mark style="background: #FFB86CA6;">(Flat Shading)</mark> or the interpolated vertex normals <mark style="background: #FFB86CA6;">(Phong Shading)</mark> (see [[Normal Transformations]])
 
+
 ## Different Raytracing Variants
 
 - [[Whitted Style Raytracing]]

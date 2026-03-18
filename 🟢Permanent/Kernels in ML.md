@@ -21,8 +21,8 @@ $$k(x, z) = \sum_{b\in B} occ(H(b), x')\ occ(H(b), z'), x' = \{H(b) | b \in x\}$
 
 ---
 
-Origin: 
-References: 
+Origin: ML and IT Sec lecture
+References: [[Support Vector Machine (SVM)]]
 Tags: 
 Created: 27.02.2026
 

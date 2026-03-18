@@ -28,7 +28,7 @@ std::vector<const char*> getRequiredExtensions() {
 ---
 
 Origin: https://vulkan-tutorial.com/Introduction
-References: [[Vulkan Index]]
+References: [[GPU Computing Index]]
 Tags: 
 Created: 27.09.2024
 
