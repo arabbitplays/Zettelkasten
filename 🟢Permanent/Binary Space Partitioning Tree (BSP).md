@@ -1,15 +1,14 @@
 # Binary Space Partitioning Tree (BSP)
-
-- Erweiterung von Binärbäumen in $k$ Dimensionen
-- Unterteilung des Raumes durch Ebenen
+- Extension of binary trees to $k$ dimensions
+- Partitioning of space by planes
 ![[Pasted image 20241217120030.png | 300]]
-- <mark style="background: #FFB86CA6;">kD-Bäume</mark> verwenden nur Achsenparallele Ebenen zur Unterteilung
-- Primitive die von der Ebene getroffen werden, werden in beiden aufgenommen
+- <mark style="background: #FFB86CA6;">kD-trees use only planes parallel to the axes for partitioning/mark>
+- Primitives intersected by the plane are included in both
 
 ---
 
 Origin: Computergrafik I
-References: [[Räumliche Datenstrukturen]]
+References: [[Spatial Datastructures]]
 Tags: 
 Created: 17.12.2024
 

@@ -4,13 +4,13 @@
 
 - participating media are volumetric media, that can not be rendered by only considering the surface
 	- for example clouds, smoke, fire, and even media with significant sub surface light transport like skin, milk or marble
-- the physics are described by the [[Radiance Transfer Equation]] and [[Path Tracing]] is commonly used to solve it
+- the physics are described by the [[Radiative Transfer Equation]] and [[Path Tracing]] is commonly used to solve it
 
 ## Estimating the equation
 
 - additionaly to sampling a new direction to continue the path when hitting a surface, positions on the way to the surface have to be considered
 	- this requires [[Distance and Transmittance Sampling]] and the sampling of a [[Phase Function]] in the case of a scattering event
-- the full estimator of the [[Radiance Transfer Equation]] is
+- the full estimator of the [[Radiative Transfer Equation]] is
 $$\langle L(x, \omega)\rangle = \frac{T(x,y)}{p(y)} (\mu_a(y) L_e(y, \omega) + \mu_s(y)L_s(y, \omega)) + \frac{T(x,z)}{P(z)}L_o(z, \omega)$$
 - the first part of the sum is the light along the ray through the volume
 - the second part is the light from a surface interaction or beyond the volume

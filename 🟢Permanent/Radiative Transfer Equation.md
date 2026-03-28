@@ -1,4 +1,4 @@
-# Radiance Transfer Equation
+# Radiative Transfer Equation
 
 ## Introduction
 

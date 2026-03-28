@@ -8,20 +8,23 @@
 	- [[Color Spaces]]
 	- [[Image Difference Metrics]]
 - Scenes
+	- [[Spatial Datastructures]]
 	- [[Light Sources]]
 	- [[Materials]]
 - Image Synthesis
-	- [[Rendering Equation]], [[Radiance Transfer Equation]]
+	- [[Rendering Equation]], [[Radiative Transfer Equation]]
 	- [[Zettelkasten/🟢Permanent/Raytracing|Raytracing]]
 		- [[Sampling Distribution Functions]]
 		- [[Ray Marching]]
 		- [[Rendering Participating Media]]
 		- [[Spectral Rendering]]
+		- [[Metropolis Light Transport]]
 	- Rasterization
 		- [[Culling]]
 		- [[Level-of-Detail]]
 		- [[Shadow Maps]]
 		- [[Deferred Shading]]
+		- [[Appearance Filtering]]
 	- [[Machine Learning in Computer Graphics]]
 	- Precomputed Lighting
 		- [[Precomputed Radiance Transfer]]

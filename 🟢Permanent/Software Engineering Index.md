@@ -12,6 +12,7 @@
 	-  [[Enterprise Application Patterns]]
 - [[Cloud Computing]]
 - [[Real-Time Systems]]
+- [[Self-adaptive Systems]]
 
 ---
 

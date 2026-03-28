@@ -43,7 +43,7 @@ $$E(x) = \int_{\Omega^+}L(x, \omega)cos(\Phi)d\omega$$
 ---
 
 Origin: Computergrafik I
-References: [[The Physics of Shading]]
+References: [[The Physics of Shading]], [[Photometry]]
 Tags: 
 Created: 29.10.2024
 
