@@ -12,7 +12,7 @@
 - <mark style="background: #FFB86CA6;">self-protection</mark> - protect against attacks and anticipate requirements
 - <mark style="background: #FFB86CA6;">self-configuration</mark> - capability to automatically integrate new elements
 
-## MAPE-K
+## [[MAPE-K]]
 
 ![[Pasted image 20251106101520.png]]
 
@@ -59,7 +59,7 @@ $$U_c = \sum_i w_ip_i$$
 
 ---
 
-Origin: 
+Origin: [[Self-adaptive Systems.pdf]]
 References: 
 Tags: 
 Created: 06.11.2025

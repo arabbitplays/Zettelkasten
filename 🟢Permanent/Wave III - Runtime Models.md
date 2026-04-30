@@ -25,10 +25,19 @@
 - formal vs. informal
 	- informal are user stories, semi-formal like [[Unified Modelling Language (UML) | UML]] or [[SysML]] or formal like Finite-State Machines, Markov Models, ...
 
+## Common examples
+
+- Markov models
+	- model the state of the application with chances of transitioning between the states
+	- can be used to predict the probability to end in a failure state
+- Queue models
+	- used to predict the performance of queue based systems
+	- predicts queue lengths, wait times, ...
+
 ---
 
-Origin: 
-References: 
+Origin: [[Self-adaptive Systems.pdf]]
+References: [[Model Driven Software Development (MDSD)]]
 Tags: 
 Created: 20.11.2025
 

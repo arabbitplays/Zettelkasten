@@ -7,6 +7,9 @@
 	- [[Neural Networks]]
 - unsupervised learning
 	- [[Support Vector Machine (SVM)]]
+- [[Reinforcement Learning]]
+	- [[Imitation Learning]]
+	- [[Offline Reinforcement Learning]]
 - [[Kernels in ML]]
 
 ---
