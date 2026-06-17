@@ -2,6 +2,7 @@
 
 - [[Next.js Basics]]
 - [[Smart Pointers]]
+- [[Database Indices]]
 
 ---
 
