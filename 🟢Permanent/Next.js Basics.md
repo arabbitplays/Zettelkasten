@@ -14,6 +14,7 @@
 	- `page.js` defines a page, accessible through the url from the dir path
 	- `layout.js` is shared across pages (for example for header bars)
 		- it accepts a children property which can be a page or another layout
+
 ---
 
 Origin: https://nextjs.org/docs/app/getting-started
